@@ -1,0 +1,54 @@
+{
+  "locale": "zh-CN",
+  "engine": "kokoro",
+  "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/t9/inputs/zh-CN.wav",
+  "audio_bytes": 28800,
+  "audio_seconds": 0.6,
+  "non_silent": true,
+  "barge_in_ack_ms": 1.3104169964790344,
+  "transport_vad_to_first_audio_ms": 1674.399041980505,
+  "wall_ms": 1688.1640409827232,
+  "warm": true,
+  "measurement_phase": "measured",
+  "playback_mode": "simulated_ack_no_speaker",
+  "events": [
+    {
+      "type": "session.ready",
+      "session_id": "b3b5d298-fd91-420a-9859-f1937f55fcfb",
+      "locale": "zh-CN",
+      "tts_engine": "kokoro",
+      "normalize": "full",
+      "stt": "whisper",
+      "turn_detect": "vad"
+    },
+    {
+      "type": "stt.result",
+      "turn_num": 1,
+      "text": "请查询预定号CV7305,我姓王",
+      "text_raw": "请查询预定号CV7305,我姓王",
+      "lang_detected": null,
+      "lang_prob": null
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 0,
+      "display_text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+      "tts_text": "预订号格式应为ZV开头，例如Z V 一二三四，请提供正确的预订号。",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 0
+    },
+    {
+      "type": "turn.cancelled",
+      "turn_num": 1,
+      "reason": "barge_in"
+    }
+  ]
+}

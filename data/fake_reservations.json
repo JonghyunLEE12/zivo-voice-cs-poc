@@ -1,0 +1,85 @@
+[
+  {
+    "reservation_code": "ZV-4821",
+    "last_name_aliases": [
+      "Carter"
+    ],
+    "type": "hotel",
+    "lexicon_id": "hotel_hanbit_myeongdong",
+    "check_in": "2026-11-03",
+    "check_out": "2026-11-05",
+    "nights": 2,
+    "total_krw": 286000,
+    "status": "confirmed",
+    "paid": true,
+    "payment_method": "credit_card"
+  },
+  {
+    "reservation_code": "ZV-7305",
+    "last_name_aliases": [
+      "王",
+      "Wang"
+    ],
+    "type": "airport_pickup",
+    "lexicon_id": "hotel_euljiro_lantern",
+    "start_at": "2026-11-07T19:30:00+09:00",
+    "origin_lexicon_id": "airport_icn",
+    "terminal": 1,
+    "total_krw": 78000,
+    "status": "confirmed",
+    "paid": true,
+    "payment_method": "credit_card"
+  },
+  {
+    "reservation_code": "ZV-5196",
+    "last_name_aliases": [
+      "陳",
+      "陈",
+      "Chen"
+    ],
+    "type": "hotel",
+    "lexicon_id": "hotel_hangang_moonlight",
+    "check_in": "2026-11-10",
+    "check_out": "2026-11-12",
+    "nights": 2,
+    "total_krw": 412000,
+    "status": "confirmed",
+    "paid": true,
+    "payment_method": "credit_card"
+  },
+  {
+    "reservation_code": "ZV-2610",
+    "last_name_aliases": [
+      "佐藤",
+      "Sato",
+      "Satō"
+    ],
+    "type": "tour",
+    "lexicon_id": "tour_hanbok_gyeongbokgung",
+    "start_at": "2026-11-05T10:00:00+09:00",
+    "meeting_lexicon_id": "station_gyeongbokgung",
+    "meeting_exit": 5,
+    "guests": 2,
+    "total_krw": 130000,
+    "status": "confirmed",
+    "paid": true,
+    "payment_method": "credit_card"
+  },
+  {
+    "reservation_code": "ZV-9034",
+    "last_name_aliases": [
+      "陳",
+      "陈",
+      "Chan"
+    ],
+    "type": "hotel",
+    "lexicon_id": "hotel_hanbit_myeongdong",
+    "check_in": "2026-11-20",
+    "check_out": "2026-11-22",
+    "nights": 2,
+    "total_krw": 300000,
+    "status": "confirmed",
+    "paid": true,
+    "payment_method": "credit_card"
+  }
+]

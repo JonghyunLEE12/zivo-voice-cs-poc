@@ -1,0 +1,12 @@
+INFO:     127.0.0.1:52413 - "GET /report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52413 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52413 - "GET /blind HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52413 - "GET /blind/results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52413 - "GET /report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52413 - "GET /api/report/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52413 - "GET /api/report/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52422 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52422 - "GET /assets/index-DQXVWMxi.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52423 - "GET /assets/index-BPacXHCI.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52423 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52423 - "GET /report HTTP/1.1" 200 OK

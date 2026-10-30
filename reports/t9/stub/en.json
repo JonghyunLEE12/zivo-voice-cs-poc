@@ -1,0 +1,125 @@
+{
+  "locale": "en",
+  "engine": "kokoro",
+  "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/en.wav",
+  "audio_bytes": 8640,
+  "audio_seconds": 0.18,
+  "non_silent": true,
+  "barge_in_ack_ms": null,
+  "transport_vad_to_first_audio_ms": 7.019166976213455,
+  "wall_ms": 126.52674999833107,
+  "warm": false,
+  "measurement_phase": "measured",
+  "playback_mode": "simulated_ack_no_speaker",
+  "events": [
+    {
+      "type": "session.ready",
+      "session_id": "3b4ef0f9-5bdd-40cd-8d0e-a8ad5bc74add",
+      "locale": "en",
+      "tts_engine": "kokoro",
+      "normalize": "full",
+      "stt": "whisper",
+      "turn_detect": "vad"
+    },
+    {
+      "type": "stt.result",
+      "turn_num": 1,
+      "text": "Find ZV-4821, surname Carter.",
+      "text_raw": "Find ZV-4821, surname Carter.",
+      "lang_detected": null,
+      "lang_prob": null
+    },
+    {
+      "type": "tool.call",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "args": {
+        "reservation_code": "ZV-4821",
+        "last_name": "Carter"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tool.result",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "result": {
+        "reservation_code": "ZV-4821",
+        "type": "hotel",
+        "lexicon_id": "hotel_hanbit_myeongdong",
+        "check_in": "2026-11-03",
+        "check_out": "2026-11-05",
+        "nights": 2,
+        "total_krw": 286000,
+        "status": "confirmed",
+        "paid": true,
+        "payment_method": "credit_card",
+        "found": true,
+        "name": "Hanbit Stay Myeongdong"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 0,
+      "display_text": "Let me check that for you.",
+      "tts_text": "Let me check that for you.",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "filler",
+      "first_chunk_seq": 0
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "I found your booking."
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": " Your hotel is Hanbit Stay Myeongdong."
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 1,
+      "display_text": "I found your booking.",
+      "tts_text": "I found your booking.",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 1
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 2,
+      "display_text": " Your hotel is Hanbit Stay Myeongdong.",
+      "tts_text": "Your hotel is Hahn-bit Stay Myung-dong.",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 4
+    },
+    {
+      "type": "turn.done",
+      "turn_num": 1,
+      "marks": {
+        "s_rx": 162663414.38833302,
+        "s_turn_decided": 162663414.38833302,
+        "s_stt_done": 162663414.530916,
+        "s_llm_first_token": 162663415.35325003,
+        "s_tool_call": 162663415.073666,
+        "s_tool_done": 162663415.122,
+        "s_first_sentence": 162663415.68,
+        "s_tts_first_audio": 162663423.450291,
+        "c_vad_end": 162663408.42945802,
+        "c_play_start": 162663415.453291,
+        "t_filler_play": 162663415.453291,
+        "c_reply_play_start": 162663423.90625
+      },
+      "handoff_queued": false
+    }
+  ]
+}

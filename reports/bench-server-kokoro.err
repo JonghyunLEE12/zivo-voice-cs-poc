@@ -1,0 +1,21 @@
+INFO:     Started server process [9266]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8104 (Press CTRL+C to quit)
+/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+WARNING:phonemizer:words count mismatch on 200.0% of the lines (2/1)
+WARNING:phonemizer:words count mismatch on 200.0% of the lines (2/1)
+WARNING:phonemizer:words count mismatch on 200.0% of the lines (2/1)
+Building prefix dict from the default dictionary ...
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+Loading model from cache /Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/.cache/tmp/jieba.cache
+DEBUG:jieba:Loading model from cache /Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/.cache/tmp/jieba.cache
+Loading model cost 0.260 seconds.
+DEBUG:jieba:Loading model cost 0.260 seconds.
+Prefix dict has been built successfully.
+DEBUG:jieba:Prefix dict has been built successfully.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9266]

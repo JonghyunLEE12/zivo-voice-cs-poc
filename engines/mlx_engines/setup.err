@@ -1,0 +1,7 @@
+Downloading en-core-web-sm (12.2MiB)
+ Downloaded en-core-web-sm
+Resolved 141 packages in 3.02s
+Prepared 1 package in 85ms
+Installed 2 packages in 2ms
+ + en-core-web-sm==3.8.0 (from https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl)
+ + opencc-python-reimplemented==0.1.7

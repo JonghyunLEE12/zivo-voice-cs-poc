@@ -1,0 +1,125 @@
+{
+  "locale": "zh-TW",
+  "engine": "kokoro",
+  "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/zh-TW.wav",
+  "audio_bytes": 8640,
+  "audio_seconds": 0.18,
+  "non_silent": true,
+  "barge_in_ack_ms": null,
+  "transport_vad_to_first_audio_ms": 9.818625003099442,
+  "wall_ms": 77.66712501645088,
+  "warm": false,
+  "measurement_phase": "measured",
+  "playback_mode": "simulated_ack_no_speaker",
+  "events": [
+    {
+      "type": "session.ready",
+      "session_id": "91f323ca-7f32-426e-9fc7-6c7fabca7e11",
+      "locale": "zh-TW",
+      "tts_engine": "kokoro",
+      "normalize": "full",
+      "stt": "whisper",
+      "turn_detect": "vad"
+    },
+    {
+      "type": "stt.result",
+      "turn_num": 1,
+      "text": "查詢ZV-5196，我姓陳。",
+      "text_raw": "查詢ZV-5196，我姓陳。",
+      "lang_detected": null,
+      "lang_prob": null
+    },
+    {
+      "type": "tool.call",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "args": {
+        "reservation_code": "ZV-5196",
+        "last_name": "陳"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tool.result",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "result": {
+        "reservation_code": "ZV-5196",
+        "type": "hotel",
+        "lexicon_id": "hotel_hangang_moonlight",
+        "check_in": "2026-11-10",
+        "check_out": "2026-11-12",
+        "nights": 2,
+        "total_krw": 412000,
+        "status": "confirmed",
+        "paid": true,
+        "payment_method": "credit_card",
+        "found": true,
+        "name": "漢江月光套房飯店"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 0,
+      "display_text": "我幫您查一下。",
+      "tts_text": "我幫您查一下。",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "filler",
+      "first_chunk_seq": 0
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "已經查到您的訂房。"
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "總金額是412,000韓元。"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 1,
+      "display_text": "已經查到您的訂房。",
+      "tts_text": "已經查到您的訂房。",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 1
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 2,
+      "display_text": "總金額是412,000韓元。",
+      "tts_text": "總金額是四十一萬兩千韓元。",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 4
+    },
+    {
+      "type": "turn.done",
+      "turn_num": 1,
+      "marks": {
+        "s_rx": 162663665.866583,
+        "s_turn_decided": 162663665.866583,
+        "s_stt_done": 162663665.976708,
+        "s_llm_first_token": 162663666.47241595,
+        "s_tool_call": 162663666.165208,
+        "s_tool_done": 162663666.213291,
+        "s_first_sentence": 162663666.614833,
+        "s_tts_first_audio": 162663673.101458,
+        "c_vad_end": 162663656.729791,
+        "c_play_start": 162663666.554,
+        "t_filler_play": 162663666.554,
+        "c_reply_play_start": 162663673.4535
+      },
+      "handoff_queued": false
+    }
+  ]
+}

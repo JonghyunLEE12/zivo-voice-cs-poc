@@ -1,0 +1,45 @@
+INFO:     Started server process [5892]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8019 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50494 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50503 - "GET /?dev=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50504 - "GET /assets/index-BPacXHCI.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50503 - "GET /assets/index-CaCLYgT4.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50503 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50505 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50503 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50519 - "GET /?dev=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50519 - "GET /assets/index-CaCLYgT4.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50520 - "GET /assets/index-BPacXHCI.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50521 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50520 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50542 - "GET /?dev=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50542 - "GET /assets/index-CaCLYgT4.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50543 - "GET /assets/index-BPacXHCI.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50544 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50543 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50550 - "GET /?dev=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50550 - "GET /assets/index-CaCLYgT4.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50551 - "GET /assets/index-BPacXHCI.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50552 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50551 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50557 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50557 - "GET /assets/index-CaCLYgT4.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50558 - "GET /assets/index-BPacXHCI.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50559 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50558 - "GET /assets/index-Ckrlgj9p.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50558 - "GET /vad/silero_vad_v5.onnx HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50558 - "GET /vad/ort-wasm-simd-threaded.mjs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50558 - "GET /vad/ort-wasm-simd-threaded.wasm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50558 - "GET /vad/vad.worklet.bundle.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50573 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5892]

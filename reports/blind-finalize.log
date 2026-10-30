@@ -1,0 +1,1 @@
+{"checked": 134, "failed": 0, "lufs_min": -20.29, "lufs_max": -19.86, "true_peak_max_db": -1.0, "sample_rate": 24000, "channels": 1, "pcm_bits": 16, "edge_silence_ms": 150, "sha256_all_match": true, "metadata_free_wav_headers": true, "source_sha256": "6f4127ebcc06a0c11822700a9882d34b9b998bc7168ee41e8fde6dc457c129a0"}

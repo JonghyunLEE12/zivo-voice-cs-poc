@@ -1,0 +1,10 @@
+{
+  "samples": 27,
+  "max_swap_growth_mib": 3686.9399999999987,
+  "min_disk_free_gib": 128.83840942382812,
+  "min_memory_free_percent": 15,
+  "pressure_levels": [
+    1,
+    2
+  ]
+}

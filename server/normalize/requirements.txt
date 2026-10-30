@@ -1,0 +1,4 @@
+PyYAML>=6.0,<7
+num2words>=0.5.14,<0.6
+cn2an>=0.5.23,<0.6
+opencc-python-reimplemented>=0.1.7,<0.2

@@ -1,0 +1,98 @@
+{
+  "warm": true,
+  "ollama": {
+    "model": "qwen3.5:35b-a3b",
+    "created_at": "2026-10-30T04:54:27.140068Z",
+    "message": {
+      "role": "assistant",
+      "content": ""
+    },
+    "done": true,
+    "done_reason": "load"
+  },
+  "server_warmup_turn": {
+    "locale": "en",
+    "engine": "kokoro",
+    "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/en.wav",
+    "audio_bytes": 326400,
+    "audio_seconds": 6.8,
+    "non_silent": true,
+    "barge_in_ack_ms": null,
+    "transport_vad_to_first_audio_ms": 6598.982584029436,
+    "wall_ms": 11991.442917019129,
+    "warm": false,
+    "measurement_phase": "warmup_discarded",
+    "playback_mode": "simulated_ack_no_speaker",
+    "events": [
+      {
+        "type": "session.ready",
+        "session_id": "eee1bc8f-97ad-4b01-954e-0074115efe40",
+        "locale": "en",
+        "tts_engine": "kokoro",
+        "normalize": "full",
+        "stt": "whisper",
+        "turn_detect": "vad"
+      },
+      {
+        "type": "stt.result",
+        "turn_num": 1,
+        "text": "Please check my reservation at Myeongdong Station. My booking number is ZV4821.",
+        "text_raw": "Please check my reservation at Myeongdong Station. My booking number is ZV4821.",
+        "lang_detected": null,
+        "lang_prob": null
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "I need your last name to look up reservation ZV-4821."
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": " Could you please provide it?"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 0,
+        "display_text": "I need your last name to look up reservation ZV-4821.",
+        "tts_text": "I need your last name to look up reservation Z V four eight two one.",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "reply",
+        "first_chunk_seq": 0
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 1,
+        "display_text": " Could you please provide it?",
+        "tts_text": "Could you please provide it?",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "reply",
+        "first_chunk_seq": 50
+      },
+      {
+        "type": "turn.done",
+        "turn_num": 1,
+        "marks": {
+          "s_rx": 169438307.998416,
+          "s_turn_decided": 169438307.998416,
+          "s_stt_done": 169441273.223208,
+          "s_llm_first_token": 169443910.59358302,
+          "s_tool_call": null,
+          "s_tool_done": null,
+          "s_first_sentence": 169444500.568041,
+          "s_tts_first_audio": 169444898.169958,
+          "c_vad_end": 169438299.654916,
+          "c_play_start": 169444898.652583,
+          "c_reply_play_start": 169444898.652583
+        },
+        "handoff_queued": false
+      }
+    ]
+  },
+  "elapsed_ms": 22572.852249984862,
+  "method": "Ollama warmup + discarded en WebSocket turn warms server Whisper cache"
+}

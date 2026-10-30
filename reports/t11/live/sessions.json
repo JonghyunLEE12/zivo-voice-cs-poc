@@ -1,0 +1,239 @@
+{
+  "kokoro": {
+    "calls": 9,
+    "calls_over_3min": 0,
+    "over_3min_rate": 0.0,
+    "barge_in_rate": 0.1111111111111111,
+    "customer_chars_per_call": 33.22222222222222,
+    "total_turns": 9,
+    "handoff_calls": 0,
+    "duration_ms": {
+      "n": 9,
+      "p50": 4018.0812499821186,
+      "p90": 5694.654075008631,
+      "min": 633.4202080070972,
+      "max": 6010.966874986887
+    },
+    "first_play_ms": {
+      "n": 9,
+      "p50": 2214.241500020027,
+      "p90": 4059.0270666062834,
+      "min": 603.7317909896374,
+      "max": 4347.385832995176
+    },
+    "reply_play_ms": {
+      "n": 8,
+      "p50": 4167.161604002118,
+      "p90": 5502.247670593858,
+      "min": 1499.3935419917107,
+      "max": 5800.242250025272
+    },
+    "sessions": [
+      {
+        "session_id": "1be43dfb-5e48-4b62-83a2-4e5004314324",
+        "revision": 2,
+        "timestamp": "2026-10-30T14:02:31.499056+09:00",
+        "closed": true,
+        "duration_ms": 2682.21862500906,
+        "engines": [
+          "kokoro"
+        ],
+        "handoff_queued": false,
+        "turns": 1,
+        "user_chars": 53,
+        "barge_in": false,
+        "sources": [
+          "wav_simulated_ack"
+        ],
+        "first_play_ms": [
+          633.9535840153694
+        ],
+        "reply_play_ms": [
+          2443.579708993435
+        ]
+      },
+      {
+        "session_id": "c7608c6a-bf64-4aa9-8570-95a2e7881570",
+        "revision": 2,
+        "timestamp": "2026-10-30T14:02:37.555173+09:00",
+        "closed": true,
+        "duration_ms": 6010.966874986887,
+        "engines": [
+          "kokoro"
+        ],
+        "handoff_queued": false,
+        "turns": 1,
+        "user_chars": 53,
+        "barge_in": false,
+        "sources": [
+          "wav_simulated_ack"
+        ],
+        "first_play_ms": [
+          3281.6957910060883
+        ],
+        "reply_play_ms": [
+          5800.242250025272
+        ]
+      },
+      {
+        "session_id": "40280021-47d9-4b46-a9d6-730e8d3d204a",
+        "revision": 2,
+        "timestamp": "2026-10-30T14:02:42.654183+09:00",
+        "closed": true,
+        "duration_ms": 4375.299957960844,
+        "engines": [
+          "kokoro"
+        ],
+        "handoff_queued": false,
+        "turns": 1,
+        "user_chars": 16,
+        "barge_in": false,
+        "sources": [
+          "wav_simulated_ack"
+        ],
+        "first_play_ms": [
+          4347.385832995176
+        ],
+        "reply_play_ms": [
+          4347.385832995176
+        ]
+      },
+      {
+        "session_id": "61d8ae8a-1367-449b-85c7-593bdb112243",
+        "revision": 2,
+        "timestamp": "2026-10-30T14:02:46.076980+09:00",
+        "closed": true,
+        "duration_ms": 3378.341125011444,
+        "engines": [
+          "kokoro"
+        ],
+        "handoff_queued": false,
+        "turns": 1,
+        "user_chars": 16,
+        "barge_in": false,
+        "sources": [
+          "wav_simulated_ack"
+        ],
+        "first_play_ms": [
+          3348.6780830025673
+        ],
+        "reply_play_ms": [
+          3348.6780830025673
+        ]
+      },
+      {
+        "session_id": "2998e0d1-8520-4217-83d1-93279302e930",
+        "revision": 2,
+        "timestamp": "2026-10-30T14:02:51.917797+09:00",
+        "closed": true,
+        "duration_ms": 5615.575875014067,
+        "engines": [
+          "kokoro"
+        ],
+        "handoff_queued": false,
+        "turns": 1,
+        "user_chars": 18,
+        "barge_in": false,
+        "sources": [
+          "wav_simulated_ack"
+        ],
+        "first_play_ms": [
+          603.7317909896374
+        ],
+        "reply_play_ms": [
+          5374.535707980394
+        ]
+      },
+      {
+        "session_id": "46a1bfaf-ba2c-47b0-8bb8-4f2a67992a9c",
+        "revision": 2,
+        "timestamp": "2026-10-30T14:02:56.709860+09:00",
+        "closed": true,
+        "duration_ms": 4744.84029096365,
+        "engines": [
+          "kokoro"
+        ],
+        "handoff_queued": false,
+        "turns": 1,
+        "user_chars": 18,
+        "barge_in": false,
+        "sources": [
+          "wav_simulated_ack"
+        ],
+        "first_play_ms": [
+          2214.241500020027
+        ],
+        "reply_play_ms": [
+          4482.354000002146
+        ]
+      },
+      {
+        "session_id": "599edfe3-6996-4b61-9797-6b6b41e00ce4",
+        "revision": 2,
+        "timestamp": "2026-10-30T14:03:01.118262+09:00",
+        "closed": true,
+        "duration_ms": 4018.0812499821186,
+        "engines": [
+          "kokoro"
+        ],
+        "handoff_queued": false,
+        "turns": 1,
+        "user_chars": 36,
+        "barge_in": false,
+        "sources": [
+          "wav_simulated_ack"
+        ],
+        "first_play_ms": [
+          3986.93737500906
+        ],
+        "reply_play_ms": [
+          3986.93737500906
+        ]
+      },
+      {
+        "session_id": "aa64a8bd-6c78-4007-8078-e47d449f21aa",
+        "revision": 2,
+        "timestamp": "2026-10-30T14:03:02.687822+09:00",
+        "closed": true,
+        "duration_ms": 1527.1465829610825,
+        "engines": [
+          "kokoro"
+        ],
+        "handoff_queued": false,
+        "turns": 1,
+        "user_chars": 36,
+        "barge_in": false,
+        "sources": [
+          "wav_simulated_ack"
+        ],
+        "first_play_ms": [
+          1499.3935419917107
+        ],
+        "reply_play_ms": [
+          1499.3935419917107
+        ]
+      },
+      {
+        "session_id": "48188a86-5c01-49d1-9006-13fd2c6d4b71",
+        "revision": 2,
+        "timestamp": "2026-10-30T14:03:03.371157+09:00",
+        "closed": true,
+        "duration_ms": 633.4202080070972,
+        "engines": [
+          "kokoro"
+        ],
+        "handoff_queued": false,
+        "turns": 1,
+        "user_chars": 53,
+        "barge_in": true,
+        "sources": [
+          "wav_simulated_ack"
+        ],
+        "first_play_ms": [
+          631.3790829479694
+        ],
+        "reply_play_ms": []
+      }
+    ]
+  }
+}

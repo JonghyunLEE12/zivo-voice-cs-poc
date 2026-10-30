@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "requests_checked": 12,
+  "engine_identifier_leaks": 0,
+  "wav_format": "24000 Hz mono PCM16, 44-byte metadata-free header",
+  "records": [
+    {
+      "path": "/blind",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "content-length": "2875",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 2875
+    },
+    {
+      "path": "/blind/results",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "content-length": "1771",
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 1771
+    },
+    {
+      "path": "/blind/assets/style-BmFDexAr.js",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "content-type": "text/javascript; charset=utf-8",
+        "accept-ranges": "bytes",
+        "content-length": "711",
+        "last-modified": "Fri, 30 Oct 2026 03:27:28 GMT",
+        "etag": "\"61ec5f7aed2bf053b46de31ab4765616\"",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 711
+    },
+    {
+      "path": "/blind/assets/style-DqM2HiFK.css",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "content-type": "text/css; charset=utf-8",
+        "accept-ranges": "bytes",
+        "content-length": "2174",
+        "last-modified": "Fri, 30 Oct 2026 03:27:28 GMT",
+        "etag": "\"381c1d69e8d198b591c07e5633c4b701\"",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 2174
+    },
+    {
+      "path": "/blind/assets/index-BVkVqWd-.js",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "content-type": "text/javascript; charset=utf-8",
+        "accept-ranges": "bytes",
+        "content-length": "2735",
+        "last-modified": "Fri, 30 Oct 2026 03:27:28 GMT",
+        "etag": "\"7931d1f14f9fa8970255c7f77f1e31f6\"",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 2735
+    },
+    {
+      "path": "/blind/assets/results-Bz1zzLge.js",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "content-type": "text/javascript; charset=utf-8",
+        "accept-ranges": "bytes",
+        "content-length": "1716",
+        "last-modified": "Fri, 30 Oct 2026 03:27:28 GMT",
+        "etag": "\"3cee06d825104c80eb1f44d6efb54f3c\"",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 1716
+    },
+    {
+      "path": "/api/blind/session",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "content-length": "14",
+        "content-type": "application/json",
+        "set-cookie": "<redacted>",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 14
+    },
+    {
+      "path": "/api/blind/next?locale=en",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "content-length": "342",
+        "content-type": "application/json",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 342
+    },
+    {
+      "path": "/api/blind/audio/crRwFWhNR9o4qnS2sR44yvG-l30TCF3bZhWuEK1UVzk",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "content-length": "301798",
+        "content-type": "audio/wav",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 301798
+    },
+    {
+      "path": "/api/blind/audio/w78waPUGA08E9InzR5-9zPlxvIfgGXeVVkHCuMwvyZg",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "content-length": "311096",
+        "content-type": "audio/wav",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 311096
+    },
+    {
+      "path": "/api/blind/results",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "content-length": "68",
+        "content-type": "application/json",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 68
+    },
+    {
+      "path": "/api/blind/results?format=csv",
+      "status": 200,
+      "headers": {
+        "date": "Fri, 30 Oct 2026 04:27:39 GMT",
+        "server": "uvicorn",
+        "content-disposition": "attachment; filename=\"blind-results.csv\"",
+        "content-length": "95",
+        "content-type": "text/csv; charset=utf-8",
+        "cache-control": "no-store",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "connection": "close"
+      },
+      "bytes": 95
+    }
+  ]
+}

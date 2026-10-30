@@ -1,0 +1,5 @@
+cache-dir = "../../.cache/uv"
+
+[extra-build-dependencies]
+openai-whisper = ["setuptools<81"]
+pyworld = ["setuptools<81", "numpy<2", "cython<3"]

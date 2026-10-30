@@ -1,0 +1,27 @@
+{
+  "engine": "kokoro",
+  "locale": "ja",
+  "stream": false,
+  "file": "engines/mlx_engines/artifacts/kokoro-ja.wav",
+  "sample_rate": 24000,
+  "duration_s": 2.975,
+  "rms": 0.06077194586396217,
+  "peak": 0.284332275390625,
+  "synth_ms": 276.308,
+  "ttfa_ms": 297.78300001635216,
+  "wall_ms": 297.8357910178602,
+  "info": {
+    "engine": "kokoro",
+    "model_id": "mlx-community/Kokoro-82M-bf16",
+    "locales": [
+      "en",
+      "zh-CN",
+      "zh-TW",
+      "ja"
+    ],
+    "supports_streaming": false,
+    "native_sample_rate": 24000,
+    "load_ms": 868.3950419945177,
+    "peak_mem_bytes": 1501214285
+  }
+}

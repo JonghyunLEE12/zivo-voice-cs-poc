@@ -1,0 +1,30 @@
+[
+  {
+    "locale": "en",
+    "source": "existing macOS say voice Samantha; synthetic input fixture, not recorded human speech",
+    "display_text": "Please find reservation ZV-4821. My surname is Carter.",
+    "spoken_text": "Please find reservation Z V four eight two one. My surname is Carter.",
+    "wav": "reports/t9/inputs/en.wav"
+  },
+  {
+    "locale": "zh-CN",
+    "source": "existing macOS say voice Tingting; synthetic input fixture, not recorded human speech",
+    "display_text": "请查询预订号ZV-7305，我姓王。",
+    "spoken_text": "请查询预订号Z V 七三零五，我姓王。",
+    "wav": "reports/t9/inputs/zh-CN.wav"
+  },
+  {
+    "locale": "zh-TW",
+    "source": "existing macOS say voice Meijia; synthetic input fixture, not recorded human speech",
+    "display_text": "請查詢訂單編號ZV-5196，我姓陳。",
+    "spoken_text": "請查詢訂單編號Z V 五一九六，我姓陳。",
+    "wav": "reports/t9/inputs/zh-TW.wav"
+  },
+  {
+    "locale": "ja",
+    "source": "existing macOS say voice Kyoko; synthetic input fixture, not recorded human speech",
+    "display_text": "予約番号はZV-2610です。名字は佐藤です。予約を確認してください。",
+    "spoken_text": "予約番号はゼット ブイ に ろく いち ゼロです。名字は佐藤です。予約を確認してください。",
+    "wav": "reports/t9/inputs/ja.wav"
+  }
+]

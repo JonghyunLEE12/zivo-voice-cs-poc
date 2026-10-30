@@ -1,0 +1,252 @@
+[
+  {
+    "locale": "en",
+    "warm": true,
+    "input": "reports/stt/say/en.wav",
+    "events": [
+      {
+        "type": "session.ready",
+        "t_client": 468.09999999403954,
+        "session_id": "e8ff5dc2-8e97-4d86-9dff-4c51e058f700"
+      },
+      {
+        "type": "c_vad_end",
+        "t_client": 500.90000000596046,
+        "turn_num": 1,
+        "c_vad_end": 496.90000000596046,
+        "c_speech_end_est": 496.90000000596046,
+        "source": "wav",
+        "samples": 92106
+      },
+      {
+        "type": "c_play_start",
+        "t_client": 3470.2999999821186,
+        "turn_num": 1,
+        "chunk_seq": 0,
+        "c_play_start": 3468.766666660706,
+        "c_vad_end": 496.90000000596046,
+        "client_vad_to_play_ms": 2971.8666666547456
+      },
+      {
+        "type": "c_reply_play_start",
+        "t_client": 3468.766666660706,
+        "turn_num": 1
+      },
+      {
+        "type": "turn.done",
+        "t_client": 3623.4000000059605,
+        "turn_num": 1,
+        "marks": {
+          "s_rx": 169447574.416958,
+          "s_turn_decided": 169447574.416958,
+          "s_stt_done": 169448282.518166,
+          "s_llm_first_token": 169449396.83375,
+          "s_tool_call": null,
+          "s_tool_done": null,
+          "s_first_sentence": 169449911.020208,
+          "s_tts_first_audio": 169450512.718083,
+          "c_vad_end": 496.90000000596046,
+          "c_speech_end_est": 496.90000000596046,
+          "c_play_start": 3468.766666660706,
+          "c_reply_play_start": 3468.766666660706
+        },
+        "handoff_queued": false
+      },
+      {
+        "type": "playback.finished",
+        "t_client": 10267.09999999404,
+        "turn_num": 1
+      }
+    ],
+    "errors": [],
+    "stt": "Please check my reservation at Myeongdong Station, my booking number is ZV4821.",
+    "reply": "I need your last name to look up reservation ZV-4821. Could you please provide it?"
+  },
+  {
+    "locale": "zh-CN",
+    "warm": true,
+    "input": "reports/stt/say/zh-CN.wav",
+    "events": [
+      {
+        "type": "session.ready",
+        "t_client": 1136.9000000059605,
+        "session_id": "d0e774df-35d5-4a0a-bd58-f4c2591bef70"
+      },
+      {
+        "type": "c_vad_end",
+        "t_client": 1159.6000000238419,
+        "turn_num": 1,
+        "c_vad_end": 1156.9000000059605,
+        "c_speech_end_est": 1156.9000000059605,
+        "source": "wav",
+        "samples": 115997
+      },
+      {
+        "type": "c_play_start",
+        "t_client": 5840.300000011921,
+        "turn_num": 1,
+        "chunk_seq": 0,
+        "c_play_start": 5838.766666690508,
+        "c_vad_end": 1156.9000000059605,
+        "client_vad_to_play_ms": 4681.866666684547
+      },
+      {
+        "type": "c_reply_play_start",
+        "t_client": 5838.766666690508,
+        "turn_num": 1
+      },
+      {
+        "type": "turn.done",
+        "t_client": 5850.600000023842,
+        "turn_num": 1,
+        "marks": {
+          "s_rx": 169458725.515875,
+          "s_turn_decided": 169458725.515875,
+          "s_stt_done": 169459549.215375,
+          "s_llm_first_token": 169462163.137917,
+          "s_tool_call": null,
+          "s_tool_done": null,
+          "s_first_sentence": 169462538.98675,
+          "s_tts_first_audio": 169463380.311458,
+          "c_vad_end": 1156.9000000059605,
+          "c_speech_end_est": 1156.9000000059605,
+          "c_play_start": 5838.766666690508,
+          "c_reply_play_start": 5838.766666690508
+        },
+        "handoff_queued": false
+      },
+      {
+        "type": "playback.finished",
+        "t_client": 11837.300000011921,
+        "turn_num": 1
+      }
+    ],
+    "errors": [],
+    "stt": "请帮我确认预定, 司机会在仁川国际机场等我, 然后送我到明洞酒店。",
+    "reply": "请提供预订代码和您的姓氏，以便我为您查询。"
+  },
+  {
+    "locale": "zh-TW",
+    "warm": true,
+    "input": "reports/stt/say/zh-TW.wav",
+    "events": [
+      {
+        "type": "session.ready",
+        "t_client": 489.19999998807907,
+        "session_id": "a16a22c1-5e68-4fc4-b7c8-3d8134d26feb"
+      },
+      {
+        "type": "c_vad_end",
+        "t_client": 515.0999999940395,
+        "turn_num": 1,
+        "c_vad_end": 512.4000000059605,
+        "c_speech_end_est": 512.4000000059605,
+        "source": "wav",
+        "samples": 124227
+      },
+      {
+        "type": "turn.done",
+        "t_client": 5868.699999988079,
+        "turn_num": 1,
+        "marks": {
+          "s_rx": 169470113.716083,
+          "s_turn_decided": 169470113.716083,
+          "s_stt_done": 169470894.053666,
+          "s_llm_first_token": 169473941.447,
+          "s_tool_call": null,
+          "s_tool_done": null,
+          "s_first_sentence": 169474758.393375,
+          "s_tts_first_audio": 169475430.684208,
+          "c_vad_end": 512.4000000059605,
+          "c_speech_end_est": 512.4000000059605
+        },
+        "handoff_queued": false
+      },
+      {
+        "type": "c_play_start",
+        "t_client": 5876,
+        "turn_num": 1,
+        "chunk_seq": 0,
+        "c_play_start": 5873.966666678587,
+        "c_vad_end": 512.4000000059605,
+        "client_vad_to_play_ms": 5361.5666666726265
+      },
+      {
+        "type": "c_reply_play_start",
+        "t_client": 5873.966666678587,
+        "turn_num": 1
+      },
+      {
+        "type": "playback.finished",
+        "t_client": 10876.300000011921,
+        "turn_num": 1
+      }
+    ],
+    "errors": [],
+    "stt": "請幫我確認訂房, 從仁川國際機場搭計程車到飯店, 我已經用信用卡付款了",
+    "reply": "請問您的訂房程式碼和姓氏是什麼？"
+  },
+  {
+    "locale": "ja",
+    "warm": true,
+    "input": "reports/stt/say/ja.wav",
+    "events": [
+      {
+        "type": "session.ready",
+        "t_client": 877.2000000178814,
+        "session_id": "ea1f328f-9345-45d0-b0f5-4a1d45bc6710"
+      },
+      {
+        "type": "c_vad_end",
+        "t_client": 919.0999999940395,
+        "turn_num": 1,
+        "c_vad_end": 916.0999999940395,
+        "c_speech_end_est": 916.0999999940395,
+        "source": "wav",
+        "samples": 98935
+      },
+      {
+        "type": "c_play_start",
+        "t_client": 4940.0999999940395,
+        "turn_num": 1,
+        "chunk_seq": 0,
+        "c_play_start": 4917.433333327373,
+        "c_vad_end": 916.0999999940395,
+        "client_vad_to_play_ms": 4001.333333333333
+      },
+      {
+        "type": "c_reply_play_start",
+        "t_client": 4917.433333327373,
+        "turn_num": 1
+      },
+      {
+        "type": "turn.done",
+        "t_client": 5120.200000017881,
+        "turn_num": 1,
+        "marks": {
+          "s_rx": 169481801.881125,
+          "s_turn_decided": 169481801.881125,
+          "s_stt_done": 169482555.4955,
+          "s_llm_first_token": 169485100.49425003,
+          "s_tool_call": null,
+          "s_tool_done": null,
+          "s_first_sentence": 169485286.316625,
+          "s_tts_first_audio": 169485768.57220802,
+          "c_vad_end": 916.0999999940395,
+          "c_speech_end_est": 916.0999999940395,
+          "c_play_start": 4917.433333327373,
+          "c_reply_play_start": 4917.433333327373
+        },
+        "handoff_queued": false
+      },
+      {
+        "type": "playback.finished",
+        "t_client": 8191.300000011921,
+        "turn_num": 1
+      }
+    ],
+    "errors": [],
+    "stt": "予約を確認してください。 明洞駅から、 地下鉄で、ソウル駅まで行きます。",
+    "reply": "予約コードと姓をお知らせください。"
+  }
+]

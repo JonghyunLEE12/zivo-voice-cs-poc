@@ -1,0 +1,46 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 2, reused 0, downloaded 0, added 0
+
+   ╭───────────────────────────────────────────────╮
+   │                                               │
+   │     Update available! 10.34.5 → 12.16.1.      │
+   │     Changelog: https://pnpm.io/v/12.16.1      │
+   │   To update, run: corepack use pnpm@12.16.1   │
+   │                                               │
+   ╰───────────────────────────────────────────────╯
+
+Progress: resolved 2, reused 0, downloaded 1, added 0
+Progress: resolved 3, reused 0, downloaded 1, added 0
+Progress: resolved 9, reused 0, downloaded 5, added 0
+Progress: resolved 26, reused 0, downloaded 13, added 0
+Progress: resolved 82, reused 0, downloaded 19, added 0
+Progress: resolved 82, reused 0, downloaded 27, added 0
+Progress: resolved 82, reused 0, downloaded 28, added 0
+Progress: resolved 83, reused 0, downloaded 28, added 0
+Progress: resolved 84, reused 0, downloaded 28, added 0
+Progress: resolved 84, reused 0, downloaded 30, added 0
+Progress: resolved 84, reused 0, downloaded 31, added 0
+Packages: +34
+++++++++++++++++++++++++++++++++++
+Progress: resolved 84, reused 0, downloaded 31, added 31
+Progress: resolved 84, reused 0, downloaded 32, added 32
+Progress: resolved 84, reused 0, downloaded 33, added 32
+Progress: resolved 84, reused 0, downloaded 33, added 33
+Progress: resolved 84, reused 0, downloaded 34, added 33
+Progress: resolved 84, reused 0, downloaded 34, added 34, done
+
+dependencies:
++ @ricky0123/vad-web 0.0.30 (0.0.31 is available)
+
+devDependencies:
++ typescript 5.9.3 (7.0.2 is available)
++ vite 6.4.5 (8.3.5 is available)
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: esbuild@0.25.12, protobufjs@7.6.6.                  │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+Done in 1m 51.5s using pnpm v10.34.5

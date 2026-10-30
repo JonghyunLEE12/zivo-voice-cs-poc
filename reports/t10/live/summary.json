@@ -1,0 +1,122 @@
+[
+  {
+    "locale": "en",
+    "status": "done",
+    "marks": {
+      "s_rx": 169447574.416958,
+      "s_turn_decided": 169447574.416958,
+      "s_stt_done": 169448282.518166,
+      "s_llm_first_token": 169449396.83375,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169449911.020208,
+      "s_tts_first_audio": 169450512.718083,
+      "c_vad_end": 496.90000000596046,
+      "c_speech_end_est": 496.90000000596046,
+      "c_play_start": 3468.766666660706,
+      "c_reply_play_start": 3468.766666660706,
+      "c_play_finished": 10267
+    },
+    "durations": {
+      "stt_ms": 708.1012080013752,
+      "llm_ttft_ms": 1114.3155840039253,
+      "first_sentence_ms": 514.1864579916,
+      "tts_ttfa_ms": 601.6978749930859,
+      "client_vad_to_play_ms": 2971.8666666547456,
+      "client_speech_to_play_ms": 2971.8666666547456,
+      "client_vad_to_reply_play_ms": 2971.8666666547456,
+      "client_speech_to_reply_play_ms": 2971.8666666547456
+    },
+    "audio_bytes": 326400
+  },
+  {
+    "locale": "zh-CN",
+    "status": "done",
+    "marks": {
+      "s_rx": 169458725.515875,
+      "s_turn_decided": 169458725.515875,
+      "s_stt_done": 169459549.215375,
+      "s_llm_first_token": 169462163.137917,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169462538.98675,
+      "s_tts_first_audio": 169463380.311458,
+      "c_vad_end": 1156.9000000059605,
+      "c_speech_end_est": 1156.9000000059605,
+      "c_play_start": 5838.766666690508,
+      "c_reply_play_start": 5838.766666690508,
+      "c_play_finished": 11837.200000017881
+    },
+    "durations": {
+      "stt_ms": 823.6994999945164,
+      "llm_ttft_ms": 2613.9225420057774,
+      "first_sentence_ms": 375.8488329946995,
+      "tts_ttfa_ms": 841.3247079849243,
+      "client_vad_to_play_ms": 4681.866666684547,
+      "client_speech_to_play_ms": 4681.866666684547,
+      "client_vad_to_reply_play_ms": 4681.866666684547,
+      "client_speech_to_reply_play_ms": 4681.866666684547
+    },
+    "audio_bytes": 288000
+  },
+  {
+    "locale": "zh-TW",
+    "status": "done",
+    "marks": {
+      "s_rx": 169470113.716083,
+      "s_turn_decided": 169470113.716083,
+      "s_stt_done": 169470894.053666,
+      "s_llm_first_token": 169473941.447,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169474758.393375,
+      "s_tts_first_audio": 169475430.684208,
+      "c_vad_end": 512.4000000059605,
+      "c_speech_end_est": 512.4000000059605,
+      "c_play_start": 5873.966666678587,
+      "c_reply_play_start": 5873.966666678587,
+      "c_play_finished": 10876.199999988079
+    },
+    "durations": {
+      "stt_ms": 780.3375830054283,
+      "llm_ttft_ms": 3047.3933340013027,
+      "first_sentence_ms": 816.9463750123978,
+      "tts_ttfa_ms": 672.2908329963684,
+      "client_vad_to_play_ms": 5361.5666666726265,
+      "client_speech_to_play_ms": 5361.5666666726265,
+      "client_vad_to_reply_play_ms": 5361.5666666726265,
+      "client_speech_to_reply_play_ms": 5361.5666666726265
+    },
+    "audio_bytes": 240000
+  },
+  {
+    "locale": "ja",
+    "status": "done",
+    "marks": {
+      "s_rx": 169481801.881125,
+      "s_turn_decided": 169481801.881125,
+      "s_stt_done": 169482555.4955,
+      "s_llm_first_token": 169485100.49425003,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169485286.316625,
+      "s_tts_first_audio": 169485768.57220802,
+      "c_vad_end": 916.0999999940395,
+      "c_speech_end_est": 916.0999999940395,
+      "c_play_start": 4917.433333327373,
+      "c_reply_play_start": 4917.433333327373,
+      "c_play_finished": 8191.300000011921
+    },
+    "durations": {
+      "stt_ms": 753.6143749952316,
+      "llm_ttft_ms": 2544.9987500309944,
+      "first_sentence_ms": 185.82237496972084,
+      "tts_ttfa_ms": 482.2555830180645,
+      "client_vad_to_play_ms": 4001.333333333333,
+      "client_speech_to_play_ms": 4001.333333333333,
+      "client_vad_to_reply_play_ms": 4001.333333333333,
+      "client_speech_to_reply_play_ms": 4001.333333333333
+    },
+    "audio_bytes": 157200
+  }
+]

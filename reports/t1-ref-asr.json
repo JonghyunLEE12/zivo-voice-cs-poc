@@ -1,0 +1,26 @@
+[
+  {
+    "locale": "en",
+    "reference": "To the north and within easy reach is the romantic and fascinating town of Sintra and which was made famous to foreigners after a glowing account of its splendours recorded by Lord Byron.",
+    "recognized": " To the north and within easy reach is the romantic and fascinating town of Cintra and which was made famous to foreigners after a glowing account of its splendorous recorded by Lord Byron.",
+    "seconds": 4.464
+  },
+  {
+    "locale": "zh-CN",
+    "reference": "pH 值以被测化学品中的氢（pH 中的 H）离子数量表示。",
+    "recognized": "pH值被测化学品中的氢,pH中的H粒子数量表示",
+    "seconds": 0.674
+  },
+  {
+    "locale": "ja",
+    "reference": "残念ながら、運転手の行動を100%の確率で予測することはできないので、交通の流れを研究することは困難です。",
+    "recognized": "残念ながら運転手の行動を100%の確率で予測することはできないので、交通の流れを研究することは困難です。",
+    "seconds": 0.72
+  },
+  {
+    "locale": "yue",
+    "reference": "兩名攝影師後來與一名需要如廁的老婦人交換。最後曼多薩被擊斃。",
+    "recognized": "兩名攝影師後来与一名需要如刺的老妨人交换,最後,猛多薩被击毙。",
+    "seconds": 0.784
+  }
+]

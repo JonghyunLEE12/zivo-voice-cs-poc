@@ -1,0 +1,12 @@
+{
+  "ollama_ps": {
+    "models": []
+  },
+  "model_processes": [],
+  "ports_listening": {
+    "8000": false,
+    "8104": false
+  },
+  "server_pid_88460_exists": false,
+  "method": "psutil process names + separate argv tokens; excludes shell command text self-matches"
+}

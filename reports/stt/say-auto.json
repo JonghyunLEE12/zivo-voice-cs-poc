@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-10-30T01:43:41.895904+00:00",
+  "model_path": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/models/hub/models--mlx-community--whisper-large-v3-turbo/snapshots/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+  "results": [
+    {
+      "locale": "en",
+      "audio_path": "reports/stt/say/en.wav",
+      "display_text": "Please check my reservation at Myeongdong Station. My booking number is Z V four eight two one.",
+      "source": "macOS say voice=Samantha",
+      "repeat": 1,
+      "result": {
+        "text": "Please check my reservation at Myeongdong Station. My booking number is ZV4821.",
+        "text_raw": "Please check my reservation at Myeongdong Station. My booking number is ZV4821.",
+        "locale": "en",
+        "lang_detected": "en",
+        "lang_prob": 0.9986103773117065,
+        "language_mode": "auto",
+        "language_used": "en",
+        "elapsed_ms": 2333.2522499840707,
+        "audio_duration_s": 5.756625,
+        "initial_prompt": "Myeongdong, Myeongdong Station, Euljiro 3-ga Station, Hongik University Station, Gyeongbokgung Station, Chungmuro Station, Incheon International Airport, AREX, Seoul Station, Hanbit Stay Myeongdong, Euljiro Lantern Hotel, Hangang Moonlight Suites, Gyeongbokgung Hanbok Experience Tour",
+        "reservation_code": "ZV-4821",
+        "engine": "whisper"
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "audio_path": "reports/stt/say/zh-CN.wav",
+      "display_text": "请帮我确认预订。司机会在仁川国际机场等我，然后送我到明洞酒店。",
+      "source": "macOS say voice=Tingting",
+      "repeat": 1,
+      "result": {
+        "text": "请帮我确认预定, 司机会在仁川国际机场等我, 然后送我到明洞酒店",
+        "text_raw": "请帮我确认预定, 司机会在仁川国际机场等我, 然后送我到明洞酒店",
+        "locale": "zh-CN",
+        "lang_detected": "zh",
+        "lang_prob": 0.9981184005737305,
+        "language_mode": "auto",
+        "language_used": "zh",
+        "elapsed_ms": 1105.040916998405,
+        "audio_duration_s": 7.2498125,
+        "initial_prompt": "明洞, 明洞站, 乙支路3街站, 弘大入口站, 景福宫站, 忠武路站, 仁川国际机场, 机场快线, 首尔站, 明洞韩光酒店, 乙支路灯笼酒店, 汉江月光套房酒店, 景福宫韩服体验之旅",
+        "reservation_code": null,
+        "engine": "whisper"
+      }
+    },
+    {
+      "locale": "zh-TW",
+      "audio_path": "reports/stt/say/zh-TW.wav",
+      "display_text": "請幫我確認訂房。從仁川國際機場搭計程車到飯店，我已經用信用卡付款了。",
+      "source": "macOS say voice=Meijia",
+      "repeat": 1,
+      "result": {
+        "text": "請幫我確認訂房, 從仁川國際機場搭計程車到飯店, 我已經用信用卡付款了",
+        "text_raw": "請幫我確認訂房, 從仁川國際機場搭計程車到飯店, 我已經用信用卡付款了",
+        "locale": "zh-TW",
+        "lang_detected": "zh",
+        "lang_prob": 0.9984434247016907,
+        "language_mode": "auto",
+        "language_used": "zh",
+        "elapsed_ms": 1079.550875001587,
+        "audio_duration_s": 7.7641875,
+        "initial_prompt": "明洞, 明洞站, 乙支路3街站, 弘大入口站, 景福宮站, 忠武路站, 仁川國際機場, 機場捷運, 首爾站, 明洞韓光飯店, 乙支路燈籠飯店, 漢江月光套房飯店, 景福宮韓服體驗行程",
+        "reservation_code": null,
+        "engine": "whisper"
+      }
+    },
+    {
+      "locale": "ja",
+      "audio_path": "reports/stt/say/ja.wav",
+      "display_text": "予約を確認してください。明洞駅から地下鉄でソウル駅まで行きます。",
+      "source": "macOS say voice=Kyoko",
+      "repeat": 1,
+      "result": {
+        "text": "予約を確認してください。 明洞駅から、 地下鉄で、 ソウル駅まで行きます。",
+        "text_raw": "予約を確認してください。 明洞駅から、 地下鉄で、 ソウル駅まで行きます。",
+        "locale": "ja",
+        "lang_detected": "ja",
+        "lang_prob": 0.9991838335990906,
+        "language_mode": "auto",
+        "language_used": "ja",
+        "elapsed_ms": 1056.834709015675,
+        "audio_duration_s": 6.1834375,
+        "initial_prompt": "明洞, 明洞駅, 乙支路3街駅, 弘大入口駅, 景福宮駅, 忠武路駅, 仁川国際空港, 空港鉄道, ソウル駅, ハンビットステイ明洞, 乙支路ランタンホテル, 漢江ムーンライトスイート, 景福宮韓服体験ツアー",
+        "reservation_code": null,
+        "engine": "whisper"
+      }
+    }
+  ]
+}

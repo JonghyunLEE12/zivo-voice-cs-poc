@@ -1,0 +1,83 @@
+{
+  "locale": "zh-CN",
+  "engine": "kokoro",
+  "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/demo-listen/zh-CN-customer.wav",
+  "audio_bytes": 586800,
+  "audio_seconds": 12.225,
+  "non_silent": true,
+  "barge_in_ack_ms": null,
+  "transport_vad_to_first_audio_ms": 4428.8378329873085,
+  "wall_ms": 5436.098374992609,
+  "warm": false,
+  "measurement_phase": "measured",
+  "playback_mode": "simulated_ack_no_speaker",
+  "events": [
+    {
+      "type": "session.ready",
+      "session_id": "947a294b-db9e-4a19-ad6a-d59e9587796d",
+      "locale": "zh-CN",
+      "tts_engine": "kokoro",
+      "normalize": "full",
+      "stt": "whisper",
+      "turn_detect": "vad"
+    },
+    {
+      "type": "stt.result",
+      "turn_num": 1,
+      "text": "你好,我想确认一下接机预定,预定号是CV7305,我姓王",
+      "text_raw": "你好,我想确认一下接机预定,预定号是CV7305,我姓王",
+      "lang_detected": null,
+      "lang_prob": null
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "您提供的预订号格式似乎有误，ZIVO的预订号应以ZV开头。"
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "请确认您的预订号是否正确，例如ZV-1234。"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 0,
+      "display_text": "您提供的预订号格式似乎有误，ZIVO的预订号应以ZV开头。",
+      "tts_text": "您提供的预订号格式似乎有误，ZIVO的预订号应以ZV开头。",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 0
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 1,
+      "display_text": "请确认您的预订号是否正确，例如ZV-1234。",
+      "tts_text": "请确认您的预订号是否正确，例如Z V 一二三四。",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 68
+    },
+    {
+      "type": "turn.done",
+      "turn_num": 1,
+      "marks": {
+        "s_rx": 173730674.927041,
+        "s_turn_decided": 173730674.927041,
+        "s_stt_done": 173731385.508416,
+        "s_llm_first_token": 173733881.64124998,
+        "s_tool_call": null,
+        "s_tool_done": null,
+        "s_first_sentence": 173734682.10512498,
+        "s_tts_first_audio": 173735094.088833,
+        "c_vad_end": 173730665.537875,
+        "c_play_start": 173735094.386958,
+        "c_reply_play_start": 173735094.386958
+      },
+      "handoff_queued": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "01e4824b-9601-44f1-a128-6e3a253a7457",
+  "ok": true,
+  "result": {
+    "result": "{\"reducedLabel\":true,\"rows\":20,\"table\":true}",
+    "origin": "http://127.0.0.1:8018/report"
+  },
+  "_meta": {
+    "runtimeId": "b270a9cc-4ce7-41e1-8bbb-7f96f6f681de"
+  }
+}

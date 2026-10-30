@@ -1,0 +1,37 @@
+{
+  "engine": "cosyvoice3",
+  "locale": "zh-CN",
+  "stream": false,
+  "file": "engines/cosyvoice3/artifacts/cosyvoice3-zh-CN.wav",
+  "sample_rate": 24000,
+  "duration_s": 3.68,
+  "rms": 0.011366897262632847,
+  "peak": 0.15264892578125,
+  "synth_ms": 8447.405,
+  "ttfa_ms": 8452.187249989947,
+  "wall_ms": 8452.262915991014,
+  "info": {
+    "engine": "cosyvoice3",
+    "model_id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "locales": [
+      "en",
+      "zh-CN",
+      "zh-TW",
+      "ja",
+      "yue"
+    ],
+    "supports_streaming": true,
+    "native_sample_rate": 24000,
+    "load_ms": 9724.150708003435,
+    "peak_mem_bytes": 4375035904,
+    "device": "mps",
+    "loaded": true,
+    "active_requests": 0,
+    "cancelled_requests": 0,
+    "completed_requests": 2,
+    "memory_note": "Peak observed max(RSS, MPS driver allocation); unified-memory figures overlap.",
+    "reference_limitations": [
+      "대만 억양 참조 없음"
+    ]
+  }
+}

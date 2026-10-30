@@ -1,0 +1,82 @@
+{
+  "id": "ecc1204f-9b10-44ef-a22e-362d8651dac4",
+  "ok": true,
+  "result": {
+    "origin": "http://127.0.0.1:8018/blind",
+    "refs": {
+      "e1": {
+        "name": "어떤 목소리가 더 자연스러운가요?",
+        "role": "heading"
+      },
+      "e10": {
+        "name": "B 발음 오류",
+        "role": "checkbox"
+      },
+      "e11": {
+        "name": "저장하고 다음 문장",
+        "role": "button"
+      },
+      "e12": {
+        "name": "English",
+        "role": "option"
+      },
+      "e13": {
+        "name": "中文 · 中国大陆",
+        "role": "option"
+      },
+      "e14": {
+        "name": "中文 · 台灣",
+        "role": "option"
+      },
+      "e15": {
+        "name": "日本語",
+        "role": "option"
+      },
+      "e16": {
+        "name": "廣東話",
+        "role": "option"
+      },
+      "e17": {
+        "name": "메모 (선택)",
+        "role": "textbox"
+      },
+      "e2": {
+        "name": "집계 보기 ↗",
+        "role": "link"
+      },
+      "e3": {
+        "name": "▶ A 듣기",
+        "role": "button"
+      },
+      "e4": {
+        "name": "▶ B 듣기",
+        "role": "button"
+      },
+      "e5": {
+        "name": "평가 언어",
+        "role": "combobox"
+      },
+      "e6": {
+        "name": "A가 더 자연스러움",
+        "role": "radio"
+      },
+      "e7": {
+        "name": "차이 없음",
+        "role": "radio"
+      },
+      "e8": {
+        "name": "B가 더 자연스러움",
+        "role": "radio"
+      },
+      "e9": {
+        "name": "A 발음 오류",
+        "role": "checkbox"
+      }
+    },
+    "snapshot": "- main\n  - sectionheader\n    - paragraph\n      - StaticText \"ZIVO · LISTENING LAB\"\n    - heading \"어떤 목소리가 더 자연스러운가요?\" [level=1, ref=e1]\n    - paragraph\n      - StaticText \"같은 문장을 두 번 듣고 비교해 주세요. 음성의 순서는 매번 무작위입니다.\"\n    - link \"집계 보기 ↗\" [ref=e2]\n  - generic\n    - LabelText\n      - StaticText \"평가 언어\"\n      - combobox \"평가 언어\" [expanded=false, ref=e5]: English\n        - MenuListPopup\n          - option \"English\" [selected, ref=e12]\n          - option \"中文 · 中国大陆\" [ref=e13]\n          - option \"中文 · 台灣\" [ref=e14]\n          - option \"日本語\" [ref=e15]\n          - option \"廣東話\" [ref=e16]\n    - blockquote\n      - StaticText \"Browser test sentence 2.\"\n    - button \"▶ A 듣기\" [ref=e3]\n    - button \"▶ B 듣기\" [ref=e4]\n    - paragraph\n      - StaticText \"두 음성을 끝까지 들으면 투표할 수 있습니다.\"\n    - form\n      - group \"자연스러움\"\n        - Legend\n          - StaticText \"자연스러움\"\n        - radio \"A가 더 자연스러움\" [checked=false, disabled, ref=e6]\n        - radio \"차이 없음\" [checked=false, disabled, ref=e7]\n        - radio \"B가 더 자연스러움\" [checked=false, disabled, ref=e8]\n        - checkbox \"A 발음 오류\" [checked=false, disabled, ref=e9]\n        - checkbox \"B 발음 오류\" [checked=false, disabled, ref=e10]\n        - LabelText\n          - StaticText \"메모 (선택)\"\n          - textbox \"메모 (선택)\" [disabled, ref=e17]\n        - button \"저장하고 다음 문장\" [disabled, ref=e11]\n  - status\n  - sectionfooter\n    - StaticText \"헤드폰 청취 권장 · 평가는 익명 음성 번호로 집계합니다. 별칭과 응답은 이 로컬 서버에 저장됩니다.\"",
+    "browserPageId": "24f479f5-d9fc-4c44-a67d-fc4d96eba0a7"
+  },
+  "_meta": {
+    "runtimeId": "b270a9cc-4ce7-41e1-8bbb-7f96f6f681de"
+  }
+}

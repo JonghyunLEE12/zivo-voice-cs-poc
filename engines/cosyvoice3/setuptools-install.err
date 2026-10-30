@@ -1,0 +1,6 @@
+Resolved 130 packages in 96ms
+Downloading setuptools (1.0MiB)
+ Downloaded setuptools
+Prepared 1 package in 202ms
+Installed 1 package in 23ms
+ + setuptools==80.10.2

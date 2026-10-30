@@ -1,0 +1,11 @@
+{
+  "id": "032d5b28-9037-4fd9-8b93-7db39dbee823",
+  "ok": true,
+  "result": {
+    "format": "png",
+    "file": "reports/blind-results.png"
+  },
+  "_meta": {
+    "runtimeId": "b270a9cc-4ce7-41e1-8bbb-7f96f6f681de"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-30T01:42:56.312647+00:00",
+  "model_path": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/models/hub/models--mlx-community--whisper-large-v3-turbo/snapshots/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+  "results": [
+    {
+      "locale": "en",
+      "audio_path": "data/refs/en/ref.wav",
+      "display_text": "To the north and within easy reach is the romantic and fascinating town of Sintra and which was made famous to foreigners after a glowing account of its splendours recorded by Lord Byron.",
+      "source": "Google FLEURS CC-BY-4.0; see data/refs/MANIFEST.json",
+      "repeat": 1,
+      "result": {
+        "text": "To the north and within easy reach is the romantic and fascinating town of Sintra and which was made famous to foreigners after a glowing account of its splendorous recorded by Lord Byron.",
+        "text_raw": "To the north and within easy reach is the romantic and fascinating town of Sintra and which was made famous to foreigners after a glowing account of its splendorous recorded by Lord Byron.",
+        "locale": "en",
+        "lang_detected": null,
+        "lang_prob": null,
+        "language_mode": "specified",
+        "language_used": "en",
+        "elapsed_ms": 4500.671167013934,
+        "audio_duration_s": 11.46,
+        "initial_prompt": "Myeongdong, Myeongdong Station, Euljiro 3-ga Station, Hongik University Station, Gyeongbokgung Station, Chungmuro Station, Incheon International Airport, AREX, Seoul Station, Hanbit Stay Myeongdong, Euljiro Lantern Hotel, Hangang Moonlight Suites, Gyeongbokgung Hanbok Experience Tour",
+        "reservation_code": null,
+        "engine": "whisper"
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "audio_path": "data/refs/zh-CN/ref.wav",
+      "display_text": "pH 值以被测化学品中的氢（pH 中的 H）离子数量表示。",
+      "source": "Google FLEURS CC-BY-4.0; see data/refs/MANIFEST.json",
+      "repeat": 1,
+      "result": {
+        "text": "pH值被测化学品中的氢, pH中的H离子数量表示",
+        "text_raw": "pH值被测化学品中的氢, pH中的H离子数量表示",
+        "locale": "zh-CN",
+        "lang_detected": null,
+        "lang_prob": null,
+        "language_mode": "specified",
+        "language_used": "zh",
+        "elapsed_ms": 709.6883750054985,
+        "audio_duration_s": 8.46,
+        "initial_prompt": "明洞, 明洞站, 乙支路3街站, 弘大入口站, 景福宫站, 忠武路站, 仁川国际机场, 机场快线, 首尔站, 明洞韩光酒店, 乙支路灯笼酒店, 汉江月光套房酒店, 景福宫韩服体验之旅",
+        "reservation_code": null,
+        "engine": "whisper"
+      }
+    },
+    {
+      "locale": "zh-TW",
+      "audio_path": "data/refs/zh-CN/ref.wav",
+      "display_text": "pH 值以被测化学品中的氢（pH 中的 H）离子数量表示。",
+      "source": "Google FLEURS CC-BY-4.0; see data/refs/MANIFEST.json",
+      "repeat": 1,
+      "result": {
+        "text": "pH值被測化學品中的氫, pH中的H, 粒子數量表示",
+        "text_raw": "pH值被測化學品中的氢, pH中的H, 粒子數量表示",
+        "locale": "zh-TW",
+        "lang_detected": null,
+        "lang_prob": null,
+        "language_mode": "specified",
+        "language_used": "zh",
+        "elapsed_ms": 593.1593340064865,
+        "audio_duration_s": 8.46,
+        "initial_prompt": "明洞, 明洞站, 乙支路3街站, 弘大入口站, 景福宮站, 忠武路站, 仁川國際機場, 機場捷運, 首爾站, 明洞韓光飯店, 乙支路燈籠飯店, 漢江月光套房飯店, 景福宮韓服體驗行程",
+        "reservation_code": null,
+        "engine": "whisper"
+      }
+    },
+    {
+      "locale": "ja",
+      "audio_path": "data/refs/ja/ref.wav",
+      "display_text": "残念ながら、運転手の行動を100%の確率で予測することはできないので、交通の流れを研究することは困難です。",
+      "source": "Google FLEURS CC-BY-4.0; see data/refs/MANIFEST.json",
+      "repeat": 1,
+      "result": {
+        "text": "残念ながら運転手の行動100%の確率で予測することはできないので交通の流れを研究することは困難です",
+        "text_raw": "残念ながら運転手の行動100%の確率で予測することはできないので交通の流れを研究することは困難です",
+        "locale": "ja",
+        "lang_detected": null,
+        "lang_prob": null,
+        "language_mode": "specified",
+        "language_used": "ja",
+        "elapsed_ms": 637.6241249963641,
+        "audio_duration_s": 11.76,
+        "initial_prompt": "明洞, 明洞駅, 乙支路3街駅, 弘大入口駅, 景福宮駅, 忠武路駅, 仁川国際空港, 空港鉄道, ソウル駅, ハンビットステイ明洞, 乙支路ランタンホテル, 漢江ムーンライトスイート, 景福宮韓服体験ツアー",
+        "reservation_code": null,
+        "engine": "whisper"
+      }
+    },
+    {
+      "locale": "yue",
+      "audio_path": "data/refs/yue/ref.wav",
+      "display_text": "兩名攝影師後來與一名需要如廁的老婦人交換。最後曼多薩被擊斃。",
+      "source": "Google FLEURS CC-BY-4.0; see data/refs/MANIFEST.json",
+      "repeat": 1,
+      "result": {
+        "text": "兩名攝影師後來與一名需要如刺的老婦人交換, 最後, 萬多薩被擊斃。",
+        "text_raw": "兩名攝影師後來與一名需要如刺的老婦人交換, 最後, 萬多薩被擊斃。",
+        "locale": "yue",
+        "lang_detected": null,
+        "lang_prob": null,
+        "language_mode": "specified",
+        "language_used": "yue",
+        "elapsed_ms": 597.1286660060287,
+        "audio_duration_s": 10.26,
+        "initial_prompt": "明洞, 明洞站, 乙支路3街站, 弘大入口站, 景福宮站, 忠武路站, 仁川國際機場, 機場快綫, 首爾站, 明洞韓光酒店, 乙支路燈籠酒店, 漢江月光套房酒店, 景福宮韓服體驗團",
+        "reservation_code": null,
+        "engine": "whisper"
+      }
+    }
+  ]
+}

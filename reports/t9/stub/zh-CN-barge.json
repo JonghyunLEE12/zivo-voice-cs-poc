@@ -1,0 +1,93 @@
+{
+  "locale": "zh-CN",
+  "engine": "kokoro",
+  "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/zh-CN.wav",
+  "audio_bytes": 2880,
+  "audio_seconds": 0.06,
+  "non_silent": true,
+  "barge_in_ack_ms": 0.9540829956531525,
+  "transport_vad_to_first_audio_ms": 10.671166002750397,
+  "wall_ms": 15.62354201078415,
+  "warm": false,
+  "measurement_phase": "measured",
+  "playback_mode": "simulated_ack_no_speaker",
+  "events": [
+    {
+      "type": "session.ready",
+      "session_id": "4701b8fb-0808-4fe3-a786-17ab1990f8f3",
+      "locale": "zh-CN",
+      "tts_engine": "kokoro",
+      "normalize": "full",
+      "stt": "whisper",
+      "turn_detect": "vad"
+    },
+    {
+      "type": "stt.result",
+      "turn_num": 1,
+      "text": "查询ZV-7305，我姓王。",
+      "text_raw": "查询ZV-7305，我姓王。",
+      "lang_detected": null,
+      "lang_prob": null
+    },
+    {
+      "type": "tool.call",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "args": {
+        "reservation_code": "ZV-7305",
+        "last_name": "王"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tool.result",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "result": {
+        "reservation_code": "ZV-7305",
+        "type": "airport_pickup",
+        "lexicon_id": "hotel_euljiro_lantern",
+        "start_at": "2026-11-07T19:30:00+09:00",
+        "origin_lexicon_id": "airport_icn",
+        "terminal": 1,
+        "total_krw": 78000,
+        "status": "confirmed",
+        "paid": true,
+        "payment_method": "credit_card",
+        "found": true,
+        "name": "乙支路灯笼酒店",
+        "origin": {
+          "name": "仁川国际机场",
+          "lexicon_id": "airport_icn"
+        }
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 0,
+      "display_text": "我帮您查一下。",
+      "tts_text": "我帮您查一下。",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "filler",
+      "first_chunk_seq": 0
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "已经查到您的预订。"
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "车费是78,000韩元。"
+    },
+    {
+      "type": "turn.cancelled",
+      "turn_num": 1,
+      "reason": "barge_in"
+    }
+  ]
+}

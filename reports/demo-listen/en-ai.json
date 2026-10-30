@@ -1,0 +1,125 @@
+{
+  "locale": "en",
+  "engine": "kokoro",
+  "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/demo-listen/en-customer.wav",
+  "audio_bytes": 748800,
+  "audio_seconds": 15.6,
+  "non_silent": true,
+  "barge_in_ack_ms": null,
+  "transport_vad_to_first_audio_ms": 827.4392500221729,
+  "wall_ms": 10363.090791970491,
+  "warm": false,
+  "measurement_phase": "measured",
+  "playback_mode": "simulated_ack_no_speaker",
+  "events": [
+    {
+      "type": "session.ready",
+      "session_id": "0fe18c45-582c-4b6a-9359-d0d2cd034edd",
+      "locale": "en",
+      "tts_engine": "kokoro",
+      "normalize": "full",
+      "stt": "whisper",
+      "turn_detect": "vad"
+    },
+    {
+      "type": "stt.result",
+      "turn_num": 1,
+      "text": "Hi, I'd like to check my hotel reservation. My booking number is ZV4821, and my last name is Carter.",
+      "text_raw": "Hi, I'd like to check my hotel reservation. My booking number is ZV4821, and my last name is Carter.",
+      "lang_detected": null,
+      "lang_prob": null
+    },
+    {
+      "type": "tool.call",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "args": {
+        "reservation_code": "ZV-4821",
+        "last_name": "Carter"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tool.result",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "result": {
+        "reservation_code": "ZV-4821",
+        "type": "hotel",
+        "lexicon_id": "hotel_hanbit_myeongdong",
+        "check_in": "2026-11-03",
+        "check_out": "2026-11-05",
+        "nights": 2,
+        "total_krw": 286000,
+        "status": "confirmed",
+        "paid": true,
+        "payment_method": "credit_card",
+        "found": true,
+        "name": "Hanbit Stay Myeongdong"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 0,
+      "display_text": "Let me check that for you.",
+      "tts_text": "Let me check that for you.",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "filler",
+      "first_chunk_seq": 0
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "Your reservation at Hanbit Stay Myeongdong is confirmed for check-in on November 3, 2026, and check-out on November 5, 2026."
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": " Would you like to know the cancellation policy?"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 1,
+      "display_text": "Your reservation at Hanbit Stay Myeongdong is confirmed for check-in on November 3, 2026, and check-out on November 5, 2026.",
+      "tts_text": "Your reservation at Hahn-bit Stay Myung-dong is confirmed for check-in on November three, two thousand twenty-six, and check-out on November five, two thousand twenty-six.",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 2
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 2,
+      "display_text": " Would you like to know the cancellation policy?",
+      "tts_text": "Would you like to know the cancellation policy?",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 116
+    },
+    {
+      "type": "turn.done",
+      "turn_num": 1,
+      "marks": {
+        "s_rx": 173719352.531708,
+        "s_turn_decided": 173719352.531708,
+        "s_stt_done": 173720163.855875,
+        "s_llm_first_token": 173721863.50158304,
+        "s_tool_call": 173720164.183958,
+        "s_tool_done": 173720164.277166,
+        "s_first_sentence": 173723274.283125,
+        "s_tts_first_audio": 173729439.798083,
+        "c_vad_end": 173719344.543666,
+        "c_play_start": 173720171.98729098,
+        "t_filler_play": 173720171.98729098,
+        "c_reply_play_start": 173729440.988166
+      },
+      "handoff_queued": false
+    }
+  ]
+}

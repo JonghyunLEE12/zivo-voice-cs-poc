@@ -1,0 +1,29 @@
+en lookup v0: PASS []
+en mismatch v0: PASS []
+en cancellation v0: FAIL ['reply differs from exact fee/refund spoken_summary']
+en human v0: PASS []
+zh-CN lookup v0: FAIL ['reply omitted/wrong booking name']
+zh-CN mismatch v0: PASS []
+zh-CN cancellation v0: PASS []
+zh-CN human v0: FAIL ["tool sequence [] != ['transfer_to_human']", 'handoff not queued', 'reply missing queue / about 3-minute wait']
+zh-TW lookup v0: FAIL ['reply omitted/wrong booking name']
+zh-TW mismatch v0: PASS []
+zh-TW cancellation v0: PASS []
+zh-TW human v0: FAIL ['reply missing queue / about 3-minute wait', 'reply claims already connected']
+Resource cooldown: model unloaded; waiting for normal pressure.
+ja lookup v0: PASS []
+ja mismatch v0: PASS []
+ja cancellation v0: FAIL ['reply differs from exact fee/refund spoken_summary']
+Resource cooldown: model unloaded; waiting for normal pressure.
+ja human v0: FAIL ["tool sequence [] != ['transfer_to_human']", 'handoff not queued', 'reply missing queue / about 3-minute wait']
+en lookup v1: PASS []
+en mismatch v1: PASS []
+Resource cooldown: model unloaded; waiting for normal pressure.
+en cancellation v1: FAIL ['reply differs from exact fee/refund spoken_summary']
+en human v1: FAIL ["tool sequence [] != ['transfer_to_human']", 'handoff not queued', 'reply missing queue / about 3-minute wait']
+zh-CN lookup v1: FAIL ['reply omitted/wrong booking name']
+Resource cooldown: model unloaded; waiting for normal pressure.
+zh-CN mismatch v1: PASS []
+zh-CN cancellation v1: PASS []
+zh-CN human v1: FAIL ["tool sequence [] != ['transfer_to_human']", 'handoff not queued', 'reply missing queue / about 3-minute wait']
+Resource cooldown: model unloaded; waiting for normal pressure.

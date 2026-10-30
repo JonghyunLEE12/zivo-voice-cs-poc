@@ -1,0 +1,53 @@
+- id: place_myeongdong
+  ko: 명동
+  display: {en: Myeongdong, zh-CN: 明洞, zh-TW: 明洞, ja: 明洞, yue: 明洞}
+  tts:     {en: Myung-dong, ja: ミョンドン}
+  aliases: [Myeong-dong, Myungdong, Myeongdong, ミョンドン, 명동]
+- id: station_myeongdong
+  ko: 명동역
+  display: {en: Myeongdong Station, zh-CN: 明洞站, zh-TW: 明洞站, ja: 明洞駅, yue: 明洞站}
+  tts:     {en: Myung-dong Station, ja: ミョンドンえき}
+- id: station_euljiro3ga
+  ko: 을지로3가역
+  display: {en: Euljiro 3-ga Station, zh-CN: 乙支路3街站, zh-TW: 乙支路3街站, ja: 乙支路3街駅, yue: 乙支路3街站}
+  tts:     {en: Ul-jee-ro Sahm-ga Station, zh-CN: 乙支路三街站, zh-TW: 乙支路三街站, ja: ウルチロサムガえき, yue: 乙支路三街站}
+  aliases: [Euljiro 3ga, Euljiro Samga, Eulji-ro 3-ga, 을지로 3가역]
+- id: station_hongik
+  ko: 홍대입구역
+  display: {en: Hongik University Station, zh-CN: 弘大入口站, zh-TW: 弘大入口站, ja: 弘大入口駅, yue: 弘大入口站}
+  tts:     {ja: ホンデイック えき}
+- id: station_gyeongbokgung
+  ko: 경복궁역
+  display: {en: Gyeongbokgung Station, zh-CN: 景福宫站, zh-TW: 景福宮站, ja: 景福宮駅, yue: 景福宮站}
+  tts:     {en: Gyung-bok-goong Station, ja: キョンボックンえき}
+- id: station_chungmuro
+  ko: 충무로역
+  display: {en: Chungmuro Station, zh-CN: 忠武路站, zh-TW: 忠武路站, ja: 忠武路駅, yue: 忠武路站}
+  tts:     {ja: チュンムロえき}
+- id: airport_icn
+  ko: 인천국제공항
+  display: {en: Incheon International Airport, zh-CN: 仁川国际机场, zh-TW: 仁川國際機場, ja: 仁川国際空港, yue: 仁川國際機場}
+  tts:     {ja: インチョンこくさいくうこう}
+- id: rail_arex
+  ko: 공항철도
+  display: {en: AREX, zh-CN: 机场快线, zh-TW: 機場捷運, ja: 空港鉄道, yue: 機場快綫}
+  tts:     {en: A-rex}
+- id: station_seoul
+  ko: 서울역
+  display: {en: Seoul Station, zh-CN: 首尔站, zh-TW: 首爾站, ja: ソウル駅, yue: 首爾站}
+- id: hotel_hanbit_myeongdong        # 가상
+  ko: 한빛 스테이 명동
+  display: {en: Hanbit Stay Myeongdong, zh-CN: 明洞韩光酒店, zh-TW: 明洞韓光飯店, ja: ハンビットステイ明洞, yue: 明洞韓光酒店}
+  tts:     {en: Hahn-bit Stay Myung-dong, ja: ハンビットステイ ミョンドン}
+- id: hotel_euljiro_lantern          # 가상
+  ko: 을지로 랜턴 호텔
+  display: {en: Euljiro Lantern Hotel, zh-CN: 乙支路灯笼酒店, zh-TW: 乙支路燈籠飯店, ja: 乙支路ランタンホテル, yue: 乙支路燈籠酒店}
+  tts:     {en: Ul-jee-ro Lantern Hotel, ja: ウルチロ ランタンホテル}
+- id: hotel_hangang_moonlight        # 가상
+  ko: 한강 문라이트 스위트
+  display: {en: Hangang Moonlight Suites, zh-CN: 汉江月光套房酒店, zh-TW: 漢江月光套房飯店, ja: 漢江ムーンライトスイート, yue: 漢江月光套房酒店}
+  tts:     {en: Hahn-gahng Moonlight Suites, ja: ハンガン ムーンライトスイート}
+- id: tour_hanbok_gyeongbokgung
+  ko: 경복궁 한복 체험 투어
+  display: {en: Gyeongbokgung Hanbok Experience Tour, zh-CN: 景福宫韩服体验之旅, zh-TW: 景福宮韓服體驗行程, ja: 景福宮韓服体験ツアー, yue: 景福宮韓服體驗團}
+  tts:     {ja: キョンボックン ハンボク体験ツアー}

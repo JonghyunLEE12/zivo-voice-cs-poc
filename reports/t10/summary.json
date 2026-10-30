@@ -1,0 +1,46 @@
+{
+  "browser": "installed Google Chrome, headless",
+  "mode": "STT/LLM/TTS stubs; actual browser Web Audio and Silero VAD",
+  "sessions": 5,
+  "normal_turns_with_client_marks": 9,
+  "barge_in_stop_ms": {
+    "en": [
+      0
+    ],
+    "zh-CN": [
+      0
+    ],
+    "zh-TW": [
+      0
+    ],
+    "ja": [
+      0
+    ],
+    "en-microphone-vad": []
+  },
+  "client_vad_to_play_ms": {
+    "en": [
+      29.466666678587558,
+      32.4666666785879,
+      27.466666678587444
+    ],
+    "zh-CN": [
+      26.66666666666663,
+      27.366666684548363,
+      26.566666672627434
+    ],
+    "zh-TW": [
+      30.66666666666663,
+      26.466666678587444,
+      27.66666666666697
+    ],
+    "ja": [
+      29.8666666547457,
+      30.766666660706505,
+      29.666666666666515
+    ],
+    "en-microphone-vad": [
+      32.233333339292585
+    ]
+  }
+}

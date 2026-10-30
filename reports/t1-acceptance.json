@@ -1,0 +1,26 @@
+{
+  "model_total_bytes": 16943466035,
+  "model_files": 168,
+  "lfs_sha256_files": 130,
+  "missing_bytes": 0,
+  "model_cache_bytes": 16968107975,
+  "disk_free_bytes": 11512614912,
+  "environments": {
+    "main": {
+      "python": "3.12.13",
+      "packages": 66
+    },
+    "mlx": {
+      "python": "3.12.13",
+      "packages": 117
+    },
+    "cosyvoice3": {
+      "python": "3.10.20",
+      "packages": 38
+    }
+  },
+  "refs": 4,
+  "ref_symlinks_verified": 10,
+  "excluded_cosy_files_absent": 3,
+  "incomplete_downloads": 0
+}

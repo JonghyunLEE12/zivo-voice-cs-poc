@@ -1,0 +1,914 @@
+[
+  {
+    "locale": "en",
+    "scenario": "lookup",
+    "prompt": "Please look up my reservation ZV-4821. My last name is Carter.",
+    "result": {
+      "type": "llm.done",
+      "session_id": "d2091e61-d864-481b-8545-c47b4965d9b9",
+      "turn_num": 1,
+      "locale": "en",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "Your reservation ZV-4821 is confirmed at Hanbit Stay Myeongdong from November 3rd to November 5th. Would you like to know about the cancellation policy?",
+      "text": "Your reservation ZV-4821 is confirmed at Hanbit Stay Myeongdong from November 3rd to November 5th. Would you like to know about the cancellation policy?",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-4821",
+            "last_name": "Carter"
+          },
+          "result": {
+            "reservation_code": "ZV-4821",
+            "type": "hotel",
+            "lexicon_id": "hotel_hanbit_myeongdong",
+            "check_in": "2026-11-03",
+            "check_out": "2026-11-05",
+            "nights": 2,
+            "total_krw": 286000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "Hanbit Stay Myeongdong"
+          }
+        }
+      ],
+      "metrics": {
+        "units": 24,
+        "unit_limit": 35,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 2973.446167015936,
+        "elapsed_ms": 3835.7632500119507,
+        "stream_chunks": 41,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "en",
+    "scenario": "mismatch",
+    "prompt": "Please look up my reservation ZV-4821. My last name is Smith.",
+    "result": {
+      "type": "llm.done",
+      "session_id": "5f032942-1e94-4035-90c5-c25c87ddc57a",
+      "turn_num": 1,
+      "locale": "en",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "I couldn't find a reservation under ZV-4821 for Smith. Could you please double-check the reservation code or your last name?",
+      "text": "I couldn't find a reservation under ZV-4821 for Smith. Could you please double-check the reservation code or your last name?",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-4821",
+            "last_name": "Smith"
+          },
+          "result": {
+            "found": false,
+            "error": "reservation_not_found",
+            "message": "Check the reservation code and guest surname.",
+            "lookup_failures": 1,
+            "transfer_required": false
+          }
+        }
+      ],
+      "metrics": {
+        "units": 20,
+        "unit_limit": 35,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 2828.2165830023587,
+        "elapsed_ms": 3477.528292016359,
+        "stream_chunks": 33,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "en",
+    "scenario": "cancellation",
+    "prompt": "My reservation is ZV-4821 and my last name is Carter. If I cancel today, what is the cancellation fee and refund?",
+    "result": {
+      "type": "llm.done",
+      "session_id": "17073c0b-35ac-4eef-8239-d3a33ec2b5ce",
+      "turn_num": 1,
+      "locale": "en",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "If you cancel today, the fee is 143,000 KRW and your refund will be 143,000 KRW. Would you like to proceed with the cancellation?",
+      "text": "If you cancel today, the fee is 143,000 KRW and your refund will be 143,000 KRW. Would you like to proceed with the cancellation?",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-4821",
+            "last_name": "Carter"
+          },
+          "result": {
+            "reservation_code": "ZV-4821",
+            "type": "hotel",
+            "lexicon_id": "hotel_hanbit_myeongdong",
+            "check_in": "2026-11-03",
+            "check_out": "2026-11-05",
+            "nights": 2,
+            "total_krw": 286000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "Hanbit Stay Myeongdong"
+          }
+        },
+        {
+          "name": "get_cancellation_policy",
+          "args": {
+            "reservation_code": "ZV-4821"
+          },
+          "result": {
+            "reservation_code": "ZV-4821",
+            "name": "Hanbit Stay Myeongdong",
+            "as_of": "2026-11-01T00:00:00+09:00",
+            "timezone": "Asia/Seoul",
+            "basis": "calendar_date",
+            "total_krw": 286000,
+            "fee_percent": 50,
+            "refund_percent": 50,
+            "cancellation_fee_krw": 143000,
+            "refund_krw": 143000,
+            "free_until": "2026-10-31",
+            "partial_until": "2026-11-02",
+            "deadline_inclusive": true,
+            "policy": {
+              "basis": "calendar_date",
+              "free_days_before": 3,
+              "partial_days_before": 1,
+              "partial_fee_percent": 50,
+              "late_fee_percent": 100
+            },
+            "cancellation_executed": false
+          }
+        }
+      ],
+      "metrics": {
+        "units": 26,
+        "unit_limit": 35,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 4362.982291990193,
+        "elapsed_ms": 5261.001874983776,
+        "stream_chunks": 46,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "en",
+    "scenario": "human",
+    "prompt": "I want to speak to a human agent, please connect me now.",
+    "result": {
+      "type": "llm.done",
+      "session_id": "7b5061bc-50f2-4832-bc52-3a9ed16fd060",
+      "turn_num": 1,
+      "locale": "en",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "You have been queued for a human agent and the wait is about 3 minutes.",
+      "text": "You have been queued for a human agent and the wait is about 3 minutes.",
+      "tools": [
+        {
+          "name": "transfer_to_human",
+          "args": {
+            "reason": "user_request",
+            "summary_ko": "사용자가 인간 상담사와 대화하고 싶어합니다."
+          },
+          "result": {
+            "queued": true,
+            "estimated_wait_min": 3
+          }
+        }
+      ],
+      "metrics": {
+        "units": 15,
+        "unit_limit": 35,
+        "length_violation": false,
+        "sentence_count": 1,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 3842.7004579862114,
+        "elapsed_ms": 4195.77108300291,
+        "stream_chunks": 19,
+        "thinking_chars": 0
+      },
+      "transferred": true
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "zh-CN",
+    "scenario": "lookup",
+    "prompt": "请帮我查询预订，预订号ZV-7305，我姓王。",
+    "result": {
+      "type": "llm.done",
+      "session_id": "4ff3f223-1699-4d74-ad55-72d93dd1fd84",
+      "turn_num": 1,
+      "locale": "zh-CN",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "您的预订已确认，是11月7日晚上7点半从仁川机场T1到乙支路灯笼酒店的接机服务。请问还需要查询其他信息吗？",
+      "text": "您的预订已确认，是11月7日晚上7点半从仁川机场T1到乙支路灯笼酒店的接机服务。请问还需要查询其他信息吗？",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-7305",
+            "last_name": "王"
+          },
+          "result": {
+            "reservation_code": "ZV-7305",
+            "type": "airport_pickup",
+            "lexicon_id": "hotel_euljiro_lantern",
+            "start_at": "2026-11-07T19:30:00+09:00",
+            "origin_lexicon_id": "airport_icn",
+            "terminal": 1,
+            "total_krw": 78000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "乙支路灯笼酒店",
+            "origin": {
+              "name": "仁川国际机场",
+              "lexicon_id": "airport_icn"
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "units": 44,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 3065.4508330044337,
+        "elapsed_ms": 3816.089500003727,
+        "stream_chunks": 39,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "zh-CN",
+    "scenario": "mismatch",
+    "prompt": "请帮我查询预订，预订号ZV-7305，我姓李。",
+    "result": {
+      "type": "llm.done",
+      "session_id": "3ba882b8-a743-40ca-b8fd-b47062c123a2",
+      "turn_num": 1,
+      "locale": "zh-CN",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "抱歉，未找到您的预订。请确认预订号或姓氏是否正确？",
+      "text": "抱歉，未找到您的预订。请确认预订号或姓氏是否正确？",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-7305",
+            "last_name": "李"
+          },
+          "result": {
+            "found": false,
+            "error": "reservation_not_found",
+            "message": "Check the reservation code and guest surname.",
+            "lookup_failures": 1,
+            "transfer_required": false
+          }
+        }
+      ],
+      "metrics": {
+        "units": 22,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 2880.1737500180025,
+        "elapsed_ms": 3208.124625001801,
+        "stream_chunks": 18,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "zh-CN",
+    "scenario": "cancellation",
+    "prompt": "预订号ZV-7305，我姓王。如果今天取消，要收多少费用，可以退多少钱？",
+    "result": {
+      "type": "llm.done",
+      "session_id": "27209ea9-6d82-4cdf-85a3-fab209dab73f",
+      "turn_num": 1,
+      "locale": "zh-CN",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "今天取消乙支路灯笼酒店无需手续费，可全额退还78000韩元。您还有其他需要帮助的吗？",
+      "text": "今天取消乙支路灯笼酒店无需手续费，可全额退还78000韩元。您还有其他需要帮助的吗？",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-7305",
+            "last_name": "王"
+          },
+          "result": {
+            "reservation_code": "ZV-7305",
+            "type": "airport_pickup",
+            "lexicon_id": "hotel_euljiro_lantern",
+            "start_at": "2026-11-07T19:30:00+09:00",
+            "origin_lexicon_id": "airport_icn",
+            "terminal": 1,
+            "total_krw": 78000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "乙支路灯笼酒店",
+            "origin": {
+              "name": "仁川国际机场",
+              "lexicon_id": "airport_icn"
+            }
+          }
+        },
+        {
+          "name": "get_cancellation_policy",
+          "args": {
+            "reservation_code": "ZV-7305"
+          },
+          "result": {
+            "reservation_code": "ZV-7305",
+            "name": "乙支路灯笼酒店",
+            "as_of": "2026-11-01T00:00:00+09:00",
+            "timezone": "Asia/Seoul",
+            "basis": "elapsed_hours",
+            "total_krw": 78000,
+            "fee_percent": 0,
+            "refund_percent": 100,
+            "cancellation_fee_krw": 0,
+            "refund_krw": 78000,
+            "free_until": "2026-11-06T19:30:00+09:00",
+            "deadline_inclusive": true,
+            "policy": {
+              "basis": "elapsed_hours",
+              "free_hours_before": 24,
+              "late_fee_percent": 50
+            },
+            "cancellation_executed": false
+          }
+        }
+      ],
+      "metrics": {
+        "units": 34,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 5093.07070801151,
+        "elapsed_ms": 5694.9404580227565,
+        "stream_chunks": 32,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "zh-CN",
+    "scenario": "human",
+    "prompt": "请现在帮我转接人工客服。",
+    "result": {
+      "type": "llm.done",
+      "session_id": "b6539a76-3582-4154-9971-9a2e222d8656",
+      "turn_num": 1,
+      "locale": "zh-CN",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "已为您排队，等待时间约3分钟。",
+      "text": "已为您排队，等待时间约3分钟。",
+      "tools": [
+        {
+          "name": "transfer_to_human",
+          "args": {
+            "reason": "user_request",
+            "summary_ko": "사용자가 현재 인력 상담원 연결을 요청했습니다."
+          },
+          "result": {
+            "queued": true,
+            "estimated_wait_min": 3
+          }
+        }
+      ],
+      "metrics": {
+        "units": 12,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 1,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 6368.671625008574,
+        "elapsed_ms": 6577.357792004477,
+        "stream_chunks": 13,
+        "thinking_chars": 0
+      },
+      "transferred": true
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "zh-TW",
+    "scenario": "lookup",
+    "prompt": "請幫我查詢訂房，訂單編號ZV-5196，我姓陳。",
+    "result": {
+      "type": "llm.done",
+      "session_id": "5b043b26-6e4b-4535-969b-996da13b96d5",
+      "turn_num": 1,
+      "locale": "zh-TW",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "您的訂單編號 ZV-5196 已確認，入住漢江月光套房飯店，11月10日至12日共兩晚。請問需要查詢取消政策嗎？",
+      "text": "您的訂單編號 ZV-5196 已確認，入住漢江月光套房飯店，11月10日至12日共兩晚。請問需要查詢取消政策嗎？",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-5196",
+            "last_name": "陳"
+          },
+          "result": {
+            "reservation_code": "ZV-5196",
+            "type": "hotel",
+            "lexicon_id": "hotel_hangang_moonlight",
+            "check_in": "2026-11-10",
+            "check_out": "2026-11-12",
+            "nights": 2,
+            "total_krw": 412000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "漢江月光套房飯店"
+          }
+        }
+      ],
+      "metrics": {
+        "units": 37,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 3091.937124991091,
+        "elapsed_ms": 3950.3115419938695,
+        "stream_chunks": 43,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "zh-TW",
+    "scenario": "mismatch",
+    "prompt": "請幫我查詢訂房，訂單編號ZV-5196，我姓李。",
+    "result": {
+      "type": "llm.done",
+      "session_id": "adec5f8b-d916-4bdf-afc4-48b1192a1db7",
+      "turn_num": 1,
+      "locale": "zh-TW",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "查無此訂房，請問訂單編號或姓氏是否有誤？",
+      "text": "查無此訂房，請問訂單編號或姓氏是否有誤？",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-5196",
+            "last_name": "李"
+          },
+          "result": {
+            "found": false,
+            "error": "reservation_not_found",
+            "message": "Check the reservation code and guest surname.",
+            "lookup_failures": 1,
+            "transfer_required": false
+          }
+        }
+      ],
+      "metrics": {
+        "units": 18,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 1,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 2890.9912499948405,
+        "elapsed_ms": 3175.5732909950893,
+        "stream_chunks": 16,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "zh-TW",
+    "scenario": "cancellation",
+    "prompt": "訂單編號ZV-5196，我姓陳。如果今天取消，要收多少手續費，可以退多少錢？",
+    "result": {
+      "type": "llm.done",
+      "session_id": "5a2d7db3-0131-4c02-99bc-1f32e7666bd6",
+      "turn_num": 1,
+      "locale": "zh-TW",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "今天取消免收手續費，全額退還四一二,○○韓元。需要我協助您辦理嗎？",
+      "text": "今天取消免收手續費，全額退還四一二,○○韓元。需要我協助您辦理嗎？",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-5196",
+            "last_name": "陳"
+          },
+          "result": {
+            "reservation_code": "ZV-5196",
+            "type": "hotel",
+            "lexicon_id": "hotel_hangang_moonlight",
+            "check_in": "2026-11-10",
+            "check_out": "2026-11-12",
+            "nights": 2,
+            "total_krw": 412000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "漢江月光套房飯店"
+          }
+        },
+        {
+          "name": "get_cancellation_policy",
+          "args": {
+            "reservation_code": "ZV-5196"
+          },
+          "result": {
+            "reservation_code": "ZV-5196",
+            "name": "漢江月光套房飯店",
+            "as_of": "2026-11-01T00:00:00+09:00",
+            "timezone": "Asia/Seoul",
+            "basis": "calendar_date",
+            "total_krw": 412000,
+            "fee_percent": 0,
+            "refund_percent": 100,
+            "cancellation_fee_krw": 0,
+            "refund_krw": 412000,
+            "free_until": "2026-11-07",
+            "partial_until": "2026-11-09",
+            "deadline_inclusive": true,
+            "policy": {
+              "basis": "calendar_date",
+              "free_days_before": 3,
+              "partial_days_before": 1,
+              "partial_fee_percent": 50,
+              "late_fee_percent": 100
+            },
+            "cancellation_executed": false
+          }
+        }
+      ],
+      "metrics": {
+        "units": 27,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 4365.447250020225,
+        "elapsed_ms": 4932.150250009727,
+        "stream_chunks": 31,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [
+      "reply omitted/wrong refund amount"
+    ],
+    "passed": false
+  },
+  {
+    "locale": "zh-TW",
+    "scenario": "human",
+    "prompt": "請現在幫我轉接真人客服。",
+    "result": {
+      "type": "llm.done",
+      "session_id": "b46b985e-9200-46e1-9c72-f8f8d46248f7",
+      "turn_num": 1,
+      "locale": "zh-TW",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "已為您轉接真人客服，目前排隊中，預計等待約三分鐘。",
+      "text": "已為您轉接真人客服，目前排隊中，預計等待約三分鐘。",
+      "tools": [
+        {
+          "name": "transfer_to_human",
+          "args": {
+            "reason": "user_request",
+            "summary_ko": "고객이 현재 인간 상담원 연결을 요청했습니다."
+          },
+          "result": {
+            "queued": true,
+            "estimated_wait_min": 3
+          }
+        }
+      ],
+      "metrics": {
+        "units": 22,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 1,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 3775.5589589942247,
+        "elapsed_ms": 4126.538709009765,
+        "stream_chunks": 20,
+        "thinking_chars": 0
+      },
+      "transferred": true
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "ja",
+    "scenario": "lookup",
+    "prompt": "予約を確認してください。予約番号はZV-2610、名字は佐藤です。",
+    "result": {
+      "type": "llm.done",
+      "session_id": "d99484b9-e051-4ac2-876b-917be465a3d9",
+      "turn_num": 1,
+      "locale": "ja",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "佐藤様、予約番号ZV-2610の景福宮韓服体験ツアーが確認できました。ご不明な点はございますか。",
+      "text": "佐藤様、予約番号ZV-2610の景福宮韓服体験ツアーが確認できました。ご不明な点はございますか。",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-2610",
+            "last_name": "佐藤"
+          },
+          "result": {
+            "reservation_code": "ZV-2610",
+            "type": "tour",
+            "lexicon_id": "tour_hanbok_gyeongbokgung",
+            "start_at": "2026-11-05T10:00:00+09:00",
+            "meeting_lexicon_id": "station_gyeongbokgung",
+            "meeting_exit": 5,
+            "guests": 2,
+            "total_krw": 130000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "景福宮韓服体験ツアー",
+            "meeting": {
+              "name": "景福宮駅",
+              "lexicon_id": "station_gyeongbokgung"
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "units": 48,
+        "unit_limit": 80,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 3024.750042008236,
+        "elapsed_ms": 3690.4786670056637,
+        "stream_chunks": 35,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "ja",
+    "scenario": "mismatch",
+    "prompt": "予約を確認してください。予約番号はZV-2610、名字は田中です。",
+    "result": {
+      "type": "llm.done",
+      "session_id": "d9ea2364-bff3-4ebe-9e66-c6384dd009eb",
+      "turn_num": 1,
+      "locale": "ja",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "申し訳ありませんが、予約番号 ZV-2610 とお名前「田中」の一致する予約が見つかりませんでした。もう一度ご確認くださいか？",
+      "text": "申し訳ありませんが、予約番号 ZV-2610 とお名前「田中」の一致する予約が見つかりませんでした。もう一度ご確認くださいか？",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-2610",
+            "last_name": "田中"
+          },
+          "result": {
+            "found": false,
+            "error": "reservation_not_found",
+            "message": "Check the reservation code and guest surname.",
+            "lookup_failures": 1,
+            "transfer_required": false
+          }
+        }
+      ],
+      "metrics": {
+        "units": 61,
+        "unit_limit": 80,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 2914.8591670091264,
+        "elapsed_ms": 3607.823875005124,
+        "stream_chunks": 36,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [],
+    "passed": true
+  },
+  {
+    "locale": "ja",
+    "scenario": "cancellation",
+    "prompt": "予約番号ZV-2610、名字は佐藤です。今日キャンセルした場合、キャンセル料と返金額はいくらですか。",
+    "result": {
+      "type": "llm.done",
+      "session_id": "c3b69dfa-827f-44d7-954f-3db3afa27b8f",
+      "turn_num": 1,
+      "locale": "ja",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "キャンセル料はゼロで、全額の一萬三千韓ウォンの返金があります。他に何かお手伝いしましょうか。",
+      "text": "キャンセル料はゼロで、全額の一萬三千韓ウォンの返金があります。他に何かお手伝いしましょうか。",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-2610",
+            "last_name": "佐藤"
+          },
+          "result": {
+            "reservation_code": "ZV-2610",
+            "type": "tour",
+            "lexicon_id": "tour_hanbok_gyeongbokgung",
+            "start_at": "2026-11-05T10:00:00+09:00",
+            "meeting_lexicon_id": "station_gyeongbokgung",
+            "meeting_exit": 5,
+            "guests": 2,
+            "total_krw": 130000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "景福宮韓服体験ツアー",
+            "meeting": {
+              "name": "景福宮駅",
+              "lexicon_id": "station_gyeongbokgung"
+            }
+          }
+        },
+        {
+          "name": "get_cancellation_policy",
+          "args": {
+            "reservation_code": "ZV-2610"
+          },
+          "result": {
+            "reservation_code": "ZV-2610",
+            "name": "景福宮韓服体験ツアー",
+            "as_of": "2026-11-01T00:00:00+09:00",
+            "timezone": "Asia/Seoul",
+            "basis": "calendar_date",
+            "total_krw": 130000,
+            "fee_percent": 0,
+            "refund_percent": 100,
+            "cancellation_fee_krw": 0,
+            "refund_krw": 130000,
+            "free_until": "2026-11-03",
+            "deadline_inclusive": true,
+            "policy": {
+              "basis": "calendar_date",
+              "free_days_before": 2,
+              "late_fee_percent": 100
+            },
+            "cancellation_executed": false
+          }
+        }
+      ],
+      "metrics": {
+        "units": 46,
+        "unit_limit": 80,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 4401.800416992046,
+        "elapsed_ms": 4950.505749991862,
+        "stream_chunks": 31,
+        "thinking_chars": 0
+      },
+      "transferred": false
+    },
+    "errors": [
+      "reply omitted/wrong refund amount"
+    ],
+    "passed": false
+  },
+  {
+    "locale": "ja",
+    "scenario": "human",
+    "prompt": "人間の担当者につないでください。",
+    "result": {
+      "type": "llm.done",
+      "session_id": "439aa447-eec0-40a2-b437-98af7392f23b",
+      "turn_num": 1,
+      "locale": "ja",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "人間の担当者におつなぎします。お待ちいただく時間は約3分です。",
+      "text": "人間の担当者におつなぎします。お待ちいただく時間は約3分です。",
+      "tools": [
+        {
+          "name": "transfer_to_human",
+          "args": {
+            "reason": "user_request",
+            "summary_ko": "고객이 인간 담당자에게 연결을 요청했습니다."
+          },
+          "result": {
+            "queued": true,
+            "estimated_wait_min": 3
+          }
+        }
+      ],
+      "metrics": {
+        "units": 31,
+        "unit_limit": 80,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 4030.183124996256,
+        "elapsed_ms": 4341.546834009932,
+        "stream_chunks": 18,
+        "thinking_chars": 0
+      },
+      "transferred": true
+    },
+    "errors": [],
+    "passed": true
+  }
+]

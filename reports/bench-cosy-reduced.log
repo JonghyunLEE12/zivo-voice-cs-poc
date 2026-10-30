@@ -1,0 +1,16 @@
+{"engine": "cosyvoice3", "sentence_id": "zh-TW-04", "normalize": "full", "repeat": 0, "rtf": 2.3101118559173073, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "zh-TW-05", "normalize": "full", "repeat": 0, "rtf": 2.2048607502208477, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "zh-TW-06", "normalize": "full", "repeat": 0, "rtf": 2.057057011973628, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "zh-TW-07", "normalize": "full", "repeat": 0, "rtf": 2.480608832925876, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "zh-TW-08", "normalize": "full", "repeat": 0, "rtf": 2.1991777987106476, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "ja-01", "normalize": "full", "repeat": 0, "rtf": 3.7138337530965044, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "ja-02", "normalize": "full", "repeat": 0, "rtf": 2.530374346127681, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "ja-03", "normalize": "full", "repeat": 0, "rtf": 2.867287161910275, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "ja-04", "normalize": "full", "repeat": 0, "rtf": 2.538124237551993, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "ja-05", "normalize": "full", "repeat": 0, "rtf": 2.342860605556631, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "ja-06", "normalize": "full", "repeat": 0, "rtf": 2.4406403041820526, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "ja-07", "normalize": "full", "repeat": 0, "rtf": 2.3481429775253337, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "ja-08", "normalize": "full", "repeat": 0, "rtf": 2.6022371822890342, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "yue-01", "normalize": "full", "repeat": 0, "rtf": 2.931227186702585, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "yue-02", "normalize": "full", "repeat": 0, "rtf": 2.412485491630046, "failure": null}
+{"engine": "cosyvoice3", "sentence_id": "yue-03", "normalize": "full", "repeat": 0, "rtf": 2.8288650271766214, "failure": null}

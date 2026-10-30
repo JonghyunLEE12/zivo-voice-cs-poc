@@ -1,0 +1,34 @@
+{
+  "path": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/models/hub/models--pipecat-ai--smart-turn-v3/snapshots/f766f81d3cfdf7737ac64aad813d91bbfd56bf93/smart-turn-v3.2-cpu.onnx",
+  "bytes": 8679182,
+  "results": [
+    {
+      "locale": "en",
+      "model": "smart-turn-v3.2-cpu",
+      "probability": 0.9660363793373108,
+      "complete": true,
+      "inference_ms": 74.68495800276287
+    },
+    {
+      "locale": "zh-CN",
+      "model": "smart-turn-v3.2-cpu",
+      "probability": 0.20764753222465515,
+      "complete": false,
+      "inference_ms": 40.50299999653362
+    },
+    {
+      "locale": "zh-TW",
+      "model": "smart-turn-v3.2-cpu",
+      "probability": 0.42187100648880005,
+      "complete": false,
+      "inference_ms": 42.2938329866156
+    },
+    {
+      "locale": "ja",
+      "model": "smart-turn-v3.2-cpu",
+      "probability": 0.9870367050170898,
+      "complete": true,
+      "inference_ms": 39.5092079997994
+    }
+  ]
+}

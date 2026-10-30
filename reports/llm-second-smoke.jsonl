@@ -1,0 +1,34 @@
+{"type": "tool.detected", "name": "lookup_reservation", "elapsed_ms": 2910.9543329977896}
+{"type": "tool.call", "name": "lookup_reservation", "args": {"reservation_code": "ZV-4821", "last_name": "Carter"}}
+{"type": "tool.result", "name": "lookup_reservation", "result": {"reservation_code": "ZV-4821", "type": "hotel", "lexicon_id": "hotel_hanbit_myeongdong", "check_in": "2026-11-03", "check_out": "2026-11-05", "nights": 2, "total_krw": 286000, "status": "confirmed", "paid": true, "payment_method": "credit_card", "found": true, "name": "Hanbit Stay Myeongdong"}}
+{"type": "llm.delta", "text": "Your"}
+{"type": "llm.delta", "text": " booking"}
+{"type": "llm.delta", "text": " at"}
+{"type": "llm.delta", "text": " Han"}
+{"type": "llm.delta", "text": "bit"}
+{"type": "llm.delta", "text": " Stay"}
+{"type": "llm.delta", "text": " My"}
+{"type": "llm.delta", "text": "e"}
+{"type": "llm.delta", "text": "ong"}
+{"type": "llm.delta", "text": "dong"}
+{"type": "llm.delta", "text": " is"}
+{"type": "llm.delta", "text": " confirmed"}
+{"type": "llm.delta", "text": " for"}
+{"type": "llm.delta", "text": " November"}
+{"type": "llm.delta", "text": " 3"}
+{"type": "llm.delta", "text": "rd"}
+{"type": "llm.delta", "text": " to"}
+{"type": "llm.delta", "text": " 5"}
+{"type": "llm.delta", "text": "th"}
+{"type": "llm.delta", "text": "."}
+{"type": "llm.delta", "text": " Would"}
+{"type": "llm.delta", "text": " you"}
+{"type": "llm.delta", "text": " like"}
+{"type": "llm.delta", "text": " to"}
+{"type": "llm.delta", "text": " know"}
+{"type": "llm.delta", "text": " about"}
+{"type": "llm.delta", "text": " the"}
+{"type": "llm.delta", "text": " cancellation"}
+{"type": "llm.delta", "text": " policy"}
+{"type": "llm.delta", "text": "?"}
+{"type": "llm.done", "session_id": "2b93bde7-41b0-46e1-bfce-b81d41a56cee", "turn_num": 1, "locale": "en", "model": "qwen3.5:35b-a3b", "think": false, "raw_text": "Your booking at Hanbit Stay Myeongdong is confirmed for November 3rd to 5th. Would you like to know about the cancellation policy?", "text": "Your booking at Hanbit Stay Myeongdong is confirmed for November 3rd to 5th. Would you like to know about the cancellation policy?", "tools": [{"name": "lookup_reservation", "args": {"reservation_code": "ZV-4821", "last_name": "Carter"}, "result": {"reservation_code": "ZV-4821", "type": "hotel", "lexicon_id": "hotel_hanbit_myeongdong", "check_in": "2026-11-03", "check_out": "2026-11-05", "nights": 2, "total_krw": 286000, "status": "confirmed", "paid": true, "payment_method": "credit_card", "found": true, "name": "Hanbit Stay Myeongdong"}}], "metrics": {"units": 22, "unit_limit": 35, "length_violation": false, "sentence_count": 2, "sentence_violation": false, "script_changed_chars": 0, "first_token_ms": 3528.9242079888936, "elapsed_ms": 4327.24195800256, "stream_chunks": 33, "thinking_chars": 0}, "transferred": false}

@@ -1,0 +1,114 @@
+{
+  "id": "0f728a58-b8ab-48dc-88f7-2af625f443ea",
+  "ok": true,
+  "result": {
+    "origin": "http://127.0.0.1:8018/blind/results",
+    "refs": {
+      "e1": {
+        "name": "블라인드 평가 집계",
+        "role": "heading"
+      },
+      "e10": {
+        "name": "en",
+        "role": "option"
+      },
+      "e11": {
+        "name": "zh-CN",
+        "role": "option"
+      },
+      "e12": {
+        "name": "zh-TW",
+        "role": "option"
+      },
+      "e13": {
+        "name": "ja",
+        "role": "option"
+      },
+      "e14": {
+        "name": "yue",
+        "role": "option"
+      },
+      "e15": {
+        "name": "전체",
+        "role": "option"
+      },
+      "e16": {
+        "name": "en",
+        "role": "option"
+      },
+      "e17": {
+        "name": "zh-CN",
+        "role": "option"
+      },
+      "e18": {
+        "name": "zh-TW",
+        "role": "option"
+      },
+      "e19": {
+        "name": "ja",
+        "role": "option"
+      },
+      "e2": {
+        "name": "← 비교 참여하기",
+        "role": "link"
+      },
+      "e20": {
+        "name": "yue",
+        "role": "option"
+      },
+      "e21": {
+        "name": "ko",
+        "role": "option"
+      },
+      "e22": {
+        "name": "기타",
+        "role": "option"
+      },
+      "e23": {
+        "name": "전체",
+        "role": "option"
+      },
+      "e24": {
+        "name": "헤드폰",
+        "role": "option"
+      },
+      "e25": {
+        "name": "스피커",
+        "role": "option"
+      },
+      "e3": {
+        "name": "발음 오류 표시율",
+        "role": "heading"
+      },
+      "e4": {
+        "name": "JSON 내보내기",
+        "role": "link"
+      },
+      "e5": {
+        "name": "CSV 내보내기",
+        "role": "link"
+      },
+      "e6": {
+        "name": "문장 언어",
+        "role": "combobox"
+      },
+      "e7": {
+        "name": "평가자 모국어",
+        "role": "combobox"
+      },
+      "e8": {
+        "name": "장치",
+        "role": "combobox"
+      },
+      "e9": {
+        "name": "전체",
+        "role": "option"
+      }
+    },
+    "snapshot": "- main\n  - sectionheader\n    - paragraph\n      - StaticText \"ZIVO · LISTENING LAB\"\n    - heading \"블라인드 평가 집계\" [level=1, ref=e1]\n    - paragraph\n      - StaticText \"음성 번호는 모든 평가에서 동일합니다. 왼쪽 음성 선호 · 차이 없음 · 오른쪽 음성 선호 순서로 표시합니다.\"\n    - link \"← 비교 참여하기\" [ref=e2]\n  - generic\n    - LabelText\n      - StaticText \"문장 언어\"\n      - combobox \"문장 언어\" [expanded=false, ref=e6]: 전체\n        - MenuListPopup\n          - option \"전체\" [selected, ref=e9]\n          - option \"en\" [ref=e10]\n          - option \"zh-CN\" [ref=e11]\n          - option \"zh-TW\" [ref=e12]\n          - option \"ja\" [ref=e13]\n          - option \"yue\" [ref=e14]\n    - LabelText\n      - StaticText \"평가자 모국어\"\n      - combobox \"평가자 모국어\" [expanded=false, ref=e7]: 전체\n        - MenuListPopup\n          - option \"전체\" [selected, ref=e15]\n          - option \"en\" [ref=e16]\n          - option \"zh-CN\" [ref=e17]\n          - option \"zh-TW\" [ref=e18]\n          - option \"ja\" [ref=e19]\n          - option \"yue\" [ref=e20]\n          - option \"ko\" [ref=e21]\n          - option \"기타\" [ref=e22]\n    - LabelText\n      - StaticText \"장치\"\n      - combobox \"장치\" [expanded=false, ref=e8]: 전체\n        - MenuListPopup\n          - option \"전체\" [selected, ref=e23]\n          - option \"헤드폰\" [ref=e24]\n          - option \"스피커\" [ref=e25]\n    - paragraph\n      - StaticText \"총 10개 응답\"\n    - paragraph\n      - StaticText \"대만 억양은 모국어 zh-TW 응답만 따로 확인하세요. 소규모 응답으로 품질 우열을 확정할 수 없습니다.\"\n    - generic\n      - strong\n        - StaticText \"en · Voice 1 / Voice 2\"\n      - generic \"0.0% / 0.0% / 100.0%\"\n      - paragraph\n        - StaticText \"0.0% / 0.0% / 100.0% · n=1 · 동점 제외 왼쪽 승률 0.0% · 양측 부호검정 p=1.0000\"\n      - strong\n        - StaticText \"en · Voice 1 / Voice 3\"\n      - generic \"50.0% / 0.0% / 50.0%\"\n      - paragraph\n        - StaticText \"50.0% / 0.0% / 50.0% · n=2 · 동점 제외 왼쪽 승률 50.0% · 양측 부호검정 p=1.0000\"\n      - strong\n        - StaticText \"en · Voice 1 / Voice 4\"\n      - generic \"0.0% / 100.0% / 0.0%\"\n      - paragraph\n        - StaticText \"0.0% / 100.0% / 0.0% · n=1 · 동점 제외 왼쪽 승률 — · 양측 부호검정 p=1.0000\"\n      - strong\n        - StaticText \"en · Voice 2 / Voice 3\"\n      - generic \"50.0% / 50.0% / 0.0%\"\n      - paragraph\n        - StaticText \"50.0% / 50.0% / 0.0% · n=2 · 동점 제외 왼쪽 승률 100.0% · 양측 부호검정 p=1.0000\"\n      - strong\n        - StaticText \"en · Voice 2 / Voice 4\"\n      - generic \"0.0% / 33.3% / 66.7%\"\n      - paragraph\n        - StaticText \"0.0% / 33.3% / 66.7% · n=3 · 동점 제외 왼쪽 승률 0.0% · 양측 부호검정 p=0.5000\"\n      - strong\n        - StaticText \"en · Voice 3 / Voice 4\"\n      - generic \"0.0% / 0.0% / 100.0%\"\n      - paragraph\n        - StaticText \"0.0% / 0.0% / 100.0% · n=1 · 동점 제외 왼쪽 승률 0.0% · 양측 부호검정 p=1.0000\"\n    - heading \"발음 오류 표시율\" [level=2, ref=e3]\n    - generic\n      - paragraph\n        - StaticText \"Voice 1: 0.0% (0/4)\"\n      - paragraph\n        - StaticText \"Voice 2: 0.0% (0/6)\"\n      - paragraph\n        - StaticText \"Voice 3: 0.0% (0/5)\"\n      - paragraph\n        - StaticText \"Voice 4: 0.0% (0/5)\"\n    - link \"JSON 내보내기\" [ref=e4]\n    - link \"CSV 내보내기\" [ref=e5]\n  - status",
+    "browserPageId": "24f479f5-d9fc-4c44-a67d-fc4d96eba0a7"
+  },
+  "_meta": {
+    "runtimeId": "b270a9cc-4ce7-41e1-8bbb-7f96f6f681de"
+  }
+}

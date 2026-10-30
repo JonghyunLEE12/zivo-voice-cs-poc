@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "real_generated_audio_played": true,
+  "votes_added": 0,
+  "network_records": 9,
+  "engine_identifier_leaks": 0,
+  "playback_gates": {
+    "afterA": true,
+    "afterBoth": false,
+    "before": true,
+    "status": "",
+    "votes": 0
+  }
+}

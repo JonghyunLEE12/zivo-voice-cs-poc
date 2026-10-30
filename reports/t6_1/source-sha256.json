@@ -1,0 +1,18 @@
+{
+  "server/llm/ollama_client.py": "0c2a284e62972074655d434858b8079d72b855360734734034810f5bbb90a568",
+  "server/llm/fake_db.py": "97bfe228cc31c9538ae77e2f9ece43c36ad12c7f5fbef7d137030bd4822151a6",
+  "server/llm/prefetch.py": "8dce6e3806ec8f03dc07fa34d75be45212a9dba83e69fe941e99a7ce7a8c4c7d",
+  "server/llm/sentences.py": "c979a9f600acb840541708e034c4f4a4460b3a6206baf15963bedd4b8c553bc8",
+  "server/llm/prompts/system.md.j2": "8ee13ca0e6e72f6e56a4407e6ac177b8b6e0c1508376bf693f865e03badaf7f2",
+  "server/llm/README.md": "702b85c9a38b46e744078f59458691498d1b2eaa34aa141d5600bfb0c87e8018",
+  "server/normalize/num_zh.py": "91758d07fd10f34e4db16c5a8ea91db8dbda3d1b8f9240d6f4c996e8e1d8952e",
+  "server/normalize/num_ja.py": "13a3f81b8eeb1ac3381426a8aa0b9398e5512e439458a95f204b9dec1130baab",
+  "scripts/test_llm_scenarios.py": "629d40b9f6c15dac1780ed420e4ff9e1d93ce632f36c43a39047e78c4156aa45",
+  "scripts/test_llm_dialogue.py": "270d22e587ad8a185fa0eeabab60782d4c5b88a03cb4b2d256ef01d3c622de51",
+  "scripts/llm_resources.py": "2739deaf01903b359c9eb79c685e21ddccbc2c6e87f6c173e237bd999aede1d6",
+  "scripts/bench_llm_review.py": "052f391f80a24062578f1f52dec8edc9e7d983c4a3a70f8cb8dbaebb02afdcb8",
+  "scripts/report_llm_review.py": "e2bbf323dd6344157325aacf504f4a58b3a3ada62eada2088671b5b2622c85f6",
+  "tests/test_llm.py": "7068b2efb42afd1b963d09c2a8f5bb3d9f4e4b58a69b0103da3c8f9bf6a787d6",
+  "tests/test_normalize.py": "e44e4d58b554a08d9b7dc4e8eae47d295c83b64971992b3ca1dc928bafcedddf",
+  "tests/test_llm_review.py": "5785f15fdcd42055cd20f8f9c9b26cd565e9ddcfbcd2414b0796e1f7b472876d"
+}

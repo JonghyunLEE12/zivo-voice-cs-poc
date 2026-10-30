@@ -1,0 +1,14 @@
+{
+  "routes": {
+    "/": 200,
+    "/blind": 200,
+    "/blind/results": 200,
+    "/report": 200,
+    "/api/report/sessions": 200
+  },
+  "toggle": "vad -> vad+smartturn",
+  "page_errors": [],
+  "calls": {
+    "kokoro": 9
+  }
+}

@@ -1,0 +1,616 @@
+[
+  {
+    "locale": "en",
+    "session_id": "8bf41cfb-2f06-4dfc-be30-cb8964e6d899",
+    "status": "done",
+    "revision": 5,
+    "marks": {
+      "s_rx": 168920482.062166,
+      "s_turn_decided": 168920482.062166,
+      "s_stt_done": 168921107.93150002,
+      "s_llm_first_token": 168921206.82479098,
+      "s_tool_call": 168921108.142333,
+      "s_tool_done": 168921108.19233298,
+      "s_first_sentence": 168922255.827958,
+      "s_tts_first_audio": 168922821.96445802,
+      "c_vad_end": 168920477.461375,
+      "c_play_start": 168921112.671916,
+      "t_filler_play": 168921112.671916,
+      "c_reply_play_start": 168922822.171583,
+      "c_play_finished": 168923038.944666
+    },
+    "durations": {
+      "stt_ms": 625.86933401227,
+      "llm_ttft_ms": 98.89329096674919,
+      "first_sentence_ms": 1049.0031670033932,
+      "tts_ttfa_ms": 566.136500030756,
+      "client_vad_to_play_ms": 635.210541009903,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 2344.7102079987526,
+      "client_speech_to_reply_play_ms": null
+    },
+    "all_server_keys": true,
+    "null_server_marks": [],
+    "stt": "Please find Reservation ZV4821. My surname is Carter.",
+    "reply": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026. Would you like to know the cancellation policy?",
+    "tools": [
+      {
+        "type": "tool.call",
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-4821",
+          "last_name": "Carter"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-4821",
+          "type": "hotel",
+          "lexicon_id": "hotel_hanbit_myeongdong",
+          "check_in": "2026-11-03",
+          "check_out": "2026-11-05",
+          "nights": 2,
+          "total_krw": 286000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "Hanbit Stay Myeongdong"
+        },
+        "source": "server_prefetch"
+      }
+    ],
+    "spoken_text": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026. Would you like to know the cancellation policy?",
+    "llm_metrics": {
+      "units": 24,
+      "unit_limit": 35,
+      "length_violation": false,
+      "sentence_count": 2,
+      "sentence_violation": false,
+      "script_changed_chars": 0,
+      "first_token_ms": 98.74187500099652,
+      "first_sentence_ms": 1147.6969169743825,
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed_ms": 1147.5401660136413,
+          "first_token_ms": 98.74187500099652,
+          "tool_calls": 0,
+          "total_duration": 1136728458,
+          "load_duration": 3025416,
+          "prompt_eval_count": 1283,
+          "prompt_eval_duration": 62611000,
+          "eval_count": 44,
+          "eval_duration": 1045019000,
+          "done_reason": "stop"
+        }
+      ],
+      "llm_rounds": 1,
+      "elapsed_ms": 1151.5525829745457,
+      "stream_chunks": 41,
+      "thinking_chars": 0
+    },
+    "barge_in_ack_ms": null
+  },
+  {
+    "locale": "zh-CN",
+    "session_id": "62194c9c-69db-4116-ab75-4c2e83c6dc71",
+    "status": "done",
+    "revision": 3,
+    "marks": {
+      "s_rx": 168923745.659125,
+      "s_turn_decided": 168923745.659125,
+      "s_stt_done": 168924384.0585,
+      "s_llm_first_token": 168926827.94558302,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 168927398.89766598,
+      "s_tts_first_audio": 168928067.673666,
+      "c_vad_end": 168923741.4305,
+      "c_play_start": 168928068.019291,
+      "c_reply_play_start": 168928068.019291,
+      "c_play_finished": 168928097.9275
+    },
+    "durations": {
+      "stt_ms": 638.3993749916553,
+      "llm_ttft_ms": 2443.8870830237865,
+      "first_sentence_ms": 570.9520829617977,
+      "tts_ttfa_ms": 668.7760000228882,
+      "client_vad_to_play_ms": 4326.588791012764,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 4326.588791012764,
+      "client_speech_to_reply_play_ms": null
+    },
+    "all_server_keys": true,
+    "null_server_marks": [
+      "s_tool_call",
+      "s_tool_done"
+    ],
+    "stt": "请查询预定号CV7305,我姓王",
+    "reply": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+    "tools": [],
+    "spoken_text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+    "llm_metrics": {
+      "units": 20,
+      "unit_limit": 60,
+      "length_violation": false,
+      "sentence_count": 1,
+      "sentence_violation": false,
+      "script_changed_chars": 0,
+      "first_token_ms": 2443.723417003639,
+      "first_sentence_ms": 3014.6135420072824,
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed_ms": 3009.595207986422,
+          "first_token_ms": 2443.723417003639,
+          "tool_calls": 0,
+          "total_duration": 3002358875,
+          "load_duration": 2114792,
+          "prompt_eval_count": 1123,
+          "prompt_eval_duration": 2384643000,
+          "eval_count": 24,
+          "eval_duration": 570676000,
+          "done_reason": "stop"
+        }
+      ],
+      "llm_rounds": 1,
+      "elapsed_ms": 3015.4535000037868,
+      "stream_chunks": 24,
+      "thinking_chars": 0
+    },
+    "barge_in_ack_ms": null
+  },
+  {
+    "locale": "zh-TW",
+    "session_id": "97203eef-4ab0-484f-b492-bbc5fbeb1a34",
+    "status": "done",
+    "revision": 5,
+    "marks": {
+      "s_rx": 168928404.24175,
+      "s_turn_decided": 168928404.24175,
+      "s_stt_done": 168929096.84645802,
+      "s_llm_first_token": 168931872.535958,
+      "s_tool_call": 168929096.999208,
+      "s_tool_done": 168929097.047291,
+      "s_first_sentence": 168933175.193375,
+      "s_tts_first_audio": 168933910.741625,
+      "c_vad_end": 168928397.037166,
+      "c_play_start": 168929104.786416,
+      "t_filler_play": 168929104.786416,
+      "c_reply_play_start": 168933913.876333,
+      "c_play_finished": 168934150.914
+    },
+    "durations": {
+      "stt_ms": 692.6047080159187,
+      "llm_ttft_ms": 2775.689499974251,
+      "first_sentence_ms": 1302.65741699934,
+      "tts_ttfa_ms": 735.5482500195503,
+      "client_vad_to_play_ms": 707.7492499947548,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 5516.839166998863,
+      "client_speech_to_reply_play_ms": null
+    },
+    "all_server_keys": true,
+    "null_server_marks": [],
+    "stt": "請查詢訂單編號ZV5196, 我姓陳",
+    "reply": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。請問您需要查詢其他資訊嗎？",
+    "tools": [
+      {
+        "type": "tool.call",
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-5196",
+          "last_name": "陳"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-5196",
+          "type": "hotel",
+          "lexicon_id": "hotel_hangang_moonlight",
+          "check_in": "2026-11-10",
+          "check_out": "2026-11-12",
+          "nights": 2,
+          "total_krw": 412000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "漢江月光套房飯店"
+        },
+        "source": "server_prefetch"
+      }
+    ],
+    "spoken_text": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。請問您需要查詢其他資訊嗎？",
+    "llm_metrics": {
+      "units": 45,
+      "unit_limit": 60,
+      "length_violation": false,
+      "sentence_count": 2,
+      "sentence_violation": false,
+      "script_changed_chars": 0,
+      "first_token_ms": 2775.574917002814,
+      "first_sentence_ms": 4078.177416988183,
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed_ms": 4076.6097080195323,
+          "first_token_ms": 2775.574917002814,
+          "tool_calls": 0,
+          "total_duration": 4061109916,
+          "load_duration": 3053041,
+          "prompt_eval_count": 1312,
+          "prompt_eval_duration": 2720390000,
+          "eval_count": 52,
+          "eval_duration": 1295426000,
+          "done_reason": "stop"
+        }
+      ],
+      "llm_rounds": 1,
+      "elapsed_ms": 4082.1995839942247,
+      "stream_chunks": 52,
+      "thinking_chars": 0
+    },
+    "barge_in_ack_ms": null
+  },
+  {
+    "locale": "ja",
+    "session_id": "d03e3401-7f9b-4d8e-a721-e1c8bb577a75",
+    "status": "done",
+    "revision": 3,
+    "marks": {
+      "s_rx": 168934556.69970798,
+      "s_turn_decided": 168934556.69970798,
+      "s_stt_done": 168935262.227833,
+      "s_llm_first_token": 168937741.52387503,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 168938173.363791,
+      "s_tts_first_audio": 168938565.178291,
+      "c_vad_end": 168934548.043791,
+      "c_play_start": 168938565.515625,
+      "c_reply_play_start": 168938565.515625,
+      "c_play_finished": 168938592.27625
+    },
+    "durations": {
+      "stt_ms": 705.5281250178814,
+      "llm_ttft_ms": 2479.2960420250893,
+      "first_sentence_ms": 431.83991596102715,
+      "tts_ttfa_ms": 391.8145000040531,
+      "client_vad_to_play_ms": 4017.4718340039253,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 4017.4718340039253,
+      "client_speech_to_reply_play_ms": null
+    },
+    "all_server_keys": true,
+    "null_server_marks": [
+      "s_tool_call",
+      "s_tool_done"
+    ],
+    "stt": "予約番号はZV2610です。 領事は佐藤です。 予約を確認してください。",
+    "reply": "予約番号は「ZV-2610」の形式で入力してください。",
+    "tools": [],
+    "spoken_text": "予約番号は「ZV-2610」の形式で入力してください。",
+    "llm_metrics": {
+      "units": 27,
+      "unit_limit": 80,
+      "length_violation": false,
+      "sentence_count": 1,
+      "sentence_violation": false,
+      "script_changed_chars": 0,
+      "first_token_ms": 2479.146249999758,
+      "first_sentence_ms": 2910.92487500282,
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed_ms": 2909.0120829932857,
+          "first_token_ms": 2479.146249999758,
+          "tool_calls": 0,
+          "total_duration": 2897741417,
+          "load_duration": 4508084,
+          "prompt_eval_count": 1133,
+          "prompt_eval_duration": 2386336000,
+          "eval_count": 19,
+          "eval_duration": 423645000,
+          "done_reason": "stop"
+        }
+      ],
+      "llm_rounds": 1,
+      "elapsed_ms": 2911.300250008935,
+      "stream_chunks": 19,
+      "thinking_chars": 0
+    },
+    "barge_in_ack_ms": null
+  },
+  {
+    "locale": "en",
+    "session_id": "a6c422c9-3d9a-4f18-8fc4-bf207c3e921f",
+    "status": "cancelled",
+    "revision": 2,
+    "marks": {
+      "s_rx": 168938634.388791,
+      "s_turn_decided": 168938634.388791,
+      "s_stt_done": 168939179.71150002,
+      "s_llm_first_token": null,
+      "s_tool_call": 168939179.91854098,
+      "s_tool_done": 168939179.97395802,
+      "s_first_sentence": null,
+      "s_tts_first_audio": null,
+      "c_vad_end": 168938629.990958,
+      "c_play_start": 168939184.5325,
+      "t_filler_play": 168939184.5325,
+      "s_cancel_received": 168939186.002416,
+      "s_cancel_ack": 168939186.637375
+    },
+    "durations": {
+      "stt_ms": 545.3227090239525,
+      "llm_ttft_ms": null,
+      "first_sentence_ms": null,
+      "tts_ttfa_ms": null,
+      "client_vad_to_play_ms": 554.541541993618,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": null,
+      "client_speech_to_reply_play_ms": null
+    },
+    "all_server_keys": true,
+    "null_server_marks": [
+      "s_llm_first_token",
+      "s_first_sentence",
+      "s_tts_first_audio"
+    ],
+    "stt": "Please find Reservation ZV4821. My surname is Carter.",
+    "reply": null,
+    "tools": [
+      {
+        "type": "tool.call",
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-4821",
+          "last_name": "Carter"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-4821",
+          "type": "hotel",
+          "lexicon_id": "hotel_hanbit_myeongdong",
+          "check_in": "2026-11-03",
+          "check_out": "2026-11-05",
+          "nights": 2,
+          "total_krw": 286000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "Hanbit Stay Myeongdong"
+        },
+        "source": "server_prefetch"
+      }
+    ],
+    "spoken_text": "",
+    "llm_metrics": null,
+    "barge_in_ack_ms": 2.2091250121593475
+  },
+  {
+    "locale": "zh-CN",
+    "session_id": "b3b5d298-fd91-420a-9859-f1937f55fcfb",
+    "status": "cancelled",
+    "revision": 2,
+    "marks": {
+      "s_rx": 168939230.217666,
+      "s_turn_decided": 168939230.217666,
+      "s_stt_done": 168939782.934041,
+      "s_llm_first_token": 168939924.759582,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 168940436.997708,
+      "s_tts_first_audio": 168940900.437083,
+      "c_vad_end": 168939226.200583,
+      "c_play_start": 168940900.60725,
+      "c_reply_play_start": 168940900.60725,
+      "s_cancel_received": 168940901.89249998,
+      "s_cancel_ack": 168940901.928291
+    },
+    "durations": {
+      "stt_ms": 552.7163749933243,
+      "llm_ttft_ms": 141.8255410194397,
+      "first_sentence_ms": 512.2381259799004,
+      "tts_ttfa_ms": 463.439375013113,
+      "client_vad_to_play_ms": 1674.4066669940948,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 1674.4066669940948,
+      "client_speech_to_reply_play_ms": null
+    },
+    "all_server_keys": true,
+    "null_server_marks": [
+      "s_tool_call",
+      "s_tool_done"
+    ],
+    "stt": "请查询预定号CV7305,我姓王",
+    "reply": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+    "tools": [],
+    "spoken_text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+    "llm_metrics": {
+      "units": 20,
+      "unit_limit": 60,
+      "length_violation": false,
+      "sentence_count": 1,
+      "sentence_violation": false,
+      "script_changed_chars": 0,
+      "first_token_ms": 141.69379099621437,
+      "first_sentence_ms": 653.8893329852726,
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed_ms": 653.6779580055736,
+          "first_token_ms": 141.69379099621437,
+          "tool_calls": 0,
+          "total_duration": 641036542,
+          "load_duration": 1969084,
+          "prompt_eval_count": 1123,
+          "prompt_eval_duration": 69636000,
+          "eval_count": 24,
+          "eval_duration": 510711000,
+          "done_reason": "stop"
+        }
+      ],
+      "llm_rounds": 1,
+      "elapsed_ms": 654.0973749943078,
+      "stream_chunks": 24,
+      "thinking_chars": 0
+    },
+    "barge_in_ack_ms": 1.3104169964790344
+  },
+  {
+    "locale": "zh-TW",
+    "session_id": "908a842d-a7b0-470d-81d8-4355a01fa49f",
+    "status": "cancelled",
+    "revision": 2,
+    "marks": {
+      "s_rx": 168940962.706041,
+      "s_turn_decided": 168940962.706041,
+      "s_stt_done": 168941534.69845802,
+      "s_llm_first_token": null,
+      "s_tool_call": 168941534.92137498,
+      "s_tool_done": 168941534.987708,
+      "s_first_sentence": null,
+      "s_tts_first_audio": null,
+      "c_vad_end": 168940958.11408302,
+      "c_play_start": 168941541.68425,
+      "t_filler_play": 168941541.68425,
+      "s_cancel_received": 168941543.472208,
+      "s_cancel_ack": 168941543.498041
+    },
+    "durations": {
+      "stt_ms": 571.9924170076847,
+      "llm_ttft_ms": null,
+      "first_sentence_ms": null,
+      "tts_ttfa_ms": null,
+      "client_vad_to_play_ms": 583.5701669752598,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": null,
+      "client_speech_to_reply_play_ms": null
+    },
+    "all_server_keys": true,
+    "null_server_marks": [
+      "s_llm_first_token",
+      "s_first_sentence",
+      "s_tts_first_audio"
+    ],
+    "stt": "請查詢訂單編號ZV5196, 我姓陳",
+    "reply": null,
+    "tools": [
+      {
+        "type": "tool.call",
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-5196",
+          "last_name": "陳"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-5196",
+          "type": "hotel",
+          "lexicon_id": "hotel_hangang_moonlight",
+          "check_in": "2026-11-10",
+          "check_out": "2026-11-12",
+          "nights": 2,
+          "total_krw": 412000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "漢江月光套房飯店"
+        },
+        "source": "server_prefetch"
+      }
+    ],
+    "spoken_text": "",
+    "llm_metrics": null,
+    "barge_in_ack_ms": 1.794708013534546
+  },
+  {
+    "locale": "ja",
+    "session_id": "14127303-2775-45f5-88bb-0bff2013fe9a",
+    "status": "cancelled",
+    "revision": 2,
+    "marks": {
+      "s_rx": 168941592.456,
+      "s_turn_decided": 168941592.456,
+      "s_stt_done": 168942194.481416,
+      "s_llm_first_token": 168942325.06245804,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 168942725.359,
+      "s_tts_first_audio": 168944374.733,
+      "c_vad_end": 168941583.239208,
+      "c_play_start": 168944375.124708,
+      "c_reply_play_start": 168944375.124708,
+      "s_cancel_received": 168944376.92470798,
+      "s_cancel_ack": 168944376.95066598
+    },
+    "durations": {
+      "stt_ms": 602.0254159867764,
+      "llm_ttft_ms": 130.5810420513153,
+      "first_sentence_ms": 400.2965419590473,
+      "tts_ttfa_ms": 1649.3740000128746,
+      "client_vad_to_play_ms": 2791.885499984026,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 2791.885499984026,
+      "client_speech_to_reply_play_ms": null
+    },
+    "all_server_keys": true,
+    "null_server_marks": [
+      "s_tool_call",
+      "s_tool_done"
+    ],
+    "stt": "予約番号はZV2610です。 領事は佐藤です。 予約を確認してください。",
+    "reply": "予約番号は「ZV-2610」の形式で入力してください。",
+    "tools": [],
+    "spoken_text": "予約番号は「ZV-2610」の形式で入力してください。",
+    "llm_metrics": {
+      "units": 27,
+      "unit_limit": 80,
+      "length_violation": false,
+      "sentence_count": 1,
+      "sentence_violation": false,
+      "script_changed_chars": 0,
+      "first_token_ms": 130.44425001135096,
+      "first_sentence_ms": 530.7081659848336,
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed_ms": 530.6572499976028,
+          "first_token_ms": 130.44425001135096,
+          "tool_calls": 0,
+          "total_duration": 523622750,
+          "load_duration": 4078167,
+          "prompt_eval_count": 1133,
+          "prompt_eval_duration": 66581999,
+          "eval_count": 19,
+          "eval_duration": 398554000,
+          "done_reason": "stop"
+        }
+      ],
+      "llm_rounds": 1,
+      "elapsed_ms": 530.9409580077045,
+      "stream_chunks": 19,
+      "thinking_chars": 0
+    },
+    "barge_in_ack_ms": 1.7269579768180847
+  }
+]

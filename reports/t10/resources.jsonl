@@ -1,0 +1,15 @@
+{"time": 1793335842.5972779, "swap": "vm.swapusage: total = 28672.00M  used = 27157.00M  free = 1515.00M  (encrypted)", "pressure": 1, "disk_free_bytes": 138155184128}
+{"time": 1793335857.912941, "swap": "vm.swapusage: total = 28672.00M  used = 27149.00M  free = 1523.00M  (encrypted)", "pressure": 1, "disk_free_bytes": 138150731776}
+{"time": 1793335865.393331, "swap": "vm.swapusage: total = 28672.00M  used = 27125.00M  free = 1547.00M  (encrypted)", "pressure": 1, "disk_free_bytes": 138153422848}
+{"time": 1793335870.8078148, "swap": "vm.swapusage: total = 28672.00M  used = 27117.00M  free = 1555.00M  (encrypted)", "pressure": 1, "disk_free_bytes": 138152087552}
+{"time": 1793335875.563184, "swap": "vm.swapusage: total = 28672.00M  used = 27109.00M  free = 1563.00M  (encrypted)", "pressure": 1, "disk_free_bytes": 138150612992}
+{"time": 1793335880.3477042, "swap": "vm.swapusage: total = 28672.00M  used = 27101.00M  free = 1571.00M  (encrypted)", "pressure": 1, "disk_free_bytes": 138133491712}
+{"time": 1793335885.079961, "swap": "vm.swapusage: total = 28672.00M  used = 27085.00M  free = 1587.00M  (encrypted)", "pressure": 1, "disk_free_bytes": 138130235392}
+{"time": 1793335906.197887, "swap": "vm.swapusage: total = 28672.00M  used = 27036.94M  free = 1635.06M  (encrypted)", "pressure": 1, "disk_free_bytes": 138135408640}
+{"time": 1793335951.4429262, "swap": "vm.swapusage: total = 28672.00M  used = 27012.94M  free = 1659.06M  (encrypted)", "pressure": 1, "disk_free_bytes": 138123902976}
+{"time": 1793335952.352879, "swap": "vm.swapusage: total = 28672.00M  used = 27012.94M  free = 1659.06M  (encrypted)", "pressure": 1, "disk_free_bytes": 138120785920}
+{"time": 1793335957.2942789, "swap": "vm.swapusage: total = 28672.00M  used = 26988.94M  free = 1683.06M  (encrypted)", "pressure": 1, "disk_free_bytes": 138108981248}
+{"time": 1793335962.065265, "swap": "vm.swapusage: total = 28672.00M  used = 26980.94M  free = 1691.06M  (encrypted)", "pressure": 1, "disk_free_bytes": 138111205376}
+{"time": 1793335966.799752, "swap": "vm.swapusage: total = 28672.00M  used = 26972.94M  free = 1699.06M  (encrypted)", "pressure": 1, "disk_free_bytes": 138113708032}
+{"time": 1793335971.615232, "swap": "vm.swapusage: total = 28672.00M  used = 26972.94M  free = 1699.06M  (encrypted)", "pressure": 1, "disk_free_bytes": 138109603840}
+{"time": 1793335987.109194, "swap": "vm.swapusage: total = 28672.00M  used = 26972.94M  free = 1699.06M  (encrypted)", "pressure": 1, "disk_free_bytes": 138111467520}

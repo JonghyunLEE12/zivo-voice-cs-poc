@@ -1,0 +1,1327 @@
+[
+  {
+    "session_id": "1be43dfb-5e48-4b62-83a2-4e5004314324",
+    "turn_num": 1,
+    "revision": 5,
+    "status": "done",
+    "timestamp": "2026-10-30T14:02:31.498869+09:00",
+    "locale": "en",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad",
+    "marks": {
+      "s_rx": 169914650.830166,
+      "s_turn_decided": 169914650.830166,
+      "s_stt_done": 169915275.19812497,
+      "s_llm_first_token": 169915362.581625,
+      "s_tool_call": 169915275.386708,
+      "s_tool_done": 169915275.43416598,
+      "s_first_sentence": 169916460.603333,
+      "s_tts_first_audio": 169917089.53274998,
+      "c_vad_end": 169914646.257541,
+      "c_play_start": 169915280.21112502,
+      "t_filler_play": 169915280.21112502,
+      "c_reply_play_start": 169917089.83725,
+      "c_play_finished": 169917327.828666
+    },
+    "durations": {
+      "turn_decision_ms": 0.0,
+      "stt_ms": 624.3679589629173,
+      "llm_ttft_ms": 87.38350003957748,
+      "first_sentence_ms": 1098.0217079818249,
+      "tts_ttfa_ms": 628.9294169843197,
+      "client_vad_to_play_ms": 633.9535840153694,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 2443.579708993435,
+      "client_speech_to_reply_play_ms": null
+    },
+    "source": "wav_simulated_ack",
+    "measurement_phase": "measured",
+    "merged_turns": [],
+    "sentences": [
+      {
+        "display_text": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026.",
+        "tts_text_raw": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026.",
+        "tts_text_lex": "Your reservation ZV-4821 for Hahn-bit Stay Myung-dong is confirmed from November 3 to November 5, 2026.",
+        "tts_text_full": "Your reservation Z V four eight two one for Hahn-bit Stay Myung-dong is confirmed from November three to November five, two thousand twenty-six.",
+        "index": 0
+      },
+      {
+        "display_text": " Would you like to know the cancellation policy?",
+        "tts_text_raw": " Would you like to know the cancellation policy?",
+        "tts_text_lex": " Would you like to know the cancellation policy?",
+        "tts_text_full": "Would you like to know the cancellation policy?",
+        "index": 1
+      }
+    ],
+    "tools": [
+      {
+        "type": "tool.call",
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-4821",
+          "last_name": "Carter"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-4821",
+          "type": "hotel",
+          "lexicon_id": "hotel_hanbit_myeongdong",
+          "check_in": "2026-11-03",
+          "check_out": "2026-11-05",
+          "nights": 2,
+          "total_krw": 286000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "Hanbit Stay Myeongdong"
+        },
+        "source": "server_prefetch"
+      }
+    ],
+    "audio_bytes": 706800,
+    "input_samples": 69629,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "stt_result": {
+      "text": "Please find Reservation ZV4821. My surname is Carter.",
+      "text_raw": "Please find Reservation ZV4821. My surname is Carter.",
+      "locale": "en",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "en",
+      "elapsed_ms": 624.117874976946,
+      "audio_duration_s": 4.3518125,
+      "initial_prompt": "Myeongdong, Myeongdong Station, Euljiro 3-ga Station, Hongik University Station, Gyeongbokgung Station, Chungmuro Station, Incheon International Airport, AREX, Seoul Station, Hanbit Stay Myeongdong, Euljiro Lantern Hotel, Hangang Moonlight Suites, Gyeongbokgung Hanbok Experience Tour",
+      "reservation_code": "ZV-4821",
+      "engine": "whisper"
+    },
+    "user_chars": 53,
+    "max_queue_depth": 2,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "c8e44b1e-83de-47a1-a87c-304bb1a956f7",
+      "turn_num": 1,
+      "locale": "en",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026. Would you like to know the cancellation policy?",
+      "text": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026. Would you like to know the cancellation policy?",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-4821",
+            "last_name": "Carter"
+          },
+          "result": {
+            "reservation_code": "ZV-4821",
+            "type": "hotel",
+            "lexicon_id": "hotel_hanbit_myeongdong",
+            "check_in": "2026-11-03",
+            "check_out": "2026-11-05",
+            "nights": 2,
+            "total_krw": 286000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "Hanbit Stay Myeongdong"
+          },
+          "source": "server_prefetch"
+        }
+      ],
+      "metrics": {
+        "units": 24,
+        "unit_limit": 35,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 87.25308399880305,
+        "first_sentence_ms": 1185.2286249923054,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 1185.0825420115143,
+            "first_token_ms": 87.25308399880305,
+            "tool_calls": 0,
+            "total_duration": 1176369917,
+            "load_duration": 2177125,
+            "prompt_eval_count": 1283,
+            "prompt_eval_duration": 60861000,
+            "eval_count": 44,
+            "eval_duration": 1095977000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 1188.4790420008358,
+        "stream_chunks": 41,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "spoken_text": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026. Would you like to know the cancellation policy?",
+    "played_sentence_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "session_id": "c7608c6a-bf64-4aa9-8570-95a2e7881570",
+    "turn_num": 1,
+    "revision": 5,
+    "status": "done",
+    "timestamp": "2026-10-30T14:02:37.554840+09:00",
+    "locale": "en",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad+smartturn",
+    "marks": {
+      "s_rx": 169917378.416958,
+      "s_turn_decided": 169919833.235791,
+      "s_stt_done": 169920643.094291,
+      "s_llm_first_token": 169920774.946,
+      "s_tool_call": 169920643.618541,
+      "s_tool_done": 169920643.768333,
+      "s_first_sentence": 169922455.15812498,
+      "s_tts_first_audio": 169923173.210416,
+      "c_vad_end": 169917373.766875,
+      "c_play_start": 169920655.462666,
+      "t_filler_play": 169920655.462666,
+      "c_reply_play_start": 169923174.00912502,
+      "c_play_finished": 169923383.717083
+    },
+    "durations": {
+      "turn_decision_ms": 2454.8188329935074,
+      "stt_ms": 809.8585000038147,
+      "llm_ttft_ms": 131.85170900821686,
+      "first_sentence_ms": 1680.2121249735355,
+      "tts_ttfa_ms": 718.0522910058498,
+      "client_vad_to_play_ms": 3281.6957910060883,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 5800.242250025272,
+      "client_speech_to_reply_play_ms": null
+    },
+    "source": "wav_simulated_ack",
+    "measurement_phase": "measured",
+    "merged_turns": [],
+    "sentences": [
+      {
+        "display_text": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026.",
+        "tts_text_raw": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026.",
+        "tts_text_lex": "Your reservation ZV-4821 for Hahn-bit Stay Myung-dong is confirmed from November 3 to November 5, 2026.",
+        "tts_text_full": "Your reservation Z V four eight two one for Hahn-bit Stay Myung-dong is confirmed from November three to November five, two thousand twenty-six.",
+        "index": 0
+      },
+      {
+        "display_text": " Would you like to know the cancellation policy?",
+        "tts_text_raw": " Would you like to know the cancellation policy?",
+        "tts_text_lex": " Would you like to know the cancellation policy?",
+        "tts_text_full": "Would you like to know the cancellation policy?",
+        "index": 1
+      }
+    ],
+    "tools": [
+      {
+        "type": "tool.call",
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-4821",
+          "last_name": "Carter"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-4821",
+          "type": "hotel",
+          "lexicon_id": "hotel_hanbit_myeongdong",
+          "check_in": "2026-11-03",
+          "check_out": "2026-11-05",
+          "nights": 2,
+          "total_krw": 286000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "Hanbit Stay Myeongdong"
+        },
+        "source": "server_prefetch"
+      }
+    ],
+    "audio_bytes": 706800,
+    "input_samples": 69629,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "smart_turn": {
+      "model": "smart-turn-v3.2-cpu",
+      "probability": 0.9660363793373108,
+      "complete": true,
+      "inference_ms": 374.35958298738115,
+      "release": "complete"
+    },
+    "stt_result": {
+      "text": "Please find Reservation ZV4821. My surname is Carter.",
+      "text_raw": "Please find Reservation ZV4821. My surname is Carter.",
+      "locale": "en",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "en",
+      "elapsed_ms": 809.6454170008656,
+      "audio_duration_s": 4.3518125,
+      "initial_prompt": "Myeongdong, Myeongdong Station, Euljiro 3-ga Station, Hongik University Station, Gyeongbokgung Station, Chungmuro Station, Incheon International Airport, AREX, Seoul Station, Hanbit Stay Myeongdong, Euljiro Lantern Hotel, Hangang Moonlight Suites, Gyeongbokgung Hanbok Experience Tour",
+      "reservation_code": "ZV-4821",
+      "engine": "whisper"
+    },
+    "user_chars": 53,
+    "max_queue_depth": 2,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "acf399b4-e4dd-4ab8-ae55-bd97ec7e8aa7",
+      "turn_num": 1,
+      "locale": "en",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026. Would you like to know the cancellation policy?",
+      "text": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026. Would you like to know the cancellation policy?",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-4821",
+            "last_name": "Carter"
+          },
+          "result": {
+            "reservation_code": "ZV-4821",
+            "type": "hotel",
+            "lexicon_id": "hotel_hanbit_myeongdong",
+            "check_in": "2026-11-03",
+            "check_out": "2026-11-05",
+            "nights": 2,
+            "total_krw": 286000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "Hanbit Stay Myeongdong"
+          },
+          "source": "server_prefetch"
+        }
+      ],
+      "metrics": {
+        "units": 24,
+        "unit_limit": 35,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 131.5702499996405,
+        "first_sentence_ms": 1811.3331670174375,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 1808.7784170056693,
+            "first_token_ms": 131.5702499996405,
+            "tool_calls": 0,
+            "total_duration": 1787989209,
+            "load_duration": 3166334,
+            "prompt_eval_count": 1283,
+            "prompt_eval_duration": 84353000,
+            "eval_count": 44,
+            "eval_duration": 1675540000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 1815.3525000088848,
+        "stream_chunks": 41,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "spoken_text": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026. Would you like to know the cancellation policy?",
+    "played_sentence_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "session_id": "40280021-47d9-4b46-a9d6-730e8d3d204a",
+    "turn_num": 1,
+    "revision": 3,
+    "status": "done",
+    "timestamp": "2026-10-30T14:02:42.653983+09:00",
+    "locale": "zh-CN",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad",
+    "marks": {
+      "s_rx": 169924112.423916,
+      "s_turn_decided": 169924112.423916,
+      "s_stt_done": 169924765.17229098,
+      "s_llm_first_token": 169927236.993833,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169927760.225208,
+      "s_tts_first_audio": 169928455.44024998,
+      "c_vad_end": 169924108.297333,
+      "c_play_start": 169928455.683166,
+      "c_reply_play_start": 169928455.683166,
+      "c_play_finished": 169928482.88883302
+    },
+    "durations": {
+      "turn_decision_ms": 0.0,
+      "stt_ms": 652.7483749687672,
+      "llm_ttft_ms": 2471.8215420246124,
+      "first_sentence_ms": 523.2313750088215,
+      "tts_ttfa_ms": 695.2150419652462,
+      "client_vad_to_play_ms": 4347.385832995176,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 4347.385832995176,
+      "client_speech_to_reply_play_ms": null
+    },
+    "source": "wav_simulated_ack",
+    "measurement_phase": "measured",
+    "merged_turns": [],
+    "sentences": [
+      {
+        "display_text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+        "tts_text_raw": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+        "tts_text_lex": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+        "tts_text_full": "预订号格式应为ZV开头，例如Z V 一二三四，请提供正确的预订号。",
+        "index": 0
+      }
+    ],
+    "tools": [],
+    "audio_bytes": 351600,
+    "input_samples": 65285,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "stt_result": {
+      "text": "请查询预定号CV7305,我姓王",
+      "text_raw": "请查询预定号CV7305,我姓王",
+      "locale": "zh-CN",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "zh",
+      "elapsed_ms": 652.4865829851478,
+      "audio_duration_s": 4.0803125,
+      "initial_prompt": "明洞, 明洞站, 乙支路3街站, 弘大入口站, 景福宫站, 忠武路站, 仁川国际机场, 机场快线, 首尔站, 明洞韩光酒店, 乙支路灯笼酒店, 汉江月光套房酒店, 景福宫韩服体验之旅",
+      "reservation_code": null,
+      "engine": "whisper"
+    },
+    "user_chars": 16,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "180e1e56-1f1f-47c9-8f29-ea9c420beb58",
+      "turn_num": 1,
+      "locale": "zh-CN",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+      "text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+      "tools": [],
+      "metrics": {
+        "units": 20,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 1,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 2471.6716250113677,
+        "first_sentence_ms": 2994.809166993946,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 2992.8552079945803,
+            "first_token_ms": 2471.6716250113677,
+            "tool_calls": 0,
+            "total_duration": 2979838792,
+            "load_duration": 12397917,
+            "prompt_eval_count": 1123,
+            "prompt_eval_duration": 2361555000,
+            "eval_count": 24,
+            "eval_duration": 520577000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 3001.901000010548,
+        "stream_chunks": 24,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "max_queue_depth": 1,
+    "spoken_text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+    "played_sentence_indices": [
+      0
+    ]
+  },
+  {
+    "session_id": "61d8ae8a-1367-449b-85c7-593bdb112243",
+    "turn_num": 1,
+    "revision": 3,
+    "status": "done",
+    "timestamp": "2026-10-30T14:02:46.076751+09:00",
+    "locale": "zh-CN",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad+smartturn",
+    "marks": {
+      "s_rx": 169928532.43633297,
+      "s_turn_decided": 169930033.05183297,
+      "s_stt_done": 169930713.795791,
+      "s_llm_first_token": 169930823.15987402,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169931440.16525,
+      "s_tts_first_audio": 169931876.42283303,
+      "c_vad_end": 169928527.972875,
+      "c_play_start": 169931876.650958,
+      "c_reply_play_start": 169931876.650958,
+      "c_play_finished": 169931905.624
+    },
+    "durations": {
+      "turn_decision_ms": 1500.6155000030994,
+      "stt_ms": 680.7439580261707,
+      "llm_ttft_ms": 109.3640830218792,
+      "first_sentence_ms": 617.0053759813309,
+      "tts_ttfa_ms": 436.2575830221176,
+      "client_vad_to_play_ms": 3348.6780830025673,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 3348.6780830025673,
+      "client_speech_to_reply_play_ms": null
+    },
+    "source": "wav_simulated_ack",
+    "measurement_phase": "measured",
+    "merged_turns": [],
+    "sentences": [
+      {
+        "display_text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+        "tts_text_raw": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+        "tts_text_lex": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+        "tts_text_full": "预订号格式应为ZV开头，例如Z V 一二三四，请提供正确的预订号。",
+        "index": 0
+      }
+    ],
+    "tools": [],
+    "audio_bytes": 351600,
+    "input_samples": 65285,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "smart_turn": {
+      "model": "smart-turn-v3.2-cpu",
+      "probability": 0.20764753222465515,
+      "complete": false,
+      "inference_ms": 48.17737499251962,
+      "release": "timeout"
+    },
+    "stt_result": {
+      "text": "请查询预定号CV7305,我姓王",
+      "text_raw": "请查询预定号CV7305,我姓王",
+      "locale": "zh-CN",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "zh",
+      "elapsed_ms": 680.4523750033695,
+      "audio_duration_s": 4.0803125,
+      "initial_prompt": "明洞, 明洞站, 乙支路3街站, 弘大入口站, 景福宫站, 忠武路站, 仁川国际机场, 机场快线, 首尔站, 明洞韩光酒店, 乙支路灯笼酒店, 汉江月光套房酒店, 景福宫韩服体验之旅",
+      "reservation_code": null,
+      "engine": "whisper"
+    },
+    "user_chars": 16,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "dfbc589a-3bf4-4963-a1cd-04d6e37d50eb",
+      "turn_num": 1,
+      "locale": "zh-CN",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+      "text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+      "tools": [],
+      "metrics": {
+        "units": 20,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 1,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 109.23008300596848,
+        "first_sentence_ms": 726.1992910061963,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 725.9366670041345,
+            "first_token_ms": 109.23008300596848,
+            "tool_calls": 0,
+            "total_duration": 715080333,
+            "load_duration": 2162250,
+            "prompt_eval_count": 1123,
+            "prompt_eval_duration": 78279000,
+            "eval_count": 24,
+            "eval_duration": 612628000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 726.433999981964,
+        "stream_chunks": 24,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "max_queue_depth": 1,
+    "spoken_text": "预订号格式应为ZV开头，例如ZV-1234，请提供正确的预订号。",
+    "played_sentence_indices": [
+      0
+    ]
+  },
+  {
+    "session_id": "2998e0d1-8520-4217-83d1-93279302e930",
+    "turn_num": 1,
+    "revision": 5,
+    "status": "done",
+    "timestamp": "2026-10-30T14:02:51.917496+09:00",
+    "locale": "zh-TW",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad",
+    "marks": {
+      "s_rx": 169932138.343541,
+      "s_turn_decided": 169932138.343541,
+      "s_stt_done": 169932730.491458,
+      "s_llm_first_token": 169935374.28641602,
+      "s_tool_call": 169932730.652958,
+      "s_tool_done": 169932730.70666602,
+      "s_first_sentence": 169936606.22725,
+      "s_tts_first_audio": 169937505.63537502,
+      "c_vad_end": 169932131.58687502,
+      "c_play_start": 169932735.318666,
+      "t_filler_play": 169932735.318666,
+      "c_reply_play_start": 169937506.122583,
+      "c_play_finished": 169937746.32470798
+    },
+    "durations": {
+      "turn_decision_ms": 0.0,
+      "stt_ms": 592.1479170024395,
+      "llm_ttft_ms": 2643.794958025217,
+      "first_sentence_ms": 1231.9408339858055,
+      "tts_ttfa_ms": 899.408125013113,
+      "client_vad_to_play_ms": 603.7317909896374,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 5374.535707980394,
+      "client_speech_to_reply_play_ms": null
+    },
+    "source": "wav_simulated_ack",
+    "measurement_phase": "measured",
+    "merged_turns": [],
+    "sentences": [
+      {
+        "display_text": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。",
+        "tts_text_raw": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。",
+        "tts_text_lex": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。",
+        "tts_text_full": "陳先生您好，您的訂單Z V 五一九六已確認，入住漢江月光套房飯店，入住日期為二零二六年十一月十日至十一月十二日。",
+        "index": 0
+      },
+      {
+        "display_text": "請問您需要查詢其他資訊嗎？",
+        "tts_text_raw": "請問您需要查詢其他資訊嗎？",
+        "tts_text_lex": "請問您需要查詢其他資訊嗎？",
+        "tts_text_full": "請問您需要查詢其他資訊嗎？",
+        "index": 1
+      }
+    ],
+    "tools": [
+      {
+        "type": "tool.call",
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-5196",
+          "last_name": "陳"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-5196",
+          "type": "hotel",
+          "lexicon_id": "hotel_hangang_moonlight",
+          "check_in": "2026-11-10",
+          "check_out": "2026-11-12",
+          "nights": 2,
+          "total_krw": 412000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "漢江月光套房飯店"
+        },
+        "source": "server_prefetch"
+      }
+    ],
+    "audio_bytes": 916800,
+    "input_samples": 68684,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "stt_result": {
+      "text": "請查詢訂單編號ZV5196, 我姓陳",
+      "text_raw": "請查詢訂單編號ZV5196, 我姓陳",
+      "locale": "zh-TW",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "zh",
+      "elapsed_ms": 591.959459008649,
+      "audio_duration_s": 4.29275,
+      "initial_prompt": "明洞, 明洞站, 乙支路3街站, 弘大入口站, 景福宮站, 忠武路站, 仁川國際機場, 機場捷運, 首爾站, 明洞韓光飯店, 乙支路燈籠飯店, 漢江月光套房飯店, 景福宮韓服體驗行程",
+      "reservation_code": "ZV-5196",
+      "engine": "whisper"
+    },
+    "user_chars": 18,
+    "max_queue_depth": 2,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "34a4b8e1-d962-4202-a1e3-52f4eb8c49a7",
+      "turn_num": 1,
+      "locale": "zh-TW",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。請問您需要查詢其他資訊嗎？",
+      "text": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。請問您需要查詢其他資訊嗎？",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-5196",
+            "last_name": "陳"
+          },
+          "result": {
+            "reservation_code": "ZV-5196",
+            "type": "hotel",
+            "lexicon_id": "hotel_hangang_moonlight",
+            "check_in": "2026-11-10",
+            "check_out": "2026-11-12",
+            "nights": 2,
+            "total_krw": 412000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "漢江月光套房飯店"
+          },
+          "source": "server_prefetch"
+        }
+      ],
+      "metrics": {
+        "units": 45,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 2643.6718750046566,
+        "first_sentence_ms": 3875.580166990403,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 3874.7666659764946,
+            "first_token_ms": 2643.6718750046566,
+            "tool_calls": 0,
+            "total_duration": 3865117250,
+            "load_duration": 3075625,
+            "prompt_eval_count": 1312,
+            "prompt_eval_duration": 2582829000,
+            "eval_count": 52,
+            "eval_duration": 1227178000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 3876.2755839852616,
+        "stream_chunks": 52,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "spoken_text": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。請問您需要查詢其他資訊嗎？",
+    "played_sentence_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "session_id": "46a1bfaf-ba2c-47b0-8bb8-4f2a67992a9c",
+    "turn_num": 1,
+    "revision": 5,
+    "status": "done",
+    "timestamp": "2026-10-30T14:02:56.709558+09:00",
+    "locale": "zh-TW",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad+smartturn",
+    "marks": {
+      "s_rx": 169937798.9045,
+      "s_turn_decided": 169939298.8315,
+      "s_stt_done": 169940002.327625,
+      "s_llm_first_token": 169940112.24570802,
+      "s_tool_call": 169940003.274708,
+      "s_tool_done": 169940003.371208,
+      "s_first_sentence": 169941429.167958,
+      "s_tts_first_audio": 169942275.695708,
+      "c_vad_end": 169937794.29775,
+      "c_play_start": 169940008.53925002,
+      "t_filler_play": 169940008.53925002,
+      "c_reply_play_start": 169942276.65175,
+      "c_play_finished": 169942538.105458
+    },
+    "durations": {
+      "turn_decision_ms": 1499.9269999861717,
+      "stt_ms": 703.4961250126362,
+      "llm_ttft_ms": 109.91808301210403,
+      "first_sentence_ms": 1316.9222499728203,
+      "tts_ttfa_ms": 846.5277500152588,
+      "client_vad_to_play_ms": 2214.241500020027,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 4482.354000002146,
+      "client_speech_to_reply_play_ms": null
+    },
+    "source": "wav_simulated_ack",
+    "measurement_phase": "measured",
+    "merged_turns": [],
+    "sentences": [
+      {
+        "display_text": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。",
+        "tts_text_raw": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。",
+        "tts_text_lex": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。",
+        "tts_text_full": "陳先生您好，您的訂單Z V 五一九六已確認，入住漢江月光套房飯店，入住日期為二零二六年十一月十日至十一月十二日。",
+        "index": 0
+      },
+      {
+        "display_text": "請問您需要查詢其他資訊嗎？",
+        "tts_text_raw": "請問您需要查詢其他資訊嗎？",
+        "tts_text_lex": "請問您需要查詢其他資訊嗎？",
+        "tts_text_full": "請問您需要查詢其他資訊嗎？",
+        "index": 1
+      }
+    ],
+    "tools": [
+      {
+        "type": "tool.call",
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-5196",
+          "last_name": "陳"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-5196",
+          "type": "hotel",
+          "lexicon_id": "hotel_hangang_moonlight",
+          "check_in": "2026-11-10",
+          "check_out": "2026-11-12",
+          "nights": 2,
+          "total_krw": 412000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "漢江月光套房飯店"
+        },
+        "source": "server_prefetch"
+      }
+    ],
+    "audio_bytes": 916800,
+    "input_samples": 68684,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "smart_turn": {
+      "model": "smart-turn-v3.2-cpu",
+      "probability": 0.42187100648880005,
+      "complete": false,
+      "inference_ms": 48.63904201192781,
+      "release": "timeout"
+    },
+    "stt_result": {
+      "text": "請查詢訂單編號ZV5196, 我姓陳",
+      "text_raw": "請查詢訂單編號ZV5196, 我姓陳",
+      "locale": "zh-TW",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "zh",
+      "elapsed_ms": 702.3410839901771,
+      "audio_duration_s": 4.29275,
+      "initial_prompt": "明洞, 明洞站, 乙支路3街站, 弘大入口站, 景福宮站, 忠武路站, 仁川國際機場, 機場捷運, 首爾站, 明洞韓光飯店, 乙支路燈籠飯店, 漢江月光套房飯店, 景福宮韓服體驗行程",
+      "reservation_code": "ZV-5196",
+      "engine": "whisper"
+    },
+    "user_chars": 18,
+    "max_queue_depth": 2,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "414157fe-4142-46b9-99bd-8c04e1bf01e1",
+      "turn_num": 1,
+      "locale": "zh-TW",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。請問您需要查詢其他資訊嗎？",
+      "text": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。請問您需要查詢其他資訊嗎？",
+      "tools": [
+        {
+          "name": "lookup_reservation",
+          "args": {
+            "reservation_code": "ZV-5196",
+            "last_name": "陳"
+          },
+          "result": {
+            "reservation_code": "ZV-5196",
+            "type": "hotel",
+            "lexicon_id": "hotel_hangang_moonlight",
+            "check_in": "2026-11-10",
+            "check_out": "2026-11-12",
+            "nights": 2,
+            "total_krw": 412000,
+            "status": "confirmed",
+            "paid": true,
+            "payment_method": "credit_card",
+            "found": true,
+            "name": "漢江月光套房飯店"
+          },
+          "source": "server_prefetch"
+        }
+      ],
+      "metrics": {
+        "units": 45,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 109.36829200363718,
+        "first_sentence_ms": 1425.973667006474,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 1424.1953330056276,
+            "first_token_ms": 109.36829200363718,
+            "tool_calls": 0,
+            "total_duration": 1408483417,
+            "load_duration": 6040792,
+            "prompt_eval_count": 1312,
+            "prompt_eval_duration": 71027000,
+            "eval_count": 52,
+            "eval_duration": 1312585000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 1427.7318749809638,
+        "stream_chunks": 52,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "spoken_text": "陳先生您好，您的訂單ZV-5196已確認，入住漢江月光套房飯店，入住日期為2026年11月10日至11月12日。請問您需要查詢其他資訊嗎？",
+    "played_sentence_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "session_id": "599edfe3-6996-4b61-9797-6b6b41e00ce4",
+    "turn_num": 1,
+    "revision": 3,
+    "status": "done",
+    "timestamp": "2026-10-30T14:03:01.117949+09:00",
+    "locale": "ja",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad",
+    "marks": {
+      "s_rx": 169942939.971041,
+      "s_turn_decided": 169942939.971041,
+      "s_stt_done": 169943631.046291,
+      "s_llm_first_token": 169946089.43733302,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169946493.769291,
+      "s_tts_first_audio": 169946916.27037498,
+      "c_vad_end": 169942929.541041,
+      "c_play_start": 169946916.478416,
+      "c_reply_play_start": 169946916.478416,
+      "c_play_finished": 169946946.713541
+    },
+    "durations": {
+      "turn_decision_ms": 0.0,
+      "stt_ms": 691.0752499997616,
+      "llm_ttft_ms": 2458.391042023897,
+      "first_sentence_ms": 404.33195799589157,
+      "tts_ttfa_ms": 422.5010839700699,
+      "client_vad_to_play_ms": 3986.93737500906,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 3986.93737500906,
+      "client_speech_to_reply_play_ms": null
+    },
+    "source": "wav_simulated_ack",
+    "measurement_phase": "measured",
+    "merged_turns": [],
+    "sentences": [
+      {
+        "display_text": "予約番号は「ZV-2610」の形式で入力してください。",
+        "tts_text_raw": "予約番号は「ZV-2610」の形式で入力してください。",
+        "tts_text_lex": "予約番号は「ZV-2610」の形式で入力してください。",
+        "tts_text_full": "予約番号は「ゼット ブイ に ろく いち ゼロ」の形式で入力してください。",
+        "index": 0
+      }
+    ],
+    "tools": [],
+    "audio_bytes": 283200,
+    "input_samples": 114353,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "stt_result": {
+      "text": "予約番号はZV2610です。 領事は佐藤です。 予約を確認してください。",
+      "text_raw": "予約番号はZV2610です。 領事は佐藤です。 予約を確認してください。",
+      "locale": "ja",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "ja",
+      "elapsed_ms": 690.8702919899952,
+      "audio_duration_s": 7.1470625,
+      "initial_prompt": "明洞, 明洞駅, 乙支路3街駅, 弘大入口駅, 景福宮駅, 忠武路駅, 仁川国際空港, 空港鉄道, ソウル駅, ハンビットステイ明洞, 乙支路ランタンホテル, 漢江ムーンライトスイート, 景福宮韓服体験ツアー",
+      "reservation_code": "ZV-2610",
+      "engine": "whisper"
+    },
+    "user_chars": 36,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "f2ef05a4-f9dd-480b-874d-35e9a4215a8c",
+      "turn_num": 1,
+      "locale": "ja",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "予約番号は「ZV-2610」の形式で入力してください。",
+      "text": "予約番号は「ZV-2610」の形式で入力してください。",
+      "tools": [],
+      "metrics": {
+        "units": 27,
+        "unit_limit": 80,
+        "length_violation": false,
+        "sentence_count": 1,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 2458.2554579828866,
+        "first_sentence_ms": 2862.5549169955775,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 2860.907916998258,
+            "first_token_ms": 2458.2554579828866,
+            "tool_calls": 0,
+            "total_duration": 2851946541,
+            "load_duration": 7365791,
+            "prompt_eval_count": 1133,
+            "prompt_eval_duration": 2380726000,
+            "eval_count": 19,
+            "eval_duration": 400063000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 2862.884208007017,
+        "stream_chunks": 19,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "max_queue_depth": 1,
+    "spoken_text": "予約番号は「ZV-2610」の形式で入力してください。",
+    "played_sentence_indices": [
+      0
+    ]
+  },
+  {
+    "session_id": "aa64a8bd-6c78-4007-8078-e47d449f21aa",
+    "turn_num": 1,
+    "revision": 3,
+    "status": "done",
+    "timestamp": "2026-10-30T14:03:02.687483+09:00",
+    "locale": "ja",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad+smartturn",
+    "marks": {
+      "s_rx": 169946997.57070798,
+      "s_turn_decided": 169947045.031416,
+      "s_stt_done": 169947657.981875,
+      "s_llm_first_token": 169947744.687958,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169948172.192041,
+      "s_tts_first_audio": 169948489.107791,
+      "c_vad_end": 169946989.892416,
+      "c_play_start": 169948489.285958,
+      "c_reply_play_start": 169948489.285958,
+      "c_play_finished": 169948516.163833
+    },
+    "durations": {
+      "turn_decision_ms": 47.460708022117615,
+      "stt_ms": 612.9504590034485,
+      "llm_ttft_ms": 86.70608299970627,
+      "first_sentence_ms": 427.5040830075741,
+      "tts_ttfa_ms": 316.91574999690056,
+      "client_vad_to_play_ms": 1499.3935419917107,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": 1499.3935419917107,
+      "client_speech_to_reply_play_ms": null
+    },
+    "source": "wav_simulated_ack",
+    "measurement_phase": "measured",
+    "merged_turns": [],
+    "sentences": [
+      {
+        "display_text": "予約番号は「ZV-2610」の形式で入力してください。",
+        "tts_text_raw": "予約番号は「ZV-2610」の形式で入力してください。",
+        "tts_text_lex": "予約番号は「ZV-2610」の形式で入力してください。",
+        "tts_text_full": "予約番号は「ゼット ブイ に ろく いち ゼロ」の形式で入力してください。",
+        "index": 0
+      }
+    ],
+    "tools": [],
+    "audio_bytes": 283200,
+    "input_samples": 114353,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "smart_turn": {
+      "model": "smart-turn-v3.2-cpu",
+      "probability": 0.9870367050170898,
+      "complete": true,
+      "inference_ms": 47.194625018164515,
+      "release": "complete"
+    },
+    "stt_result": {
+      "text": "予約番号はZV2610です。 領事は佐藤です。 予約を確認してください。",
+      "text_raw": "予約番号はZV2610です。 領事は佐藤です。 予約を確認してください。",
+      "locale": "ja",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "ja",
+      "elapsed_ms": 612.8278330143075,
+      "audio_duration_s": 7.1470625,
+      "initial_prompt": "明洞, 明洞駅, 乙支路3街駅, 弘大入口駅, 景福宮駅, 忠武路駅, 仁川国際空港, 空港鉄道, ソウル駅, ハンビットステイ明洞, 乙支路ランタンホテル, 漢江ムーンライトスイート, 景福宮韓服体験ツアー",
+      "reservation_code": "ZV-2610",
+      "engine": "whisper"
+    },
+    "user_chars": 36,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "47555224-b05d-4555-a862-7f7617e63cf1",
+      "turn_num": 1,
+      "locale": "ja",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "予約番号は「ZV-2610」の形式で入力してください。",
+      "text": "予約番号は「ZV-2610」の形式で入力してください。",
+      "tools": [],
+      "metrics": {
+        "units": 27,
+        "unit_limit": 80,
+        "length_violation": false,
+        "sentence_count": 1,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 86.58062500762753,
+        "first_sentence_ms": 514.0520000131801,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 513.9968339935876,
+            "first_token_ms": 86.58062500762753,
+            "tool_calls": 0,
+            "total_duration": 508102750,
+            "load_duration": 1999792,
+            "prompt_eval_count": 1133,
+            "prompt_eval_duration": 62457000,
+            "eval_count": 19,
+            "eval_duration": 425642000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 514.1777500102762,
+        "stream_chunks": 19,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "max_queue_depth": 1,
+    "spoken_text": "予約番号は「ZV-2610」の形式で入力してください。",
+    "played_sentence_indices": [
+      0
+    ]
+  },
+  {
+    "session_id": "48188a86-5c01-49d1-9006-13fd2c6d4b71",
+    "turn_num": 1,
+    "revision": 2,
+    "status": "cancelled",
+    "timestamp": "2026-10-30T14:03:03.370977+09:00",
+    "locale": "en",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad+smartturn",
+    "marks": {
+      "s_rx": 169948573.919583,
+      "s_turn_decided": 169948628.613666,
+      "s_stt_done": 169949193.483083,
+      "s_llm_first_token": null,
+      "s_tool_call": 169949193.68483302,
+      "s_tool_done": 169949193.744791,
+      "s_first_sentence": null,
+      "s_tts_first_audio": null,
+      "c_vad_end": 169948566.98525003,
+      "c_play_start": 169949198.36433297,
+      "t_filler_play": 169949198.36433297,
+      "s_cancel_received": 169949199.5075,
+      "s_cancel_ack": 169949199.53741598
+    },
+    "durations": {
+      "turn_decision_ms": 54.694083005189896,
+      "stt_ms": 564.8694170117378,
+      "llm_ttft_ms": null,
+      "first_sentence_ms": null,
+      "tts_ttfa_ms": null,
+      "client_vad_to_play_ms": 631.3790829479694,
+      "client_speech_to_play_ms": null,
+      "client_vad_to_reply_play_ms": null,
+      "client_speech_to_reply_play_ms": null
+    },
+    "source": "wav_simulated_ack",
+    "measurement_phase": "measured",
+    "merged_turns": [],
+    "sentences": [],
+    "tools": [
+      {
+        "type": "tool.call",
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-4821",
+          "last_name": "Carter"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-4821",
+          "type": "hotel",
+          "lexicon_id": "hotel_hanbit_myeongdong",
+          "check_in": "2026-11-03",
+          "check_out": "2026-11-05",
+          "nights": 2,
+          "total_krw": 286000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "Hanbit Stay Myeongdong"
+        },
+        "source": "server_prefetch"
+      }
+    ],
+    "audio_bytes": 91200,
+    "input_samples": 69629,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "smart_turn": {
+      "model": "smart-turn-v3.2-cpu",
+      "probability": 0.9660363793373108,
+      "complete": true,
+      "inference_ms": 54.42045797826722,
+      "release": "complete"
+    },
+    "stt_result": {
+      "text": "Please find Reservation ZV4821. My surname is Carter.",
+      "text_raw": "Please find Reservation ZV4821. My surname is Carter.",
+      "locale": "en",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "en",
+      "elapsed_ms": 564.7423340124078,
+      "audio_duration_s": 4.3518125,
+      "initial_prompt": "Myeongdong, Myeongdong Station, Euljiro 3-ga Station, Hongik University Station, Gyeongbokgung Station, Chungmuro Station, Incheon International Airport, AREX, Seoul Station, Hanbit Stay Myeongdong, Euljiro Lantern Hotel, Hangang Moonlight Suites, Gyeongbokgung Hanbok Experience Tour",
+      "reservation_code": "ZV-4821",
+      "engine": "whisper"
+    },
+    "user_chars": 53,
+    "max_queue_depth": 1,
+    "barge_in": {
+      "type": "barge_in",
+      "turn_num": 1,
+      "played_ms": 1000.0,
+      "t_client": 169949198.43687502
+    },
+    "cancel_reason": "barge_in",
+    "spoken_text": "",
+    "played_sentence_indices": []
+  }
+]

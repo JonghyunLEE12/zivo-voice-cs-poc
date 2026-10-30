@@ -1,0 +1,46 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "lookup_reservation",
+      "description": "Find a ZIVO reservation. Requires the reservation code and the guest's last name.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "reservation_code": {"type": "string", "description": "Format ZV-1234"},
+          "last_name": {"type": "string", "description": "Guest last name in any script"}
+        },
+        "required": ["reservation_code", "last_name"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "get_cancellation_policy",
+      "description": "Explain the cancellation policy and the refund that applies today for a reservation that was already looked up.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "reservation_code": {"type": "string"}
+        },
+        "required": ["reservation_code"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "transfer_to_human",
+      "description": "Hand the conversation to a human ZIVO agent.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "reason": {"type": "string", "enum": ["user_request", "upset_customer", "policy_exception", "lookup_failed", "other"]},
+          "summary_ko": {"type": "string", "description": "One-sentence summary in Korean for the Korean agent"}
+        },
+        "required": ["reason", "summary_ko"]
+      }
+    }
+  }
+]

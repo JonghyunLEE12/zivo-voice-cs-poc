@@ -1,0 +1,28 @@
+INFO:     Started server process [88460]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49861 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49890 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49906 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49927 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49950 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49967 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49970 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49984 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49989 - "WebSocket /ws/call" [accepted]
+INFO:     connection open
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [88460]
+/Users/jongram/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

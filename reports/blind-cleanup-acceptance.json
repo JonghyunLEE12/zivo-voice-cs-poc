@@ -1,0 +1,11 @@
+{
+  "id": "c9414936-ea93-450d-9189-d2dbfa7d08ec",
+  "ok": true,
+  "result": {
+    "result": "{\"statusEmpty\":true,\"voteDisabled\":true,\"votes\":10}",
+    "origin": "http://127.0.0.1:8018/blind"
+  },
+  "_meta": {
+    "runtimeId": "b270a9cc-4ce7-41e1-8bbb-7f96f6f681de"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "engine": "qwen3tts",
+  "phase": "after_first_audio",
+  "worker_pid": 64831,
+  "reap_ms": 61.869291006587446,
+  "server_responsive": true
+}

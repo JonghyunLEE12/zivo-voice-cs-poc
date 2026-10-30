@@ -1,0 +1,876 @@
+[
+  {
+    "locale": "en",
+    "engine": "kokoro",
+    "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/en.wav",
+    "audio_bytes": 8640,
+    "audio_seconds": 0.18,
+    "non_silent": true,
+    "barge_in_ack_ms": null,
+    "transport_vad_to_first_audio_ms": 7.019166976213455,
+    "wall_ms": 126.52674999833107,
+    "warm": false,
+    "measurement_phase": "measured",
+    "playback_mode": "simulated_ack_no_speaker",
+    "events": [
+      {
+        "type": "session.ready",
+        "session_id": "3b4ef0f9-5bdd-40cd-8d0e-a8ad5bc74add",
+        "locale": "en",
+        "tts_engine": "kokoro",
+        "normalize": "full",
+        "stt": "whisper",
+        "turn_detect": "vad"
+      },
+      {
+        "type": "stt.result",
+        "turn_num": 1,
+        "text": "Find ZV-4821, surname Carter.",
+        "text_raw": "Find ZV-4821, surname Carter.",
+        "lang_detected": null,
+        "lang_prob": null
+      },
+      {
+        "type": "tool.call",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-4821",
+          "last_name": "Carter"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-4821",
+          "type": "hotel",
+          "lexicon_id": "hotel_hanbit_myeongdong",
+          "check_in": "2026-11-03",
+          "check_out": "2026-11-05",
+          "nights": 2,
+          "total_krw": 286000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "Hanbit Stay Myeongdong"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 0,
+        "display_text": "Let me check that for you.",
+        "tts_text": "Let me check that for you.",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "filler",
+        "first_chunk_seq": 0
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "I found your booking."
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": " Your hotel is Hanbit Stay Myeongdong."
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 1,
+        "display_text": "I found your booking.",
+        "tts_text": "I found your booking.",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "reply",
+        "first_chunk_seq": 1
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 2,
+        "display_text": " Your hotel is Hanbit Stay Myeongdong.",
+        "tts_text": "Your hotel is Hahn-bit Stay Myung-dong.",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "reply",
+        "first_chunk_seq": 4
+      },
+      {
+        "type": "turn.done",
+        "turn_num": 1,
+        "marks": {
+          "s_rx": 162663414.38833302,
+          "s_turn_decided": 162663414.38833302,
+          "s_stt_done": 162663414.530916,
+          "s_llm_first_token": 162663415.35325003,
+          "s_tool_call": 162663415.073666,
+          "s_tool_done": 162663415.122,
+          "s_first_sentence": 162663415.68,
+          "s_tts_first_audio": 162663423.450291,
+          "c_vad_end": 162663408.42945802,
+          "c_play_start": 162663415.453291,
+          "t_filler_play": 162663415.453291,
+          "c_reply_play_start": 162663423.90625
+        },
+        "handoff_queued": false
+      }
+    ]
+  },
+  {
+    "locale": "zh-CN",
+    "engine": "kokoro",
+    "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/zh-CN.wav",
+    "audio_bytes": 8640,
+    "audio_seconds": 0.18,
+    "non_silent": true,
+    "barge_in_ack_ms": null,
+    "transport_vad_to_first_audio_ms": 17.504874974489212,
+    "wall_ms": 93.85350000858307,
+    "warm": false,
+    "measurement_phase": "measured",
+    "playback_mode": "simulated_ack_no_speaker",
+    "events": [
+      {
+        "type": "session.ready",
+        "session_id": "1f167f38-e455-4b0b-915e-d4643d89f421",
+        "locale": "zh-CN",
+        "tts_engine": "kokoro",
+        "normalize": "full",
+        "stt": "whisper",
+        "turn_detect": "vad"
+      },
+      {
+        "type": "stt.result",
+        "turn_num": 1,
+        "text": "查询ZV-7305，我姓王。",
+        "text_raw": "查询ZV-7305，我姓王。",
+        "lang_detected": null,
+        "lang_prob": null
+      },
+      {
+        "type": "tool.call",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-7305",
+          "last_name": "王"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-7305",
+          "type": "airport_pickup",
+          "lexicon_id": "hotel_euljiro_lantern",
+          "start_at": "2026-11-07T19:30:00+09:00",
+          "origin_lexicon_id": "airport_icn",
+          "terminal": 1,
+          "total_krw": 78000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "乙支路灯笼酒店",
+          "origin": {
+            "name": "仁川国际机场",
+            "lexicon_id": "airport_icn"
+          }
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 0,
+        "display_text": "我帮您查一下。",
+        "tts_text": "我帮您查一下。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "filler",
+        "first_chunk_seq": 0
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "已经查到您的预订。"
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "车费是78,000韩元。"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 1,
+        "display_text": "已经查到您的预订。",
+        "tts_text": "已经查到您的预订。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "reply",
+        "first_chunk_seq": 1
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 2,
+        "display_text": "车费是78,000韩元。",
+        "tts_text": "车费是七万八千韩元。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "reply",
+        "first_chunk_seq": 4
+      },
+      {
+        "type": "turn.done",
+        "turn_num": 1,
+        "marks": {
+          "s_rx": 162663535.21445802,
+          "s_turn_decided": 162663535.21445802,
+          "s_stt_done": 162663535.323375,
+          "s_llm_first_token": 162663544.729667,
+          "s_tool_call": 162663543.08441597,
+          "s_tool_done": 162663543.228166,
+          "s_first_sentence": 162663544.99220797,
+          "s_tts_first_audio": 162663555.55925,
+          "c_vad_end": 162663527.35475,
+          "c_play_start": 162663544.868791,
+          "t_filler_play": 162663544.868791,
+          "c_reply_play_start": 162663556.124708
+        },
+        "handoff_queued": false
+      }
+    ]
+  },
+  {
+    "locale": "zh-TW",
+    "engine": "kokoro",
+    "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/zh-TW.wav",
+    "audio_bytes": 8640,
+    "audio_seconds": 0.18,
+    "non_silent": true,
+    "barge_in_ack_ms": null,
+    "transport_vad_to_first_audio_ms": 9.818625003099442,
+    "wall_ms": 77.66712501645088,
+    "warm": false,
+    "measurement_phase": "measured",
+    "playback_mode": "simulated_ack_no_speaker",
+    "events": [
+      {
+        "type": "session.ready",
+        "session_id": "91f323ca-7f32-426e-9fc7-6c7fabca7e11",
+        "locale": "zh-TW",
+        "tts_engine": "kokoro",
+        "normalize": "full",
+        "stt": "whisper",
+        "turn_detect": "vad"
+      },
+      {
+        "type": "stt.result",
+        "turn_num": 1,
+        "text": "查詢ZV-5196，我姓陳。",
+        "text_raw": "查詢ZV-5196，我姓陳。",
+        "lang_detected": null,
+        "lang_prob": null
+      },
+      {
+        "type": "tool.call",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-5196",
+          "last_name": "陳"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-5196",
+          "type": "hotel",
+          "lexicon_id": "hotel_hangang_moonlight",
+          "check_in": "2026-11-10",
+          "check_out": "2026-11-12",
+          "nights": 2,
+          "total_krw": 412000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "漢江月光套房飯店"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 0,
+        "display_text": "我幫您查一下。",
+        "tts_text": "我幫您查一下。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "filler",
+        "first_chunk_seq": 0
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "已經查到您的訂房。"
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "總金額是412,000韓元。"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 1,
+        "display_text": "已經查到您的訂房。",
+        "tts_text": "已經查到您的訂房。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "reply",
+        "first_chunk_seq": 1
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 2,
+        "display_text": "總金額是412,000韓元。",
+        "tts_text": "總金額是四十一萬兩千韓元。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "reply",
+        "first_chunk_seq": 4
+      },
+      {
+        "type": "turn.done",
+        "turn_num": 1,
+        "marks": {
+          "s_rx": 162663665.866583,
+          "s_turn_decided": 162663665.866583,
+          "s_stt_done": 162663665.976708,
+          "s_llm_first_token": 162663666.47241595,
+          "s_tool_call": 162663666.165208,
+          "s_tool_done": 162663666.213291,
+          "s_first_sentence": 162663666.614833,
+          "s_tts_first_audio": 162663673.101458,
+          "c_vad_end": 162663656.729791,
+          "c_play_start": 162663666.554,
+          "t_filler_play": 162663666.554,
+          "c_reply_play_start": 162663673.4535
+        },
+        "handoff_queued": false
+      }
+    ]
+  },
+  {
+    "locale": "ja",
+    "engine": "kokoro",
+    "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/ja.wav",
+    "audio_bytes": 8640,
+    "audio_seconds": 0.18,
+    "non_silent": true,
+    "barge_in_ack_ms": null,
+    "transport_vad_to_first_audio_ms": 9.12049999833107,
+    "wall_ms": 81.23445799946785,
+    "warm": false,
+    "measurement_phase": "measured",
+    "playback_mode": "simulated_ack_no_speaker",
+    "events": [
+      {
+        "type": "session.ready",
+        "session_id": "0d77f59e-61c9-429c-b91c-2ba56bfd4f23",
+        "locale": "ja",
+        "tts_engine": "kokoro",
+        "normalize": "full",
+        "stt": "whisper",
+        "turn_detect": "vad"
+      },
+      {
+        "type": "stt.result",
+        "turn_num": 1,
+        "text": "ZV-2610を確認してください。姓は佐藤です。",
+        "text_raw": "ZV-2610を確認してください。姓は佐藤です。",
+        "lang_detected": null,
+        "lang_prob": null
+      },
+      {
+        "type": "tool.call",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-2610",
+          "last_name": "佐藤"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-2610",
+          "type": "tour",
+          "lexicon_id": "tour_hanbok_gyeongbokgung",
+          "start_at": "2026-11-05T10:00:00+09:00",
+          "meeting_lexicon_id": "station_gyeongbokgung",
+          "meeting_exit": 5,
+          "guests": 2,
+          "total_krw": 130000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "景福宮韓服体験ツアー",
+          "meeting": {
+            "name": "景福宮駅",
+            "lexicon_id": "station_gyeongbokgung"
+          }
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 0,
+        "display_text": "確認いたしますので、少々お待ちください。",
+        "tts_text": "確認いたしますので、少々お待ちください。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "filler",
+        "first_chunk_seq": 0
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "ご予約を確認しました。"
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "合計130,000ウォンです。"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 1,
+        "display_text": "ご予約を確認しました。",
+        "tts_text": "ご予約を確認しました。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "reply",
+        "first_chunk_seq": 1
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 2,
+        "display_text": "合計130,000ウォンです。",
+        "tts_text": "合計じゅうさんまん ウォンです。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "reply",
+        "first_chunk_seq": 4
+      },
+      {
+        "type": "turn.done",
+        "turn_num": 1,
+        "marks": {
+          "s_rx": 162663778.40575,
+          "s_turn_decided": 162663778.40575,
+          "s_stt_done": 162663778.53187498,
+          "s_llm_first_token": 162663780.539333,
+          "s_tool_call": 162663780.247541,
+          "s_tool_done": 162663780.30254102,
+          "s_first_sentence": 162663780.602166,
+          "s_tts_first_audio": 162663788.461791,
+          "c_vad_end": 162663771.505208,
+          "c_play_start": 162663780.6305,
+          "t_filler_play": 162663780.6305,
+          "c_reply_play_start": 162663788.80391598
+        },
+        "handoff_queued": false
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "engine": "kokoro",
+    "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/en.wav",
+    "audio_bytes": 2880,
+    "audio_seconds": 0.06,
+    "non_silent": true,
+    "barge_in_ack_ms": 1.112958014011383,
+    "transport_vad_to_first_audio_ms": 8.019374996423721,
+    "wall_ms": 13.71120798587799,
+    "warm": false,
+    "measurement_phase": "measured",
+    "playback_mode": "simulated_ack_no_speaker",
+    "events": [
+      {
+        "type": "session.ready",
+        "session_id": "a95765b5-727f-4e01-a28a-76eed6d772d8",
+        "locale": "en",
+        "tts_engine": "kokoro",
+        "normalize": "full",
+        "stt": "whisper",
+        "turn_detect": "vad"
+      },
+      {
+        "type": "stt.result",
+        "turn_num": 1,
+        "text": "Find ZV-4821, surname Carter.",
+        "text_raw": "Find ZV-4821, surname Carter.",
+        "lang_detected": null,
+        "lang_prob": null
+      },
+      {
+        "type": "tool.call",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-4821",
+          "last_name": "Carter"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-4821",
+          "type": "hotel",
+          "lexicon_id": "hotel_hanbit_myeongdong",
+          "check_in": "2026-11-03",
+          "check_out": "2026-11-05",
+          "nights": 2,
+          "total_krw": 286000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "Hanbit Stay Myeongdong"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 0,
+        "display_text": "Let me check that for you.",
+        "tts_text": "Let me check that for you.",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "filler",
+        "first_chunk_seq": 0
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "I found your booking."
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": " Your hotel is Hanbit Stay Myeongdong."
+      },
+      {
+        "type": "turn.cancelled",
+        "turn_num": 1,
+        "reason": "barge_in"
+      }
+    ]
+  },
+  {
+    "locale": "zh-CN",
+    "engine": "kokoro",
+    "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/zh-CN.wav",
+    "audio_bytes": 2880,
+    "audio_seconds": 0.06,
+    "non_silent": true,
+    "barge_in_ack_ms": 0.9540829956531525,
+    "transport_vad_to_first_audio_ms": 10.671166002750397,
+    "wall_ms": 15.62354201078415,
+    "warm": false,
+    "measurement_phase": "measured",
+    "playback_mode": "simulated_ack_no_speaker",
+    "events": [
+      {
+        "type": "session.ready",
+        "session_id": "4701b8fb-0808-4fe3-a786-17ab1990f8f3",
+        "locale": "zh-CN",
+        "tts_engine": "kokoro",
+        "normalize": "full",
+        "stt": "whisper",
+        "turn_detect": "vad"
+      },
+      {
+        "type": "stt.result",
+        "turn_num": 1,
+        "text": "查询ZV-7305，我姓王。",
+        "text_raw": "查询ZV-7305，我姓王。",
+        "lang_detected": null,
+        "lang_prob": null
+      },
+      {
+        "type": "tool.call",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-7305",
+          "last_name": "王"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-7305",
+          "type": "airport_pickup",
+          "lexicon_id": "hotel_euljiro_lantern",
+          "start_at": "2026-11-07T19:30:00+09:00",
+          "origin_lexicon_id": "airport_icn",
+          "terminal": 1,
+          "total_krw": 78000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "乙支路灯笼酒店",
+          "origin": {
+            "name": "仁川国际机场",
+            "lexicon_id": "airport_icn"
+          }
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 0,
+        "display_text": "我帮您查一下。",
+        "tts_text": "我帮您查一下。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "filler",
+        "first_chunk_seq": 0
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "已经查到您的预订。"
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "车费是78,000韩元。"
+      },
+      {
+        "type": "turn.cancelled",
+        "turn_num": 1,
+        "reason": "barge_in"
+      }
+    ]
+  },
+  {
+    "locale": "zh-TW",
+    "engine": "kokoro",
+    "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/zh-TW.wav",
+    "audio_bytes": 2880,
+    "audio_seconds": 0.06,
+    "non_silent": true,
+    "barge_in_ack_ms": 0.8243339955806732,
+    "transport_vad_to_first_audio_ms": 10.603041976690292,
+    "wall_ms": 15.316332995891571,
+    "warm": false,
+    "measurement_phase": "measured",
+    "playback_mode": "simulated_ack_no_speaker",
+    "events": [
+      {
+        "type": "session.ready",
+        "session_id": "ad160e89-d3d5-495c-a359-6941429cce88",
+        "locale": "zh-TW",
+        "tts_engine": "kokoro",
+        "normalize": "full",
+        "stt": "whisper",
+        "turn_detect": "vad"
+      },
+      {
+        "type": "stt.result",
+        "turn_num": 1,
+        "text": "查詢ZV-5196，我姓陳。",
+        "text_raw": "查詢ZV-5196，我姓陳。",
+        "lang_detected": null,
+        "lang_prob": null
+      },
+      {
+        "type": "tool.call",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-5196",
+          "last_name": "陳"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-5196",
+          "type": "hotel",
+          "lexicon_id": "hotel_hangang_moonlight",
+          "check_in": "2026-11-10",
+          "check_out": "2026-11-12",
+          "nights": 2,
+          "total_krw": 412000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "漢江月光套房飯店"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 0,
+        "display_text": "我幫您查一下。",
+        "tts_text": "我幫您查一下。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "filler",
+        "first_chunk_seq": 0
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "已經查到您的訂房。"
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "總金額是412,000韓元。"
+      },
+      {
+        "type": "turn.cancelled",
+        "turn_num": 1,
+        "reason": "barge_in"
+      }
+    ]
+  },
+  {
+    "locale": "ja",
+    "engine": "kokoro",
+    "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/ja.wav",
+    "audio_bytes": 2880,
+    "audio_seconds": 0.06,
+    "non_silent": true,
+    "barge_in_ack_ms": 0.7900409996509552,
+    "transport_vad_to_first_audio_ms": 9.641000002622604,
+    "wall_ms": 14.526792019605637,
+    "warm": false,
+    "measurement_phase": "measured",
+    "playback_mode": "simulated_ack_no_speaker",
+    "events": [
+      {
+        "type": "session.ready",
+        "session_id": "ff791d7c-df8e-4758-9359-8d66a3cd8203",
+        "locale": "ja",
+        "tts_engine": "kokoro",
+        "normalize": "full",
+        "stt": "whisper",
+        "turn_detect": "vad"
+      },
+      {
+        "type": "stt.result",
+        "turn_num": 1,
+        "text": "ZV-2610を確認してください。姓は佐藤です。",
+        "text_raw": "ZV-2610を確認してください。姓は佐藤です。",
+        "lang_detected": null,
+        "lang_prob": null
+      },
+      {
+        "type": "tool.call",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "args": {
+          "reservation_code": "ZV-2610",
+          "last_name": "佐藤"
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tool.result",
+        "turn_num": 1,
+        "name": "lookup_reservation",
+        "result": {
+          "reservation_code": "ZV-2610",
+          "type": "tour",
+          "lexicon_id": "tour_hanbok_gyeongbokgung",
+          "start_at": "2026-11-05T10:00:00+09:00",
+          "meeting_lexicon_id": "station_gyeongbokgung",
+          "meeting_exit": 5,
+          "guests": 2,
+          "total_krw": 130000,
+          "status": "confirmed",
+          "paid": true,
+          "payment_method": "credit_card",
+          "found": true,
+          "name": "景福宮韓服体験ツアー",
+          "meeting": {
+            "name": "景福宮駅",
+            "lexicon_id": "station_gyeongbokgung"
+          }
+        },
+        "source": "server_prefetch"
+      },
+      {
+        "type": "tts.sentence",
+        "turn_num": 1,
+        "seq": 0,
+        "display_text": "確認いたしますので、少々お待ちください。",
+        "tts_text": "確認いたしますので、少々お待ちください。",
+        "engine": "kokoro",
+        "sample_rate": 24000,
+        "role": "filler",
+        "first_chunk_seq": 0
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "ご予約を確認しました。"
+      },
+      {
+        "type": "llm.delta",
+        "turn_num": 1,
+        "text": "合計130,000ウォンです。"
+      },
+      {
+        "type": "turn.cancelled",
+        "turn_num": 1,
+        "reason": "barge_in"
+      }
+    ]
+  }
+]

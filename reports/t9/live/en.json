@@ -1,0 +1,125 @@
+{
+  "locale": "en",
+  "engine": "kokoro",
+  "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/t9/inputs/en.wav",
+  "audio_bytes": 706800,
+  "audio_seconds": 14.725,
+  "non_silent": true,
+  "barge_in_ack_ms": null,
+  "transport_vad_to_first_audio_ms": 635.2042080163956,
+  "wall_ms": 2574.9302499890327,
+  "warm": true,
+  "measurement_phase": "measured",
+  "playback_mode": "simulated_ack_no_speaker",
+  "events": [
+    {
+      "type": "session.ready",
+      "session_id": "8bf41cfb-2f06-4dfc-be30-cb8964e6d899",
+      "locale": "en",
+      "tts_engine": "kokoro",
+      "normalize": "full",
+      "stt": "whisper",
+      "turn_detect": "vad"
+    },
+    {
+      "type": "stt.result",
+      "turn_num": 1,
+      "text": "Please find Reservation ZV4821. My surname is Carter.",
+      "text_raw": "Please find Reservation ZV4821. My surname is Carter.",
+      "lang_detected": null,
+      "lang_prob": null
+    },
+    {
+      "type": "tool.call",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "args": {
+        "reservation_code": "ZV-4821",
+        "last_name": "Carter"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tool.result",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "result": {
+        "reservation_code": "ZV-4821",
+        "type": "hotel",
+        "lexicon_id": "hotel_hanbit_myeongdong",
+        "check_in": "2026-11-03",
+        "check_out": "2026-11-05",
+        "nights": 2,
+        "total_krw": 286000,
+        "status": "confirmed",
+        "paid": true,
+        "payment_method": "credit_card",
+        "found": true,
+        "name": "Hanbit Stay Myeongdong"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 0,
+      "display_text": "Let me check that for you.",
+      "tts_text": "Let me check that for you.",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "filler",
+      "first_chunk_seq": 0
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026."
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": " Would you like to know the cancellation policy?"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 1,
+      "display_text": "Your reservation ZV-4821 for Hanbit Stay Myeongdong is confirmed from November 3 to November 5, 2026.",
+      "tts_text": "Your reservation Z V four eight two one for Hahn-bit Stay Myung-dong is confirmed from November three to November five, two thousand twenty-six.",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 2
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 2,
+      "display_text": " Would you like to know the cancellation policy?",
+      "tts_text": "Would you like to know the cancellation policy?",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 107
+    },
+    {
+      "type": "turn.done",
+      "turn_num": 1,
+      "marks": {
+        "s_rx": 168920482.062166,
+        "s_turn_decided": 168920482.062166,
+        "s_stt_done": 168921107.93150002,
+        "s_llm_first_token": 168921206.82479098,
+        "s_tool_call": 168921108.142333,
+        "s_tool_done": 168921108.19233298,
+        "s_first_sentence": 168922255.827958,
+        "s_tts_first_audio": 168922821.96445802,
+        "c_vad_end": 168920477.461375,
+        "c_play_start": 168921112.671916,
+        "t_filler_play": 168921112.671916,
+        "c_reply_play_start": 168922822.171583
+      },
+      "handoff_queued": false
+    }
+  ]
+}

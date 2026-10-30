@@ -1,0 +1,21 @@
+{
+  "timezone": "Asia/Seoul",
+  "demo_today": "2026-11-01",
+  "hotel": {
+    "basis": "calendar_date",
+    "free_days_before": 3,
+    "partial_days_before": 1,
+    "partial_fee_percent": 50,
+    "late_fee_percent": 100
+  },
+  "airport_pickup": {
+    "basis": "elapsed_hours",
+    "free_hours_before": 24,
+    "late_fee_percent": 50
+  },
+  "tour": {
+    "basis": "calendar_date",
+    "free_days_before": 2,
+    "late_fee_percent": 100
+  }
+}

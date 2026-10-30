@@ -1,0 +1,28 @@
+{
+  "engine": "voxcpm2",
+  "locale": "zh-TW",
+  "stream": false,
+  "file": "engines/mlx_engines/artifacts/voxcpm2-zh-TW.wav",
+  "sample_rate": 24000,
+  "duration_s": 2.7201666666666666,
+  "rms": 0.01094351802021265,
+  "peak": 0.119720458984375,
+  "synth_ms": 4685.045,
+  "ttfa_ms": 4706.011625006795,
+  "wall_ms": 4706.065540987765,
+  "info": {
+    "engine": "voxcpm2",
+    "model_id": "mlx-community/VoxCPM2-bf16",
+    "locales": [
+      "en",
+      "zh-CN",
+      "zh-TW",
+      "ja",
+      "yue"
+    ],
+    "supports_streaming": false,
+    "native_sample_rate": 48000,
+    "load_ms": 3821.8346670037135,
+    "peak_mem_bytes": 7530705344
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "locale": "en",
+    "session_id": "3b4ef0f9-5bdd-40cd-8d0e-a8ad5bc74add",
+    "revision": 5,
+    "all_8_server_marks_nonnull": true,
+    "spoken_text": "I found your booking. Your hotel is Hanbit Stay Myeongdong.",
+    "reply_latency_ms": 15.476791977882385
+  },
+  {
+    "locale": "zh-CN",
+    "session_id": "1f167f38-e455-4b0b-915e-d4643d89f421",
+    "revision": 5,
+    "all_8_server_marks_nonnull": true,
+    "spoken_text": "已经查到您的预订。车费是78,000韩元。",
+    "reply_latency_ms": 28.76995798945427
+  },
+  {
+    "locale": "zh-TW",
+    "session_id": "91f323ca-7f32-426e-9fc7-6c7fabca7e11",
+    "revision": 5,
+    "all_8_server_marks_nonnull": true,
+    "spoken_text": "已經查到您的訂房。總金額是412,000韓元。",
+    "reply_latency_ms": 16.723709017038345
+  },
+  {
+    "locale": "ja",
+    "session_id": "0d77f59e-61c9-429c-b91c-2ba56bfd4f23",
+    "revision": 5,
+    "all_8_server_marks_nonnull": true,
+    "spoken_text": "ご予約を確認しました。合計130,000ウォンです。",
+    "reply_latency_ms": 17.298707991838455
+  }
+]

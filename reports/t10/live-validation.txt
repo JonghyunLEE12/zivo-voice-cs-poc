@@ -1,0 +1,5 @@
+{"locale": "en", "engine": "kokoro", "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/en.wav", "audio_bytes": 326400, "audio_seconds": 6.8, "non_silent": true, "barge_in_ack_ms": null, "transport_vad_to_first_audio_ms": 6598.982584029436, "wall_ms": 11991.442917019129, "warm": false, "measurement_phase": "warmup_discarded", "playback_mode": "simulated_ack_no_speaker"}
+{"locale": "en", "completed": true, "reply": "I need your last name to look up reservation ZV-4821. Could you please provide it?"}
+{"locale": "zh-CN", "completed": true, "reply": "请提供预订代码和您的姓氏，以便我为您查询。"}
+{"locale": "zh-TW", "completed": true, "reply": "請問您的訂房程式碼和姓氏是什麼？"}
+{"locale": "ja", "completed": true, "reply": "予約コードと姓をお知らせください。"}

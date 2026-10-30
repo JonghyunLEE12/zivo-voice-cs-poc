@@ -1,0 +1,7 @@
+Resolved 134 packages in 251ms
+Prepared 4 packages in 67ms
+Installed 4 packages in 3ms
+ + beautifulsoup4==4.15.0
+ + gdown==5.1.0
+ + pysocks==1.7.1
+ + soupsieve==2.10

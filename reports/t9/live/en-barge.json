@@ -1,0 +1,79 @@
+{
+  "locale": "en",
+  "engine": "kokoro",
+  "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/t9/inputs/en.wav",
+  "audio_bytes": 91200,
+  "audio_seconds": 1.9,
+  "non_silent": true,
+  "barge_in_ack_ms": 2.2091250121593475,
+  "transport_vad_to_first_audio_ms": 554.537249982357,
+  "wall_ms": 565.538624972105,
+  "warm": true,
+  "measurement_phase": "measured",
+  "playback_mode": "simulated_ack_no_speaker",
+  "events": [
+    {
+      "type": "session.ready",
+      "session_id": "a6c422c9-3d9a-4f18-8fc4-bf207c3e921f",
+      "locale": "en",
+      "tts_engine": "kokoro",
+      "normalize": "full",
+      "stt": "whisper",
+      "turn_detect": "vad"
+    },
+    {
+      "type": "stt.result",
+      "turn_num": 1,
+      "text": "Please find Reservation ZV4821. My surname is Carter.",
+      "text_raw": "Please find Reservation ZV4821. My surname is Carter.",
+      "lang_detected": null,
+      "lang_prob": null
+    },
+    {
+      "type": "tool.call",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "args": {
+        "reservation_code": "ZV-4821",
+        "last_name": "Carter"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tool.result",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "result": {
+        "reservation_code": "ZV-4821",
+        "type": "hotel",
+        "lexicon_id": "hotel_hanbit_myeongdong",
+        "check_in": "2026-11-03",
+        "check_out": "2026-11-05",
+        "nights": 2,
+        "total_krw": 286000,
+        "status": "confirmed",
+        "paid": true,
+        "payment_method": "credit_card",
+        "found": true,
+        "name": "Hanbit Stay Myeongdong"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 0,
+      "display_text": "Let me check that for you.",
+      "tts_text": "Let me check that for you.",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "filler",
+      "first_chunk_seq": 0
+    },
+    {
+      "type": "turn.cancelled",
+      "turn_num": 1,
+      "reason": "barge_in"
+    }
+  ]
+}

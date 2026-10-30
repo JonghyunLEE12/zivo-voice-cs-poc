@@ -1,0 +1,6 @@
+{"at": "2026-10-30T14:07:04.534081", "memory_free_percent": 81, "swap_used_mib": 27305.06, "swap_growth_mib": 0.0, "disk_free_gib": 128.4247703552246, "starting": true, "pressure_level": 1, "warning_seconds": 0}
+{"at": "2026-10-30T14:07:07.131095", "memory_free_percent": 81, "swap_used_mib": 27289.06, "swap_growth_mib": -16.0, "disk_free_gib": 128.4224090576172, "starting": false, "pressure_level": 1, "warning_seconds": 0}
+{"at": "2026-10-30T14:12:20.219105", "memory_free_percent": 81, "swap_used_mib": 26707.56, "swap_growth_mib": 0.0, "disk_free_gib": 129.1389389038086, "starting": true, "pressure_level": 1, "warning_seconds": 0}
+{"at": "2026-10-30T14:12:21.656113", "memory_free_percent": 81, "swap_used_mib": 26707.56, "swap_growth_mib": 0.0, "disk_free_gib": 129.13874053955078, "starting": false, "pressure_level": 1, "warning_seconds": 0}
+{"at": "2026-10-30T14:14:00.528008", "memory_free_percent": 81, "swap_used_mib": 26427.56, "swap_growth_mib": 0.0, "disk_free_gib": 129.1042251586914, "starting": true, "pressure_level": 1, "warning_seconds": 0}
+{"at": "2026-10-30T14:14:01.931509", "memory_free_percent": 81, "swap_used_mib": 26427.56, "swap_growth_mib": 0.0, "disk_free_gib": 129.10387420654297, "starting": false, "pressure_level": 1, "warning_seconds": 0}

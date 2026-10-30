@@ -1,0 +1,11 @@
+{
+  "id": "33077987-b309-45f0-9eb1-73ccb35f6483",
+  "ok": true,
+  "result": {
+    "result": "{\"afterA\":true,\"afterBoth\":false,\"before\":true,\"status\":\"\",\"votes\":0}",
+    "origin": "http://127.0.0.1:8018/blind"
+  },
+  "_meta": {
+    "runtimeId": "b270a9cc-4ce7-41e1-8bbb-7f96f6f681de"
+  }
+}

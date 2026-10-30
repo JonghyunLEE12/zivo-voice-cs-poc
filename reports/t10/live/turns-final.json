@@ -1,0 +1,470 @@
+[
+  {
+    "session_id": "e8ff5dc2-8e97-4d86-9dff-4c51e058f700",
+    "turn_num": 1,
+    "revision": 70,
+    "status": "done",
+    "timestamp": "2026-10-30T13:54:51.501684+09:00",
+    "locale": "en",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad",
+    "marks": {
+      "s_rx": 169447574.416958,
+      "s_turn_decided": 169447574.416958,
+      "s_stt_done": 169448282.518166,
+      "s_llm_first_token": 169449396.83375,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169449911.020208,
+      "s_tts_first_audio": 169450512.718083,
+      "c_vad_end": 496.90000000596046,
+      "c_speech_end_est": 496.90000000596046,
+      "c_play_start": 3468.766666660706,
+      "c_reply_play_start": 3468.766666660706,
+      "c_play_finished": 10267
+    },
+    "durations": {
+      "stt_ms": 708.1012080013752,
+      "llm_ttft_ms": 1114.3155840039253,
+      "first_sentence_ms": 514.1864579916,
+      "tts_ttfa_ms": 601.6978749930859,
+      "client_vad_to_play_ms": 2971.8666666547456,
+      "client_speech_to_play_ms": 2971.8666666547456,
+      "client_vad_to_reply_play_ms": 2971.8666666547456,
+      "client_speech_to_reply_play_ms": 2971.8666666547456
+    },
+    "sentences": [
+      {
+        "display_text": "I need your last name to look up reservation ZV-4821.",
+        "tts_text_raw": "I need your last name to look up reservation ZV-4821.",
+        "tts_text_lex": "I need your last name to look up reservation ZV-4821.",
+        "tts_text_full": "I need your last name to look up reservation Z V four eight two one.",
+        "index": 0
+      },
+      {
+        "display_text": " Could you please provide it?",
+        "tts_text_raw": " Could you please provide it?",
+        "tts_text_lex": " Could you please provide it?",
+        "tts_text_full": "Could you please provide it?",
+        "index": 1
+      }
+    ],
+    "tools": [],
+    "audio_bytes": 326400,
+    "input_samples": 92106,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "stt_result": {
+      "text": "Please check my reservation at Myeongdong Station, my booking number is ZV4821.",
+      "text_raw": "Please check my reservation at Myeongdong Station, my booking number is ZV4821.",
+      "locale": "en",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "en",
+      "elapsed_ms": 707.6162080047652,
+      "audio_duration_s": 5.756625,
+      "initial_prompt": "Myeongdong, Myeongdong Station, Euljiro 3-ga Station, Hongik University Station, Gyeongbokgung Station, Chungmuro Station, Incheon International Airport, AREX, Seoul Station, Hanbit Stay Myeongdong, Euljiro Lantern Hotel, Hangang Moonlight Suites, Gyeongbokgung Hanbok Experience Tour",
+      "reservation_code": "ZV-4821",
+      "engine": "whisper"
+    },
+    "user_chars": 79,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "2894e7b2-8c67-4c24-aa59-75ccd9daa98f",
+      "turn_num": 1,
+      "locale": "en",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "I need your last name to look up reservation ZV-4821. Could you please provide it?",
+      "text": "I need your last name to look up reservation ZV-4821. Could you please provide it?",
+      "tools": [],
+      "metrics": {
+        "units": 15,
+        "unit_limit": 35,
+        "length_violation": false,
+        "sentence_count": 2,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 1114.1895840119105,
+        "first_sentence_ms": 1628.3186250075232,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 1628.137332998449,
+            "first_token_ms": 1114.1895840119105,
+            "tool_calls": 0,
+            "total_duration": 1613136125,
+            "load_duration": 4455750,
+            "prompt_eval_count": 1115,
+            "prompt_eval_duration": 1077311000,
+            "eval_count": 24,
+            "eval_duration": 506724000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 1628.9660840120632,
+        "stream_chunks": 24,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "max_queue_depth": 2,
+    "spoken_text": "I need your last name to look up reservation ZV-4821. Could you please provide it?",
+    "played_sentence_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "session_id": "d0e774df-35d5-4a0a-bd58-f4c2591bef70",
+    "turn_num": 1,
+    "revision": 63,
+    "status": "done",
+    "timestamp": "2026-10-30T13:55:03.568386+09:00",
+    "locale": "zh-CN",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad",
+    "marks": {
+      "s_rx": 169458725.515875,
+      "s_turn_decided": 169458725.515875,
+      "s_stt_done": 169459549.215375,
+      "s_llm_first_token": 169462163.137917,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169462538.98675,
+      "s_tts_first_audio": 169463380.311458,
+      "c_vad_end": 1156.9000000059605,
+      "c_speech_end_est": 1156.9000000059605,
+      "c_play_start": 5838.766666690508,
+      "c_reply_play_start": 5838.766666690508,
+      "c_play_finished": 11837.200000017881
+    },
+    "durations": {
+      "stt_ms": 823.6994999945164,
+      "llm_ttft_ms": 2613.9225420057774,
+      "first_sentence_ms": 375.8488329946995,
+      "tts_ttfa_ms": 841.3247079849243,
+      "client_vad_to_play_ms": 4681.866666684547,
+      "client_speech_to_play_ms": 4681.866666684547,
+      "client_vad_to_reply_play_ms": 4681.866666684547,
+      "client_speech_to_reply_play_ms": 4681.866666684547
+    },
+    "sentences": [
+      {
+        "display_text": "请提供预订代码和您的姓氏，以便我为您查询。",
+        "tts_text_raw": "请提供预订代码和您的姓氏，以便我为您查询。",
+        "tts_text_lex": "请提供预订代码和您的姓氏，以便我为您查询。",
+        "tts_text_full": "请提供预订代码和您的姓氏，以便我为您查询。",
+        "index": 0
+      }
+    ],
+    "tools": [],
+    "audio_bytes": 288000,
+    "input_samples": 115997,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "stt_result": {
+      "text": "请帮我确认预定, 司机会在仁川国际机场等我, 然后送我到明洞酒店。",
+      "text_raw": "请帮我确认预定, 司机会在仁川国际机场等我, 然后送我到明洞酒店。",
+      "locale": "zh-CN",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "zh",
+      "elapsed_ms": 823.3272089855745,
+      "audio_duration_s": 7.2498125,
+      "initial_prompt": "明洞, 明洞站, 乙支路3街站, 弘大入口站, 景福宫站, 忠武路站, 仁川国际机场, 机场快线, 首尔站, 明洞韩光酒店, 乙支路灯笼酒店, 汉江月光套房酒店, 景福宫韩服体验之旅",
+      "reservation_code": null,
+      "engine": "whisper"
+    },
+    "user_chars": 33,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "4c031379-2f26-4541-a835-96d50db85cfd",
+      "turn_num": 1,
+      "locale": "zh-CN",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "请提供预订代码和您的姓氏，以便我为您查询。",
+      "text": "请提供预订代码和您的姓氏，以便我为您查询。",
+      "tools": [],
+      "metrics": {
+        "units": 19,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 1,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 2613.5740840109065,
+        "first_sentence_ms": 2989.365250017727,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 2987.3634579998907,
+            "first_token_ms": 2613.5740840109065,
+            "tool_calls": 0,
+            "total_duration": 2967432375,
+            "load_duration": 12553292,
+            "prompt_eval_count": 1132,
+            "prompt_eval_duration": 2416439000,
+            "eval_count": 14,
+            "eval_duration": 360538000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 2992.1002500050236,
+        "stream_chunks": 14,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "max_queue_depth": 1,
+    "spoken_text": "请提供预订代码和您的姓氏，以便我为您查询。",
+    "played_sentence_indices": [
+      0
+    ]
+  },
+  {
+    "session_id": "a16a22c1-5e68-4fc4-b7c8-3d8134d26feb",
+    "turn_num": 1,
+    "revision": 53,
+    "status": "done",
+    "timestamp": "2026-10-30T13:55:14.640457+09:00",
+    "locale": "zh-TW",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad",
+    "marks": {
+      "s_rx": 169470113.716083,
+      "s_turn_decided": 169470113.716083,
+      "s_stt_done": 169470894.053666,
+      "s_llm_first_token": 169473941.447,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169474758.393375,
+      "s_tts_first_audio": 169475430.684208,
+      "c_vad_end": 512.4000000059605,
+      "c_speech_end_est": 512.4000000059605,
+      "c_play_start": 5873.966666678587,
+      "c_reply_play_start": 5873.966666678587,
+      "c_play_finished": 10876.199999988079
+    },
+    "durations": {
+      "stt_ms": 780.3375830054283,
+      "llm_ttft_ms": 3047.3933340013027,
+      "first_sentence_ms": 816.9463750123978,
+      "tts_ttfa_ms": 672.2908329963684,
+      "client_vad_to_play_ms": 5361.5666666726265,
+      "client_speech_to_play_ms": 5361.5666666726265,
+      "client_vad_to_reply_play_ms": 5361.5666666726265,
+      "client_speech_to_reply_play_ms": 5361.5666666726265
+    },
+    "sentences": [
+      {
+        "display_text": "請問您的訂房程式碼和姓氏是什麼？",
+        "tts_text_raw": "請問您的訂房程式碼和姓氏是什麼？",
+        "tts_text_lex": "請問您的訂房程式碼和姓氏是什麼？",
+        "tts_text_full": "請問您的訂房程式碼和姓氏是什麼？",
+        "index": 0
+      }
+    ],
+    "tools": [],
+    "audio_bytes": 240000,
+    "input_samples": 124227,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "stt_result": {
+      "text": "請幫我確認訂房, 從仁川國際機場搭計程車到飯店, 我已經用信用卡付款了",
+      "text_raw": "請幫我確認訂房, 從仁川國際機場搭計程車到飯店, 我已經用信用卡付款了",
+      "locale": "zh-TW",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "zh",
+      "elapsed_ms": 779.9694169953,
+      "audio_duration_s": 7.7641875,
+      "initial_prompt": "明洞, 明洞站, 乙支路3街站, 弘大入口站, 景福宮站, 忠武路站, 仁川國際機場, 機場捷運, 首爾站, 明洞韓光飯店, 乙支路燈籠飯店, 漢江月光套房飯店, 景福宮韓服體驗行程",
+      "reservation_code": null,
+      "engine": "whisper"
+    },
+    "user_chars": 35,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "89b41c81-ffa5-4801-bf16-9afa4a41b45a",
+      "turn_num": 1,
+      "locale": "zh-TW",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "請問您的訂房代碼和姓氏是什麼？",
+      "text": "請問您的訂房程式碼和姓氏是什麼？",
+      "tools": [],
+      "metrics": {
+        "units": 15,
+        "unit_limit": 60,
+        "length_violation": false,
+        "sentence_count": 1,
+        "sentence_violation": false,
+        "script_changed_chars": 2,
+        "first_token_ms": 3047.242708998965,
+        "first_sentence_ms": 3864.1027499979828,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 3863.6502500157803,
+            "first_token_ms": 3047.242708998965,
+            "tool_calls": 0,
+            "total_duration": 3855877500,
+            "load_duration": 8637375,
+            "prompt_eval_count": 1150,
+            "prompt_eval_duration": 2737891000,
+            "eval_count": 10,
+            "eval_duration": 821060000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 3864.3392090161797,
+        "stream_chunks": 10,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "max_queue_depth": 1,
+    "spoken_text": "請問您的訂房程式碼和姓氏是什麼？",
+    "played_sentence_indices": [
+      0
+    ]
+  },
+  {
+    "session_id": "ea1f328f-9345-45d0-b0f5-4a1d45bc6710",
+    "turn_num": 1,
+    "revision": 37,
+    "status": "done",
+    "timestamp": "2026-10-30T13:55:23.240610+09:00",
+    "locale": "ja",
+    "tts_engine": "kokoro",
+    "normalize": "full",
+    "stt": "whisper",
+    "turn_detect": "vad",
+    "marks": {
+      "s_rx": 169481801.881125,
+      "s_turn_decided": 169481801.881125,
+      "s_stt_done": 169482555.4955,
+      "s_llm_first_token": 169485100.49425003,
+      "s_tool_call": null,
+      "s_tool_done": null,
+      "s_first_sentence": 169485286.316625,
+      "s_tts_first_audio": 169485768.57220802,
+      "c_vad_end": 916.0999999940395,
+      "c_speech_end_est": 916.0999999940395,
+      "c_play_start": 4917.433333327373,
+      "c_reply_play_start": 4917.433333327373,
+      "c_play_finished": 8191.300000011921
+    },
+    "durations": {
+      "stt_ms": 753.6143749952316,
+      "llm_ttft_ms": 2544.9987500309944,
+      "first_sentence_ms": 185.82237496972084,
+      "tts_ttfa_ms": 482.2555830180645,
+      "client_vad_to_play_ms": 4001.333333333333,
+      "client_speech_to_play_ms": 4001.333333333333,
+      "client_vad_to_reply_play_ms": 4001.333333333333,
+      "client_speech_to_reply_play_ms": 4001.333333333333
+    },
+    "sentences": [
+      {
+        "display_text": "予約コードと姓をお知らせください。",
+        "tts_text_raw": "予約コードと姓をお知らせください。",
+        "tts_text_lex": "予約コードと姓をお知らせください。",
+        "tts_text_full": "予約コードと姓をお知らせください。",
+        "index": 0
+      }
+    ],
+    "tools": [],
+    "audio_bytes": 157200,
+    "input_samples": 98935,
+    "queue_capacity": 2,
+    "c_play_start_meaning": "first_audio_including_filler",
+    "llm_limitations": "T6.1 human-transfer/multi-turn tool omissions are not corrected",
+    "stt_result": {
+      "text": "予約を確認してください。 明洞駅から、 地下鉄で、ソウル駅まで行きます。",
+      "text_raw": "予約を確認してください。 明洞駅から、 地下鉄で、ソウル駅まで行きます。",
+      "locale": "ja",
+      "lang_detected": null,
+      "lang_prob": null,
+      "language_mode": "specified",
+      "language_used": "ja",
+      "elapsed_ms": 753.2480000227224,
+      "audio_duration_s": 6.1834375,
+      "initial_prompt": "明洞, 明洞駅, 乙支路3街駅, 弘大入口駅, 景福宮駅, 忠武路駅, 仁川国際空港, 空港鉄道, ソウル駅, ハンビットステイ明洞, 乙支路ランタンホテル, 漢江ムーンライトスイート, 景福宮韓服体験ツアー",
+      "reservation_code": null,
+      "engine": "whisper"
+    },
+    "user_chars": 36,
+    "llm": {
+      "type": "llm.done",
+      "session_id": "a5f10637-3de3-4df0-b25c-d1ad9932b6e8",
+      "turn_num": 1,
+      "locale": "ja",
+      "model": "qwen3.5:35b-a3b",
+      "think": false,
+      "raw_text": "予約コードと姓をお知らせください。",
+      "text": "予約コードと姓をお知らせください。",
+      "tools": [],
+      "metrics": {
+        "units": 17,
+        "unit_limit": 80,
+        "length_violation": false,
+        "sentence_count": 1,
+        "sentence_violation": false,
+        "script_changed_chars": 0,
+        "first_token_ms": 2544.7896670084447,
+        "first_sentence_ms": 2730.556417023763,
+        "rounds": [
+          {
+            "round": 1,
+            "elapsed_ms": 2729.011666990118,
+            "first_token_ms": 2544.7896670084447,
+            "tool_calls": 0,
+            "total_duration": 2693824708,
+            "load_duration": 22182625,
+            "prompt_eval_count": 1131,
+            "prompt_eval_duration": 2369191000,
+            "eval_count": 9,
+            "eval_duration": 180521000,
+            "done_reason": "stop"
+          }
+        ],
+        "llm_rounds": 1,
+        "elapsed_ms": 2730.7370000053197,
+        "stream_chunks": 9,
+        "thinking_chars": 0
+      },
+      "discarded_preambles": [],
+      "transferred": false
+    },
+    "handoff_queued": false,
+    "max_queue_depth": 1,
+    "spoken_text": "予約コードと姓をお知らせください。",
+    "played_sentence_indices": [
+      0
+    ]
+  }
+]

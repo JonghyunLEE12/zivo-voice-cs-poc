@@ -1,0 +1,130 @@
+{
+  "locale": "ja",
+  "engine": "kokoro",
+  "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/stt/say/ja.wav",
+  "audio_bytes": 8640,
+  "audio_seconds": 0.18,
+  "non_silent": true,
+  "barge_in_ack_ms": null,
+  "transport_vad_to_first_audio_ms": 9.12049999833107,
+  "wall_ms": 81.23445799946785,
+  "warm": false,
+  "measurement_phase": "measured",
+  "playback_mode": "simulated_ack_no_speaker",
+  "events": [
+    {
+      "type": "session.ready",
+      "session_id": "0d77f59e-61c9-429c-b91c-2ba56bfd4f23",
+      "locale": "ja",
+      "tts_engine": "kokoro",
+      "normalize": "full",
+      "stt": "whisper",
+      "turn_detect": "vad"
+    },
+    {
+      "type": "stt.result",
+      "turn_num": 1,
+      "text": "ZV-2610を確認してください。姓は佐藤です。",
+      "text_raw": "ZV-2610を確認してください。姓は佐藤です。",
+      "lang_detected": null,
+      "lang_prob": null
+    },
+    {
+      "type": "tool.call",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "args": {
+        "reservation_code": "ZV-2610",
+        "last_name": "佐藤"
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tool.result",
+      "turn_num": 1,
+      "name": "lookup_reservation",
+      "result": {
+        "reservation_code": "ZV-2610",
+        "type": "tour",
+        "lexicon_id": "tour_hanbok_gyeongbokgung",
+        "start_at": "2026-11-05T10:00:00+09:00",
+        "meeting_lexicon_id": "station_gyeongbokgung",
+        "meeting_exit": 5,
+        "guests": 2,
+        "total_krw": 130000,
+        "status": "confirmed",
+        "paid": true,
+        "payment_method": "credit_card",
+        "found": true,
+        "name": "景福宮韓服体験ツアー",
+        "meeting": {
+          "name": "景福宮駅",
+          "lexicon_id": "station_gyeongbokgung"
+        }
+      },
+      "source": "server_prefetch"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 0,
+      "display_text": "確認いたしますので、少々お待ちください。",
+      "tts_text": "確認いたしますので、少々お待ちください。",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "filler",
+      "first_chunk_seq": 0
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "ご予約を確認しました。"
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "合計130,000ウォンです。"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 1,
+      "display_text": "ご予約を確認しました。",
+      "tts_text": "ご予約を確認しました。",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 1
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 2,
+      "display_text": "合計130,000ウォンです。",
+      "tts_text": "合計じゅうさんまん ウォンです。",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 4
+    },
+    {
+      "type": "turn.done",
+      "turn_num": 1,
+      "marks": {
+        "s_rx": 162663778.40575,
+        "s_turn_decided": 162663778.40575,
+        "s_stt_done": 162663778.53187498,
+        "s_llm_first_token": 162663780.539333,
+        "s_tool_call": 162663780.247541,
+        "s_tool_done": 162663780.30254102,
+        "s_first_sentence": 162663780.602166,
+        "s_tts_first_audio": 162663788.461791,
+        "c_vad_end": 162663771.505208,
+        "c_play_start": 162663780.6305,
+        "t_filler_play": 162663780.6305,
+        "c_reply_play_start": 162663788.80391598
+      },
+      "handoff_queued": false
+    }
+  ]
+}

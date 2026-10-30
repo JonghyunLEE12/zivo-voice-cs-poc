@@ -1,0 +1,11 @@
+{
+  "id": "bad0a4b7-db7e-40fb-857c-2ea490f2c47c",
+  "ok": true,
+  "result": {
+    "result": "{\"gateBefore\":true,\"result\":{\"n\":10,\"pairs\":[{\"locale\":\"en\",\"n\":1,\"same\":0,\"same_pct\":0,\"sign_p_two_sided\":1,\"win_rate_excluding_ties\":0,\"x\":\"Voice 1\",\"x_pct\":0,\"x_wins\":0,\"y\":\"Voice 2\",\"y_pct\":100,\"y_wins\":1},{\"locale\":\"en\",\"n\":2,\"same\":0,\"same_pct\":0,\"sign_p_two_sided\":1,\"win_rate_excluding_ties\":0.5,\"x\":\"Voice 1\",\"x_pct\":50,\"x_wins\":1,\"y\":\"Voice 3\",\"y_pct\":50,\"y_wins\":1},{\"locale\":\"en\",\"n\":1,\"same\":1,\"same_pct\":100,\"sign_p_two_sided\":1,\"win_rate_excluding_ties\":null,\"x\":\"Voice 1\",\"x_pct\":0,\"x_wins\":0,\"y\":\"Voice 4\",\"y_pct\":0,\"y_wins\":0},{\"locale\":\"en\",\"n\":2,\"same\":1,\"same_pct\":50,\"sign_p_two_sided\":1,\"win_rate_excluding_ties\":1,\"x\":\"Voice 2\",\"x_pct\":50,\"x_wins\":1,\"y\":\"Voice 3\",\"y_pct\":0,\"y_wins\":0},{\"locale\":\"en\",\"n\":3,\"same\":1,\"same_pct\":33.333333333333336,\"sign_p_two_sided\":0.5,\"win_rate_excluding_ties\":0,\"x\":\"Voice 2\",\"x_pct\":0,\"x_wins\":0,\"y\":\"Voice 4\",\"y_pct\":66.66666666666667,\"y_wins\":2},{\"locale\":\"en\",\"n\":1,\"same\":0,\"same_pct\":0,\"sign_p_two_sided\":1,\"win_rate_excluding_ties\":0,\"x\":\"Voice 3\",\"x_pct\":0,\"x_wins\":0,\"y\":\"Voice 4\",\"y_pct\":100,\"y_wins\":1}],\"pronunciation\":[{\"heard\":4,\"marked\":0,\"rate\":0,\"voice\":\"Voice 1\"},{\"heard\":6,\"marked\":0,\"rate\":0,\"voice\":\"Voice 2\"},{\"heard\":5,\"marked\":0,\"rate\":0,\"voice\":\"Voice 3\"},{\"heard\":5,\"marked\":0,\"rate\":0,\"voice\":\"Voice 4\"}],\"taiwan_accent_evidence\":false}}",
+    "origin": "http://127.0.0.1:8018/blind"
+  },
+  "_meta": {
+    "runtimeId": "b270a9cc-4ce7-41e1-8bbb-7f96f6f681de"
+  }
+}

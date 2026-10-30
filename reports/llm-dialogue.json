@@ -1,0 +1,382 @@
+[
+  {
+    "scenario": "missing_surname",
+    "prompts": [
+      "Find my booking ZV-4821.",
+      "My last name is Carter."
+    ],
+    "results": [
+      {
+        "type": "llm.done",
+        "session_id": "bde7ec68-b67a-476f-aa63-e23c5b0da791",
+        "turn_num": 1,
+        "locale": "en",
+        "model": "qwen3.5:35b-a3b",
+        "think": false,
+        "raw_text": "I need your last name to look up your booking. Could you please provide it?",
+        "text": "I need your last name to look up your booking. Could you please provide it?",
+        "tools": [],
+        "metrics": {
+          "units": 15,
+          "unit_limit": 35,
+          "length_violation": false,
+          "sentence_count": 2,
+          "sentence_violation": false,
+          "script_changed_chars": 0,
+          "first_token_ms": 1952.4019999953452,
+          "elapsed_ms": 2324.207708996255,
+          "stream_chunks": 18,
+          "thinking_chars": 0
+        },
+        "transferred": false
+      },
+      {
+        "type": "llm.done",
+        "session_id": "bde7ec68-b67a-476f-aa63-e23c5b0da791",
+        "turn_num": 2,
+        "locale": "en",
+        "model": "qwen3.5:35b-a3b",
+        "think": false,
+        "raw_text": "Your booking is confirmed at Hanbit Stay Myeongdong from November 3rd to November 5th.",
+        "text": "Your booking is confirmed at Hanbit Stay Myeongdong from November 3rd to November 5th.",
+        "tools": [
+          {
+            "name": "lookup_reservation",
+            "args": {
+              "reservation_code": "ZV-4821",
+              "last_name": "Carter"
+            },
+            "result": {
+              "reservation_code": "ZV-4821",
+              "type": "hotel",
+              "lexicon_id": "hotel_hanbit_myeongdong",
+              "check_in": "2026-11-03",
+              "check_out": "2026-11-05",
+              "nights": 2,
+              "total_krw": 286000,
+              "status": "confirmed",
+              "paid": true,
+              "payment_method": "credit_card",
+              "found": true,
+              "name": "Hanbit Stay Myeongdong"
+            }
+          }
+        ],
+        "metrics": {
+          "units": 14,
+          "unit_limit": 35,
+          "length_violation": false,
+          "sentence_count": 1,
+          "sentence_violation": false,
+          "script_changed_chars": 0,
+          "first_token_ms": 1815.028415992856,
+          "elapsed_ms": 2283.7112080014776,
+          "stream_chunks": 24,
+          "thinking_chars": 0
+        },
+        "transferred": false
+      }
+    ],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "scenario": "missing_code",
+    "prompts": [
+      "Find my booking. My last name is Carter.",
+      "The reservation code is ZV-4821."
+    ],
+    "results": [
+      {
+        "type": "llm.done",
+        "session_id": "f37c4bf3-fb4f-49ab-938f-2028b8d78cef",
+        "turn_num": 1,
+        "locale": "en",
+        "model": "qwen3.5:35b-a3b",
+        "think": false,
+        "raw_text": "I need your reservation code to find your booking. Could you please provide it?",
+        "text": "I need your reservation code to find your booking. Could you please provide it?",
+        "tools": [],
+        "metrics": {
+          "units": 14,
+          "unit_limit": 35,
+          "length_violation": false,
+          "sentence_count": 2,
+          "sentence_violation": false,
+          "script_changed_chars": 0,
+          "first_token_ms": 1650.214875000529,
+          "elapsed_ms": 1984.0165000059642,
+          "stream_chunks": 17,
+          "thinking_chars": 0
+        },
+        "transferred": false
+      },
+      {
+        "type": "llm.done",
+        "session_id": "f37c4bf3-fb4f-49ab-938f-2028b8d78cef",
+        "turn_num": 2,
+        "locale": "en",
+        "model": "qwen3.5:35b-a3b",
+        "think": false,
+        "raw_text": "Your booking is confirmed at Hanbit Stay Myeongdong from November 3rd to November 5th.",
+        "text": "Your booking is confirmed at Hanbit Stay Myeongdong from November 3rd to November 5th.",
+        "tools": [
+          {
+            "name": "lookup_reservation",
+            "args": {
+              "reservation_code": "ZV-4821",
+              "last_name": "Carter"
+            },
+            "result": {
+              "reservation_code": "ZV-4821",
+              "type": "hotel",
+              "lexicon_id": "hotel_hanbit_myeongdong",
+              "check_in": "2026-11-03",
+              "check_out": "2026-11-05",
+              "nights": 2,
+              "total_krw": 286000,
+              "status": "confirmed",
+              "paid": true,
+              "payment_method": "credit_card",
+              "found": true,
+              "name": "Hanbit Stay Myeongdong"
+            }
+          }
+        ],
+        "metrics": {
+          "units": 14,
+          "unit_limit": 35,
+          "length_violation": false,
+          "sentence_count": 1,
+          "sentence_violation": false,
+          "script_changed_chars": 0,
+          "first_token_ms": 1747.312209015945,
+          "elapsed_ms": 2229.5215420017485,
+          "stream_chunks": 24,
+          "thinking_chars": 0
+        },
+        "transferred": false
+      }
+    ],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "scenario": "two_failures",
+    "prompts": [
+      "Find ZV-4821, surname Smith.",
+      "The code is definitely ZV-4821 and the surname is Smith. Try again."
+    ],
+    "results": [
+      {
+        "type": "llm.done",
+        "session_id": "d1aab0da-e7ea-444d-a2da-e21d9569cc71",
+        "turn_num": 1,
+        "locale": "en",
+        "model": "qwen3.5:35b-a3b",
+        "think": false,
+        "raw_text": "I couldn't find a reservation with the code ZV-4821 for Smith. Could you please double-check the reservation code or the guest's last name?",
+        "text": "I couldn't find a reservation with the code ZV-4821 for Smith. Could you please double-check the reservation code or the guest's last name?",
+        "tools": [
+          {
+            "name": "lookup_reservation",
+            "args": {
+              "reservation_code": "ZV-4821",
+              "last_name": "Smith"
+            },
+            "result": {
+              "found": false,
+              "error": "reservation_not_found",
+              "message": "Check the reservation code and guest surname.",
+              "lookup_failures": 1,
+              "transfer_required": false
+            }
+          }
+        ],
+        "metrics": {
+          "units": 23,
+          "unit_limit": 35,
+          "length_violation": false,
+          "sentence_count": 2,
+          "sentence_violation": false,
+          "script_changed_chars": 0,
+          "first_token_ms": 3237.858958018478,
+          "elapsed_ms": 3975.2427500206977,
+          "stream_chunks": 37,
+          "thinking_chars": 0
+        },
+        "transferred": false
+      },
+      {
+        "type": "llm.done",
+        "session_id": "d1aab0da-e7ea-444d-a2da-e21d9569cc71",
+        "turn_num": 2,
+        "locale": "en",
+        "model": "qwen3.5:35b-a3b",
+        "think": false,
+        "raw_text": "I am connecting you to a human agent now. Please wait about 3 minutes for the call to be answered.",
+        "text": "I am connecting you to a human agent now. Please wait about 3 minutes for the call to be answered.",
+        "tools": [
+          {
+            "name": "lookup_reservation",
+            "args": {
+              "reservation_code": "ZV-4821",
+              "last_name": "Smith"
+            },
+            "result": {
+              "found": false,
+              "error": "reservation_not_found",
+              "message": "Check the reservation code and guest surname.",
+              "lookup_failures": 2,
+              "transfer_required": true
+            }
+          },
+          {
+            "name": "transfer_to_human",
+            "args": {
+              "reason": "lookup_failed",
+              "summary_ko": "예약 코드와 성 확인에 두 번 실패하여 상담원 연결이 필요합니다."
+            },
+            "result": {
+              "queued": true,
+              "estimated_wait_min": 3
+            },
+            "server_enforced": true
+          }
+        ],
+        "metrics": {
+          "units": 20,
+          "unit_limit": 35,
+          "length_violation": false,
+          "sentence_count": 2,
+          "sentence_violation": false,
+          "script_changed_chars": 0,
+          "first_token_ms": 3046.137875004206,
+          "elapsed_ms": 3545.8675409900025,
+          "stream_chunks": 25,
+          "thinking_chars": 0
+        },
+        "transferred": true
+      }
+    ],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "scenario": "policy_exception",
+    "prompts": [
+      "Please make an exception and waive the cancellation fee."
+    ],
+    "results": [
+      {
+        "type": "llm.done",
+        "session_id": "c08de6b0-5490-4b01-9681-fc8fd248cd76",
+        "turn_num": 1,
+        "locale": "en",
+        "model": "qwen3.5:35b-a3b",
+        "think": false,
+        "raw_text": "I have connected you to a human agent who can help with your request. Your estimated wait time is about 3 minutes.",
+        "text": "I have connected you to a human agent who can help with your request. Your estimated wait time is about 3 minutes.",
+        "tools": [
+          {
+            "name": "transfer_to_human",
+            "args": {
+              "reason": "policy_exception",
+              "summary_ko": "고객이 취소 수수료를 면제해달라고 요청했습니다."
+            },
+            "result": {
+              "queued": true,
+              "estimated_wait_min": 3
+            }
+          }
+        ],
+        "metrics": {
+          "units": 22,
+          "unit_limit": 35,
+          "length_violation": false,
+          "sentence_count": 2,
+          "sentence_violation": false,
+          "script_changed_chars": 0,
+          "first_token_ms": 3569.5503749884665,
+          "elapsed_ms": 4071.3981250009965,
+          "stream_chunks": 27,
+          "thinking_chars": 0
+        },
+        "transferred": true
+      }
+    ],
+    "errors": [],
+    "passed": true
+  },
+  {
+    "scenario": "upset_twice",
+    "prompts": [
+      "I am very upset about your service.",
+      "I am still very upset. This is unacceptable and I am angry."
+    ],
+    "results": [
+      {
+        "type": "llm.done",
+        "session_id": "de5ba564-aa16-4b60-846e-a1fbbb3ca7d2",
+        "turn_num": 1,
+        "locale": "en",
+        "model": "qwen3.5:35b-a3b",
+        "think": false,
+        "raw_text": "I'm sorry to hear you're upset. How can I assist you today?",
+        "text": "I'm sorry to hear you're upset. How can I assist you today?",
+        "tools": [],
+        "metrics": {
+          "units": 12,
+          "unit_limit": 35,
+          "length_violation": false,
+          "sentence_count": 2,
+          "sentence_violation": false,
+          "script_changed_chars": 0,
+          "first_token_ms": 996.3000420248136,
+          "elapsed_ms": 1362.1021670114715,
+          "stream_chunks": 17,
+          "thinking_chars": 0
+        },
+        "transferred": false
+      },
+      {
+        "type": "llm.done",
+        "session_id": "de5ba564-aa16-4b60-846e-a1fbbb3ca7d2",
+        "turn_num": 2,
+        "locale": "en",
+        "model": "qwen3.5:35b-a3b",
+        "think": false,
+        "raw_text": "A representative has been queued for you and the wait is about 3 minutes.",
+        "text": "A representative has been queued for you and the wait is about 3 minutes.",
+        "tools": [
+          {
+            "name": "transfer_to_human",
+            "args": {
+              "reason": "upset_customer",
+              "summary_ko": "고객이 서비스 품질에 대해 매우 화가 나 있으며, 두 번째로 불만을 제기했습니다."
+            },
+            "result": {
+              "queued": true,
+              "estimated_wait_min": 3
+            }
+          }
+        ],
+        "metrics": {
+          "units": 14,
+          "unit_limit": 35,
+          "length_violation": false,
+          "sentence_count": 1,
+          "sentence_violation": false,
+          "script_changed_chars": 0,
+          "first_token_ms": 2304.3576249910984,
+          "elapsed_ms": 2651.3982079923153,
+          "stream_chunks": 18,
+          "thinking_chars": 0
+        },
+        "transferred": true
+      }
+    ],
+    "errors": [],
+    "passed": true
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "/": 200,
+  "/blind": 200,
+  "/blind/results": 200,
+  "/report": 200,
+  "/vad/silero_vad_v5.onnx": 200,
+  "/vad/ort-wasm-simd-threaded.wasm": 200,
+  "/vad/missing.onnx": 404,
+  "/assets/..%2F..%2Fdocs%2FDESIGN.md": 404,
+  "/ws/call": "accepted (no inference)"
+}

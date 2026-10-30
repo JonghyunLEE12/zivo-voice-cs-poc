@@ -1,0 +1,27 @@
+{
+  "engine": "qwen3tts",
+  "locale": "ja",
+  "stream": false,
+  "file": "engines/mlx_engines/artifacts/qwen3tts-ja.wav",
+  "sample_rate": 24000,
+  "duration_s": 2.72,
+  "rms": 0.003268350614234805,
+  "peak": 0.021759033203125,
+  "synth_ms": 1888.635,
+  "ttfa_ms": 1906.060459004948,
+  "wall_ms": 1906.143375003012,
+  "info": {
+    "engine": "qwen3tts",
+    "model_id": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16",
+    "locales": [
+      "en",
+      "zh-CN",
+      "zh-TW",
+      "ja"
+    ],
+    "supports_streaming": true,
+    "native_sample_rate": 24000,
+    "load_ms": 3530.7474580185954,
+    "peak_mem_bytes": 9126553745
+  }
+}

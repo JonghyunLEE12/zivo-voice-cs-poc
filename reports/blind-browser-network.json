@@ -1,0 +1,2734 @@
+{
+  "id": "20e3c0d1-abe8-4d99-aba3-0d3ccf26ea5e",
+  "ok": true,
+  "result": {
+    "requests": [
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"alias\":\"browser-acceptance\",\"native\":\"ko\",\"device\":\"headphones\"}",
+        "requestId": "28032.6",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:20:19 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326820475,
+        "url": "http://127.0.0.1:8018/api/blind/session"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.7",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:20:19 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326820475,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.8",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:20:41 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326841975,
+        "url": "http://127.0.0.1:8018/api/blind/audio/6Mei79dM4jnqgRohLynVK1fL0lyNVEgc7DO7WZ7QDCI"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.9",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:20:42 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326842875,
+        "url": "http://127.0.0.1:8018/api/blind/audio/tNn3QxnZkhTOl_ML762sMZaa82KKCEgyc0jDpIPV-FU"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"OHnd9DxHGhIn3FgZbQUWKTA4yTbgwiUM\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.10",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:20:54 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326855074,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.11",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:20:54 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326855074,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.12",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:05 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326865974,
+        "url": "http://127.0.0.1:8018/api/blind/audio/dRqFpxdBePEJ4U5VjvsJZJlJpZMDjpEkyV3PcMXU6QE"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.13",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:05 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326866475,
+        "url": "http://127.0.0.1:8018/api/blind/audio/_lVW1jDrYzPc2xl_MHoUKXXYWo7CRRR0HpGLmEpamV0"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"bloEjUvsEl7NjelvTh0JO4rvEwxq4KVq\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.14",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:06 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326866876,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.15",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:06 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326866876,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.16",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:06 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326866976,
+        "url": "http://127.0.0.1:8018/api/blind/audio/lYbw_lFL41m5CU5BH-u8n_oywjjTptA0845Kk2T--yw"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.17",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:06 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326867375,
+        "url": "http://127.0.0.1:8018/api/blind/audio/x4Ay1iEp_LXpLThM2cJee1IG06ZfZjtiHRYb8ydPiJU"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"JRuks6eRUAfuwLhS7Cz3y4AytFNrTrQD\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.18",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:07 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326867875,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.19",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:07 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326867875,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.20",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:07 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326867974,
+        "url": "http://127.0.0.1:8018/api/blind/audio/MUw4QesFmdG48nzFTypSuNZepLZChGkuhMcVp4344qU"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.21",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:07 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326868375,
+        "url": "http://127.0.0.1:8018/api/blind/audio/WY7cSRoXkbPrah2f_6f3Nbw1R9GmZPKvex5HmDt-I4Q"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"eOYNQXavOxcVrCsfAzj9Qnlz-18qoX9f\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.22",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:08 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326868875,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.23",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:08 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326868875,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.24",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:08 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326868975,
+        "url": "http://127.0.0.1:8018/api/blind/audio/yKVbs8lPq13MDYeGtqnT-BJyyGcbDPUpp4BgJx2OePY"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.25",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:08 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326869374,
+        "url": "http://127.0.0.1:8018/api/blind/audio/mW-b74Rq5Bq7e3T97yT0c89yvLoJJFg37fu4xs4Ozt0"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"rhdDBbMooowGfmWxfLaW_QxZYCt8wO-t\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.26",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:09 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326869775,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.27",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:09 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326869775,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.28",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:09 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326869875,
+        "url": "http://127.0.0.1:8018/api/blind/audio/10YDjPUs92o1EC-U2c03VllufIMFHQGNC6d98ojsGbE"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.29",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:09 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326870375,
+        "url": "http://127.0.0.1:8018/api/blind/audio/hVCT7CzZwQH8uPUfvn15rQK6UBA1ChGrAR4d7DzbU9M"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"-BSUO6Q9a6hG3FzdlQNgXAEp3agOgk75\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.30",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:10 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326870775,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.31",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:10 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326870775,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.32",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:10 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326870875,
+        "url": "http://127.0.0.1:8018/api/blind/audio/pg_MtyxRulIanGzcZJGoRAYddFP_1V0IUEIlJaPnM48"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.33",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:10 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326871276,
+        "url": "http://127.0.0.1:8018/api/blind/audio/c2iw4fU6lUBsgWbEKv2kfjf1RUY5WHNXl2VTk7YorVc"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"ucSgJF97kq3o130T7fEIcDryJ5soTnZf\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.34",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:11 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326871775,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.35",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:11 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326871775,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.36",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:11 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326871874,
+        "url": "http://127.0.0.1:8018/api/blind/audio/AA94KP4QjYsSkE_fR1nxV5Nlp9Fy_Ffxk_r548lWNes"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.37",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:11 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326872276,
+        "url": "http://127.0.0.1:8018/api/blind/audio/xplqsCwEroS1KYJ8usSea9IriRhE1ZS-fCO-va7jnvM"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"Ohr7GGmxPHCk2w5K2rS0kHycklNSSQpx\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.38",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:12 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326872775,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.39",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:12 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326872775,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.40",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:12 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326872875,
+        "url": "http://127.0.0.1:8018/api/blind/audio/_ACB-z7iCjaWRVfapgmtlWK9EH_4Ygd7gtzQPb2Qauk"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.41",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:12 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326873275,
+        "url": "http://127.0.0.1:8018/api/blind/audio/KUSeaECx1N8yUtIi540lvRTgGN40RkeUn3INHvXpH4A"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"oIlQUTAkAxqvE49_eXbnVqYlvHciJh6_\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.42",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:13 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326873675,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.43",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:13 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326873675,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.44",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:13 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326873774,
+        "url": "http://127.0.0.1:8018/api/blind/audio/8UXneLdQI1mNvo3N64hUitoBEeaVIZpI1e-zgbiMn6c"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.45",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:21:13 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326874275,
+        "url": "http://127.0.0.1:8018/api/blind/audio/istSkpjZkjtPC11kjTs4wez6TedXmNsEwdI1r7hocQw"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"qy-q7vH5MpnlLjDmS12ByXgNwg9jBNJm\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.46",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:14 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326874676,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.47",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:14 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326874676,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.48",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "1331",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:14 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326874774,
+        "url": "http://127.0.0.1:8018/api/blind/results"
+      },
+      {
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36"
+        },
+        "method": "GET",
+        "mimeType": "text/html",
+        "requestId": "3D6C9188126B79F445E77CAF125AFD55",
+        "resourceType": "Document",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "1640",
+          "content-type": "text/html; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:21:52 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326913974,
+        "url": "http://127.0.0.1:8018/blind/results"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "text/css",
+        "requestId": "28032.50",
+        "resourceType": "Stylesheet",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cache-control": "no-store",
+          "content-length": "2176",
+          "content-type": "text/css; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:21:52 GMT",
+          "etag": "\"6bcdc09cb13a3eff6785642841accef0\"",
+          "last-modified": "Fri, 30 Oct 2026 02:16:09 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326913974,
+        "url": "http://127.0.0.1:8018/blind/assets/style.css"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "text/javascript",
+        "requestId": "28032.51",
+        "resourceType": "Script",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cache-control": "no-store",
+          "content-length": "1894",
+          "content-type": "text/javascript; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:21:52 GMT",
+          "etag": "\"8c83e467f5a3102b3eaa91ff04b7401e\"",
+          "last-modified": "Fri, 30 Oct 2026 02:16:09 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326913974,
+        "url": "http://127.0.0.1:8018/blind/assets/results.js"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.54",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "1331",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:21:52 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793326914075,
+        "url": "http://127.0.0.1:8018/api/blind/results?"
+      },
+      {
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36"
+        },
+        "method": "GET",
+        "mimeType": "text/html",
+        "requestId": "551ED1953C8177E090507D911720D519",
+        "resourceType": "Document",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "1640",
+          "content-type": "text/html; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:27:52 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327272377,
+        "url": "http://127.0.0.1:8018/blind/results"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "text/css",
+        "requestId": "28032.56",
+        "resourceType": "Stylesheet",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cache-control": "no-store",
+          "content-length": "2176",
+          "content-type": "text/css; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:27:52 GMT",
+          "etag": "\"6bcdc09cb13a3eff6785642841accef0\"",
+          "last-modified": "Fri, 30 Oct 2026 02:16:09 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327272478,
+        "url": "http://127.0.0.1:8018/blind/assets/style.css"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "text/javascript",
+        "requestId": "28032.57",
+        "resourceType": "Script",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cache-control": "no-store",
+          "content-length": "1894",
+          "content-type": "text/javascript; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:27:52 GMT",
+          "etag": "\"8c83e467f5a3102b3eaa91ff04b7401e\"",
+          "last-modified": "Fri, 30 Oct 2026 02:16:09 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327272478,
+        "url": "http://127.0.0.1:8018/blind/assets/results.js"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.60",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "1331",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:27:52 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327272478,
+        "url": "http://127.0.0.1:8018/api/blind/results?"
+      },
+      {
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36"
+        },
+        "method": "GET",
+        "mimeType": "text/html",
+        "requestId": "119FC3BC671B67A3248FA07F0240771F",
+        "resourceType": "Document",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "2875",
+          "content-type": "text/html; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:31:27 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327487280,
+        "url": "http://127.0.0.1:8018/blind"
+      },
+      {
+        "headers": {
+          "Origin": "http://127.0.0.1:8018",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "text/javascript",
+        "requestId": "28032.62",
+        "resourceType": "Script",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cache-control": "no-store",
+          "content-length": "2653",
+          "content-type": "text/javascript; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:31:27 GMT",
+          "etag": "\"6ee5cf695bd7c74582cdfbcd708e7980\"",
+          "last-modified": "Fri, 30 Oct 2026 02:30:47 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327487380,
+        "url": "http://127.0.0.1:8018/blind/assets/index-DcEXUTG1.js"
+      },
+      {
+        "headers": {
+          "Origin": "http://127.0.0.1:8018",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "text/javascript",
+        "requestId": "28032.63",
+        "resourceType": "Script",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cache-control": "no-store",
+          "content-length": "711",
+          "content-type": "text/javascript; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:31:27 GMT",
+          "etag": "\"79389dad1eb3eba3c09edb22116464e9\"",
+          "last-modified": "Fri, 30 Oct 2026 02:30:47 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327487380,
+        "url": "http://127.0.0.1:8018/blind/assets/style-BmFDexAr.js"
+      },
+      {
+        "headers": {
+          "Origin": "http://127.0.0.1:8018",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "text/css",
+        "requestId": "28032.64",
+        "resourceType": "Stylesheet",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cache-control": "no-store",
+          "content-length": "2174",
+          "content-type": "text/css; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:31:27 GMT",
+          "etag": "\"93c49622bb3d72eacc0439879bfb17ed\"",
+          "last-modified": "Fri, 30 Oct 2026 02:30:47 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327487380,
+        "url": "http://127.0.0.1:8018/blind/assets/style-DqM2HiFK.css"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"alias\":\"browser-acceptance-final\",\"native\":\"ko\",\"device\":\"headphones\"}",
+        "requestId": "28032.68",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:42 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327502535,
+        "url": "http://127.0.0.1:8018/api/blind/session"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.69",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:42 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327502580,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.70",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:42 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327503180,
+        "url": "http://127.0.0.1:8018/api/blind/audio/0eb7kSV7K2zM-Splg6YK1l3Yb66wb8pDfyDThl7T0hU"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.71",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:43 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327503680,
+        "url": "http://127.0.0.1:8018/api/blind/audio/UbalXRL6ZME29VEHufOCbU7fkcpWkrp02JKQas8FfmY"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"YHrxu21oizH5K0PNa7y05_pp5y80M3UX\",\"choice\":\"A\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.72",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:43 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327504080,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.73",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:43 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327504080,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.74",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:43 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327504180,
+        "url": "http://127.0.0.1:8018/api/blind/audio/SWAubpKft4UQvY5iFqQogXUtdZIMOBu_NTx9yBz2RYE"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.75",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:44 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327504579,
+        "url": "http://127.0.0.1:8018/api/blind/audio/qeIu060pgVDkhP3ZrqkfgvZLyFhwrrCxGHgGKSWxgE4"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"OuPDX7KPTib2DyFCSoV_FF6-9WcOVlHh\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.76",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:44 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327505080,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.77",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:44 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327505080,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.78",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:44 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327505180,
+        "url": "http://127.0.0.1:8018/api/blind/audio/Gb9wzYXlUJX6bM0-69-EWEsk4Aje9KxRTrB0mkcQyEc"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.79",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:45 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327505580,
+        "url": "http://127.0.0.1:8018/api/blind/audio/N2Bp16brV-rSVzHMscAiKd8RFGX19-pd8D0LW-_Vt-w"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"UKmNzz3qyPxerXFmh1AfzQyBlvZogfiz\",\"choice\":\"B\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.80",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:45 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327505979,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.81",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:45 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327506079,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.82",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:45 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327506079,
+        "url": "http://127.0.0.1:8018/api/blind/audio/l62Inn9wADaRz-fexCYnJ_zC_GfSYnSvVqz6Qof9Q7Y"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.83",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:46 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327506580,
+        "url": "http://127.0.0.1:8018/api/blind/audio/U6ZyNQrfa-e6unw0mjw1oLDThtpwNlnDSUIihgVBZPs"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"feuMULapxzfEw8Pv6zCwZE77UA0w80kV\",\"choice\":\"A\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.84",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:46 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327506980,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.85",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:46 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327506980,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.86",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:46 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327507079,
+        "url": "http://127.0.0.1:8018/api/blind/audio/9I6L5do1iJW48_xdWNFMfOPnsczkxjGsaznHadIyo6M"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.87",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:47 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327507580,
+        "url": "http://127.0.0.1:8018/api/blind/audio/qbZ-LZPsctcSsJUfaNUjPXJtiDkoCkLPuPP8lqL2imw"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"tpfEKVKwtXJxbrUNJF27-WJPxJorBczY\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.88",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:47 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327507980,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.89",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:47 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327507980,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.90",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:47 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327508080,
+        "url": "http://127.0.0.1:8018/api/blind/audio/FrunWSMegzaftyyhFKohR4VAdD9S6YYgA2psl-NLQe8"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.91",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:48 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327508480,
+        "url": "http://127.0.0.1:8018/api/blind/audio/MHthNNRHWfspljw4VL5986Q76I3t3jzkrRF3YbWigpc"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"d1tYWNUsBUXG3gLe-1_BH_qbKHPFpd_p\",\"choice\":\"B\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.92",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:48 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327508980,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.93",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:48 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327508980,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.94",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:48 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327509080,
+        "url": "http://127.0.0.1:8018/api/blind/audio/ssXSIjBmRdP5R6B2X0QSTYD5VP76ZaEEUWOS28_-LiM"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.95",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:49 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327509480,
+        "url": "http://127.0.0.1:8018/api/blind/audio/qS0hhOoiE99Xj-dY_TKzqFCu8wJ1sLY6NvR9G65RQuk"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"ddB0_V7bfeYmn4kQSg7gsEuwHEUkU0jf\",\"choice\":\"A\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.96",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:49 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327509879,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.97",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:49 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327509979,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.98",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:49 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327509979,
+        "url": "http://127.0.0.1:8018/api/blind/audio/HrrTkp8ZKPVaHfIwlEOoukr5dtWpuw_2R2VI-UpaWe8"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.99",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:50 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327510480,
+        "url": "http://127.0.0.1:8018/api/blind/audio/85aiYA2R1kJAnMPLZhuxqwpMPiGWY2DPo6VcRV9rNik"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"Mfryica4tRAVZYpmFw2IIlbVXAFx0-hZ\",\"choice\":\"same\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.100",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:50 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327510880,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.101",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:50 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327510880,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.102",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:50 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327510979,
+        "url": "http://127.0.0.1:8018/api/blind/audio/q1B_0sA0fjOD09RdHKMRDbpk5EkzgKhbrDUFAk1K8t8"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.103",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:51 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327511480,
+        "url": "http://127.0.0.1:8018/api/blind/audio/mV9djGiQxUmzn5MXZlvuusZ4WtX5eZR67GjOXcl6ptg"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"xtfzPCTp5sZ6yGwvuL4Zi9LX3I6TJAve\",\"choice\":\"B\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.104",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:51 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327511879,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.105",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:51 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327511879,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.106",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:51 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327511979,
+        "url": "http://127.0.0.1:8018/api/blind/audio/relkfa3bNba0KB6ZqIRMAf4UGpswto2JykimviT3aKg"
+      },
+      {
+        "headers": {
+          "Accept-Encoding": "identity;q=1, *;q=0",
+          "Range": "bytes=0-",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "audio/wav",
+        "requestId": "28032.107",
+        "resourceType": "Media",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "16844",
+          "content-type": "audio/wav",
+          "date": "Fri, 30 Oct 2026 02:31:51 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327512380,
+        "url": "http://127.0.0.1:8018/api/blind/audio/ypSaatqDqiK-_fiwMjrBlEjlv_GJ8SJG_6lScoGoC-Y"
+      },
+      {
+        "headers": {
+          "Content-Type": "application/json",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "POST",
+        "mimeType": "application/json",
+        "postData": "{\"assignment_id\":\"383tmiXRxOL-ynXn8Q0BxAf8HkMGvG0l\",\"choice\":\"A\",\"pron_issue_a\":false,\"pron_issue_b\":false,\"listened_ms_a\":350,\"listened_ms_b\":350,\"comment\":\"\"}",
+        "requestId": "28032.108",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "14",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:52 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327512880,
+        "url": "http://127.0.0.1:8018/api/blind/vote"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.109",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "275",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:52 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327512880,
+        "url": "http://127.0.0.1:8018/api/blind/next?locale=en"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.110",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "1353",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:31:52 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327512980,
+        "url": "http://127.0.0.1:8018/api/blind/results"
+      },
+      {
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36"
+        },
+        "method": "GET",
+        "mimeType": "text/html",
+        "requestId": "9C428A1367ADC56C04F44F5108482B80",
+        "resourceType": "Document",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "1771",
+          "content-type": "text/html; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:32:09 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327530479,
+        "url": "http://127.0.0.1:8018/blind/results"
+      },
+      {
+        "headers": {
+          "Origin": "http://127.0.0.1:8018",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "text/javascript",
+        "requestId": "28032.112",
+        "resourceType": "Script",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cache-control": "no-store",
+          "content-length": "1716",
+          "content-type": "text/javascript; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:32:09 GMT",
+          "etag": "\"422a039e2738dc02db6a0e34b525ee9d\"",
+          "last-modified": "Fri, 30 Oct 2026 02:30:47 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327530479,
+        "url": "http://127.0.0.1:8018/blind/assets/results-Bz1zzLge.js"
+      },
+      {
+        "headers": {
+          "Origin": "http://127.0.0.1:8018",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "text/javascript",
+        "requestId": "28032.113",
+        "resourceType": "Script",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cache-control": "no-store",
+          "content-length": "711",
+          "content-type": "text/javascript; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:32:09 GMT",
+          "etag": "\"79389dad1eb3eba3c09edb22116464e9\"",
+          "last-modified": "Fri, 30 Oct 2026 02:30:47 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327530479,
+        "url": "http://127.0.0.1:8018/blind/assets/style-BmFDexAr.js"
+      },
+      {
+        "headers": {
+          "Origin": "http://127.0.0.1:8018",
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "text/css",
+        "requestId": "28032.114",
+        "resourceType": "Stylesheet",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cache-control": "no-store",
+          "content-length": "2174",
+          "content-type": "text/css; charset=utf-8",
+          "date": "Fri, 30 Oct 2026 02:32:09 GMT",
+          "etag": "\"93c49622bb3d72eacc0439879bfb17ed\"",
+          "last-modified": "Fri, 30 Oct 2026 02:30:47 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327530479,
+        "url": "http://127.0.0.1:8018/blind/assets/style-DqM2HiFK.css"
+      },
+      {
+        "headers": {
+          "Referer": "",
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.250 Safari/537.36",
+          "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\""
+        },
+        "method": "GET",
+        "mimeType": "application/json",
+        "requestId": "28032.118",
+        "resourceType": "Fetch",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "content-length": "1353",
+          "content-type": "application/json",
+          "date": "Fri, 30 Oct 2026 02:32:09 GMT",
+          "referrer-policy": "no-referrer",
+          "server": "uvicorn",
+          "x-content-type-options": "nosniff"
+        },
+        "status": 200,
+        "timestamp": 1793327530479,
+        "url": "http://127.0.0.1:8018/api/blind/results?"
+      }
+    ]
+  },
+  "_meta": {
+    "runtimeId": "b270a9cc-4ce7-41e1-8bbb-7f96f6f681de"
+  }
+}

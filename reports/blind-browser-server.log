@@ -1,0 +1,7 @@
+INFO:     127.0.0.1:54024 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54025 - "GET /blind/results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54025 - "GET /blind/assets/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54026 - "GET /blind/assets/results.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54026 - "GET /api/blind/results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54122 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54274 - "GET /api/blind/results HTTP/1.1" 200 OK

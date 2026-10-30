@@ -1,0 +1,13 @@
+INFO:     127.0.0.1:50775 - "GET /?dev=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50775 - "GET /assets/index-CaCLYgT4.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50776 - "GET /assets/index-BPacXHCI.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50775 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50775 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50805 - "GET /?dev=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50806 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50835 - "GET /?dev=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50835 - "GET /assets/index-BPacXHCI.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50836 - "GET /assets/index-CaCLYgT4.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50854 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50874 - "GET /?dev=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50875 - "GET /favicon.ico HTTP/1.1" 404 Not Found

@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "locale": "en",
+      "audio_path": "reports/stt/say/en.wav",
+      "display_text": "Please check my reservation at Myeongdong Station. My booking number is Z V four eight two one.",
+      "source": "macOS say voice=Samantha"
+    },
+    {
+      "locale": "zh-CN",
+      "audio_path": "reports/stt/say/zh-CN.wav",
+      "display_text": "请帮我确认预订。司机会在仁川国际机场等我，然后送我到明洞酒店。",
+      "source": "macOS say voice=Tingting"
+    },
+    {
+      "locale": "zh-TW",
+      "audio_path": "reports/stt/say/zh-TW.wav",
+      "display_text": "請幫我確認訂房。從仁川國際機場搭計程車到飯店，我已經用信用卡付款了。",
+      "source": "macOS say voice=Meijia"
+    },
+    {
+      "locale": "ja",
+      "audio_path": "reports/stt/say/ja.wav",
+      "display_text": "予約を確認してください。明洞駅から地下鉄でソウル駅まで行きます。",
+      "source": "macOS say voice=Kyoko"
+    }
+  ]
+}

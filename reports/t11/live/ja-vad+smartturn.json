@@ -1,0 +1,67 @@
+{
+  "locale": "ja",
+  "engine": "kokoro",
+  "input_wav": "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/reports/t9/inputs/ja.wav",
+  "audio_bytes": 283200,
+  "audio_seconds": 5.9,
+  "non_silent": true,
+  "barge_in_ack_ms": null,
+  "transport_vad_to_first_audio_ms": 1499.3881250023842,
+  "wall_ms": 1537.5437909960747,
+  "warm": true,
+  "measurement_phase": "measured",
+  "playback_mode": "simulated_ack_no_speaker",
+  "events": [
+    {
+      "type": "session.ready",
+      "session_id": "aa64a8bd-6c78-4007-8078-e47d449f21aa",
+      "locale": "ja",
+      "tts_engine": "kokoro",
+      "normalize": "full",
+      "stt": "whisper",
+      "turn_detect": "vad+smartturn"
+    },
+    {
+      "type": "stt.result",
+      "turn_num": 1,
+      "text": "予約番号はZV2610です。 領事は佐藤です。 予約を確認してください。",
+      "text_raw": "予約番号はZV2610です。 領事は佐藤です。 予約を確認してください。",
+      "lang_detected": null,
+      "lang_prob": null
+    },
+    {
+      "type": "llm.delta",
+      "turn_num": 1,
+      "text": "予約番号は「ZV-2610」の形式で入力してください。"
+    },
+    {
+      "type": "tts.sentence",
+      "turn_num": 1,
+      "seq": 0,
+      "display_text": "予約番号は「ZV-2610」の形式で入力してください。",
+      "tts_text": "予約番号は「ゼット ブイ に ろく いち ゼロ」の形式で入力してください。",
+      "engine": "kokoro",
+      "sample_rate": 24000,
+      "role": "reply",
+      "first_chunk_seq": 0
+    },
+    {
+      "type": "turn.done",
+      "turn_num": 1,
+      "marks": {
+        "s_rx": 169946997.57070798,
+        "s_turn_decided": 169947045.031416,
+        "s_stt_done": 169947657.981875,
+        "s_llm_first_token": 169947744.687958,
+        "s_tool_call": null,
+        "s_tool_done": null,
+        "s_first_sentence": 169948172.192041,
+        "s_tts_first_audio": 169948489.107791,
+        "c_vad_end": 169946989.892416,
+        "c_play_start": 169948489.285958,
+        "c_reply_play_start": 169948489.285958
+      },
+      "handoff_queued": false
+    }
+  ]
+}

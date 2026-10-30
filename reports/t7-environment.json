@@ -1,0 +1,14 @@
+{
+  "hardware": "Apple M4 Pro",
+  "ram_bytes": 51539607552,
+  "os": "27.0.1",
+  "power": "AC Power",
+  "resources": {
+    "memory_free_pct": 66,
+    "swap_gib": 22.616455078125,
+    "disk_free_gb": 144.521007104,
+    "pressure_level": 1
+  },
+  "model_downloads_this_task_bytes": 0,
+  "notes": "Other IDE/browser/system apps remain; no other model inference is allowed during the owned benchmark window."
+}

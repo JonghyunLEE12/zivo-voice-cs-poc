@@ -1,0 +1,32 @@
+INFO:     127.0.0.1:64882 - "GET /blind HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64883 - "GET /blind/results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64884 - "GET /blind/assets/style-BmFDexAr.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64885 - "GET /blind/assets/style-DqM2HiFK.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /blind/assets/index-BVkVqWd-.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64887 - "GET /blind/assets/results-Bz1zzLge.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64888 - "POST /api/blind/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64889 - "GET /api/blind/next?locale=en HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64890 - "GET /api/blind/audio/crRwFWhNR9o4qnS2sR44yvG-l30TCF3bZhWuEK1UVzk HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64891 - "GET /api/blind/audio/w78waPUGA08E9InzR5-9zPlxvIfgGXeVVkHCuMwvyZg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64892 - "GET /api/blind/results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64893 - "GET /api/blind/results?format=csv HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64894 - "GET /data/blind/manifest.json HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64895 - "GET /api/blind/manifest HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64896 - "GET /blind/assets/manifest.json HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64897 - "GET /api/blind/audio/unknown HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64957 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64966 - "GET /blind HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64966 - "GET /blind/assets/index-BVkVqWd-.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64968 - "GET /blind/assets/style-BmFDexAr.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64967 - "GET /blind/assets/style-DqM2HiFK.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64990 - "POST /api/blind/session HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64990 - "GET /api/blind/next?locale=en HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64990 - "GET /api/blind/audio/ql3703tvDWImUB8pylEaGc70rLABUZyHIJzb5QAkacI HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65008 - "GET /api/blind/audio/XYa2vLG-7mqKqYRAa6tg7X4_XnHL4cYweaXaLIeexjs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65011 - "GET /api/blind/results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65034 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65197 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65203 - "GET /report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65236 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65253 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65282 - "GET /favicon.ico HTTP/1.1" 404 Not Found

@@ -1,0 +1,1034 @@
+{
+  "id": "aa7657a0-ad64-48ad-bd40-231f31880104",
+  "ok": true,
+  "result": {
+    "origin": "http://127.0.0.1:8018/report",
+    "refs": {
+      "e1": {
+        "name": "TTS benchmark",
+        "role": "heading"
+      },
+      "e10": {
+        "name": "8.413",
+        "role": "cell"
+      },
+      "e100": {
+        "name": "cosyvoice3",
+        "role": "cell"
+      },
+      "e101": {
+        "name": "ja",
+        "role": "cell"
+      },
+      "e102": {
+        "name": "8/8",
+        "role": "cell"
+      },
+      "e103": {
+        "name": "10263.9",
+        "role": "cell"
+      },
+      "e104": {
+        "name": "2.534 / 축소 측정(표본 1): 반복 p90 미산출",
+        "role": "cell"
+      },
+      "e105": {
+        "name": "4188.2 (stream)",
+        "role": "cell"
+      },
+      "e106": {
+        "name": "10.932",
+        "role": "cell"
+      },
+      "e107": {
+        "name": "축소 측정(표본 1), full 0.449; raw 비교 제외",
+        "role": "cell"
+      },
+      "e108": {
+        "name": "full 0.431; raw 비교 제외",
+        "role": "cell"
+      },
+      "e109": {
+        "name": "full 2/6 (33.3%); raw 비교 제외",
+        "role": "cell"
+      },
+      "e11": {
+        "name": "0.092 → 0.079",
+        "role": "cell"
+      },
+      "e110": {
+        "name": "0/8 (0.0%)",
+        "role": "cell"
+      },
+      "e111": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e112": {
+        "name": "cosyvoice3",
+        "role": "cell"
+      },
+      "e113": {
+        "name": "yue",
+        "role": "cell"
+      },
+      "e114": {
+        "name": "3/3",
+        "role": "cell"
+      },
+      "e115": {
+        "name": "10263.9",
+        "role": "cell"
+      },
+      "e116": {
+        "name": "2.829 / 축소 측정(표본 1): 반복 p90 미산출",
+        "role": "cell"
+      },
+      "e117": {
+        "name": "4553.9 (stream)",
+        "role": "cell"
+      },
+      "e118": {
+        "name": "11.844",
+        "role": "cell"
+      },
+      "e119": {
+        "name": "축소 측정(표본 1), full 0.373; raw 비교 제외",
+        "role": "cell"
+      },
+      "e12": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e120": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e121": {
+        "name": "full 1/2 (50.0%); raw 비교 제외",
+        "role": "cell"
+      },
+      "e122": {
+        "name": "0/3 (0.0%)",
+        "role": "cell"
+      },
+      "e123": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e124": {
+        "name": "qwen3tts",
+        "role": "cell"
+      },
+      "e125": {
+        "name": "en",
+        "role": "cell"
+      },
+      "e126": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e127": {
+        "name": "4082.9",
+        "role": "cell"
+      },
+      "e128": {
+        "name": "0.580 / 0.608",
+        "role": "cell"
+      },
+      "e129": {
+        "name": "340.9 (stream)",
+        "role": "cell"
+      },
+      "e13": {
+        "name": "6/9 (66.7%) → 9/9 (100.0%)",
+        "role": "cell"
+      },
+      "e130": {
+        "name": "8.964",
+        "role": "cell"
+      },
+      "e131": {
+        "name": "0.059 → 0.087",
+        "role": "cell"
+      },
+      "e132": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e133": {
+        "name": "8/9 (88.9%) → 9/9 (100.0%)",
+        "role": "cell"
+      },
+      "e134": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e135": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e136": {
+        "name": "qwen3tts",
+        "role": "cell"
+      },
+      "e137": {
+        "name": "zh-CN",
+        "role": "cell"
+      },
+      "e138": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e139": {
+        "name": "4082.9",
+        "role": "cell"
+      },
+      "e14": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e140": {
+        "name": "0.569 / 0.577",
+        "role": "cell"
+      },
+      "e141": {
+        "name": "298.5 (stream)",
+        "role": "cell"
+      },
+      "e142": {
+        "name": "8.964",
+        "role": "cell"
+      },
+      "e143": {
+        "name": "0.031 → 0.021",
+        "role": "cell"
+      },
+      "e144": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e145": {
+        "name": "3/3 (100.0%) → 3/3 (100.0%)",
+        "role": "cell"
+      },
+      "e146": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e147": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e148": {
+        "name": "qwen3tts",
+        "role": "cell"
+      },
+      "e149": {
+        "name": "zh-TW",
+        "role": "cell"
+      },
+      "e15": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e150": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e151": {
+        "name": "4082.9",
+        "role": "cell"
+      },
+      "e152": {
+        "name": "0.569 / 0.577",
+        "role": "cell"
+      },
+      "e153": {
+        "name": "299.3 (stream)",
+        "role": "cell"
+      },
+      "e154": {
+        "name": "8.964",
+        "role": "cell"
+      },
+      "e155": {
+        "name": "0.088 → 0.072",
+        "role": "cell"
+      },
+      "e156": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e157": {
+        "name": "6/7 (85.7%) → 6/7 (85.7%)",
+        "role": "cell"
+      },
+      "e158": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e159": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e16": {
+        "name": "voxcpm2",
+        "role": "cell"
+      },
+      "e160": {
+        "name": "qwen3tts",
+        "role": "cell"
+      },
+      "e161": {
+        "name": "ja",
+        "role": "cell"
+      },
+      "e162": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e163": {
+        "name": "4082.9",
+        "role": "cell"
+      },
+      "e164": {
+        "name": "0.584 / 0.596",
+        "role": "cell"
+      },
+      "e165": {
+        "name": "340.4 (stream)",
+        "role": "cell"
+      },
+      "e166": {
+        "name": "8.964",
+        "role": "cell"
+      },
+      "e167": {
+        "name": "0.046 → 0.070",
+        "role": "cell"
+      },
+      "e168": {
+        "name": "0.090 → 0.092",
+        "role": "cell"
+      },
+      "e169": {
+        "name": "3/6 (50.0%) → 3/6 (50.0%)",
+        "role": "cell"
+      },
+      "e17": {
+        "name": "zh-CN",
+        "role": "cell"
+      },
+      "e170": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e171": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e172": {
+        "name": "qwen3tts",
+        "role": "cell"
+      },
+      "e173": {
+        "name": "yue",
+        "role": "cell"
+      },
+      "e174": {
+        "name": "0/0",
+        "role": "cell"
+      },
+      "e175": {
+        "name": "4082.9",
+        "role": "cell"
+      },
+      "e176": {
+        "name": "실패: unsupported locale / 실패: unsupported locale",
+        "role": "cell"
+      },
+      "e177": {
+        "name": "실패: unsupported locale (stream)",
+        "role": "cell"
+      },
+      "e178": {
+        "name": "실패: unsupported locale",
+        "role": "cell"
+      },
+      "e179": {
+        "name": "실패: unsupported locale",
+        "role": "cell"
+      },
+      "e18": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e180": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e181": {
+        "name": "실패: unsupported locale",
+        "role": "cell"
+      },
+      "e182": {
+        "name": "실패: unsupported locale",
+        "role": "cell"
+      },
+      "e183": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e184": {
+        "name": "kokoro",
+        "role": "cell"
+      },
+      "e185": {
+        "name": "en",
+        "role": "cell"
+      },
+      "e186": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e187": {
+        "name": "1194.3",
+        "role": "cell"
+      },
+      "e188": {
+        "name": "0.045 / 0.048",
+        "role": "cell"
+      },
+      "e189": {
+        "name": "301.8 (whole sentence)",
+        "role": "cell"
+      },
+      "e19": {
+        "name": "2720.7",
+        "role": "cell"
+      },
+      "e190": {
+        "name": "2.605",
+        "role": "cell"
+      },
+      "e191": {
+        "name": "0.048 → 0.062",
+        "role": "cell"
+      },
+      "e192": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e193": {
+        "name": "9/9 (100.0%) → 9/9 (100.0%)",
+        "role": "cell"
+      },
+      "e194": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e195": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e196": {
+        "name": "kokoro",
+        "role": "cell"
+      },
+      "e197": {
+        "name": "zh-CN",
+        "role": "cell"
+      },
+      "e198": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e199": {
+        "name": "1194.3",
+        "role": "cell"
+      },
+      "e2": {
+        "name": "Interpretation and limits",
+        "role": "heading"
+      },
+      "e20": {
+        "name": "1.753 / 1.768",
+        "role": "cell"
+      },
+      "e200": {
+        "name": "0.044 / 0.046",
+        "role": "cell"
+      },
+      "e201": {
+        "name": "293.7 (whole sentence)",
+        "role": "cell"
+      },
+      "e202": {
+        "name": "2.605",
+        "role": "cell"
+      },
+      "e203": {
+        "name": "0.070 → 0.047",
+        "role": "cell"
+      },
+      "e204": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e205": {
+        "name": "3/3 (100.0%) → 3/3 (100.0%)",
+        "role": "cell"
+      },
+      "e206": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e207": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e208": {
+        "name": "kokoro",
+        "role": "cell"
+      },
+      "e209": {
+        "name": "zh-TW",
+        "role": "cell"
+      },
+      "e21": {
+        "name": "9726.0 (whole sentence)",
+        "role": "cell"
+      },
+      "e210": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e211": {
+        "name": "1194.3",
+        "role": "cell"
+      },
+      "e212": {
+        "name": "0.044 / 0.045",
+        "role": "cell"
+      },
+      "e213": {
+        "name": "323.8 (whole sentence)",
+        "role": "cell"
+      },
+      "e214": {
+        "name": "2.605",
+        "role": "cell"
+      },
+      "e215": {
+        "name": "0.066 → 0.057",
+        "role": "cell"
+      },
+      "e216": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e217": {
+        "name": "6/7 (85.7%) → 6/7 (85.7%)",
+        "role": "cell"
+      },
+      "e218": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e219": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e22": {
+        "name": "8.953",
+        "role": "cell"
+      },
+      "e220": {
+        "name": "kokoro",
+        "role": "cell"
+      },
+      "e221": {
+        "name": "ja",
+        "role": "cell"
+      },
+      "e222": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e223": {
+        "name": "1194.3",
+        "role": "cell"
+      },
+      "e224": {
+        "name": "0.043 / 0.044",
+        "role": "cell"
+      },
+      "e225": {
+        "name": "268.3 (whole sentence)",
+        "role": "cell"
+      },
+      "e226": {
+        "name": "2.647",
+        "role": "cell"
+      },
+      "e227": {
+        "name": "0.036 → 0.100",
+        "role": "cell"
+      },
+      "e228": {
+        "name": "0.060 → 0.127",
+        "role": "cell"
+      },
+      "e229": {
+        "name": "6/6 (100.0%) → 2/6 (33.3%)",
+        "role": "cell"
+      },
+      "e23": {
+        "name": "0.006 → 0.012",
+        "role": "cell"
+      },
+      "e230": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e231": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e232": {
+        "name": "kokoro",
+        "role": "cell"
+      },
+      "e233": {
+        "name": "yue",
+        "role": "cell"
+      },
+      "e234": {
+        "name": "0/0",
+        "role": "cell"
+      },
+      "e235": {
+        "name": "1194.3",
+        "role": "cell"
+      },
+      "e236": {
+        "name": "실패: unsupported locale / 실패: unsupported locale",
+        "role": "cell"
+      },
+      "e237": {
+        "name": "실패: unsupported locale (whole sentence)",
+        "role": "cell"
+      },
+      "e238": {
+        "name": "실패: unsupported locale",
+        "role": "cell"
+      },
+      "e239": {
+        "name": "실패: unsupported locale",
+        "role": "cell"
+      },
+      "e24": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e240": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e241": {
+        "name": "실패: unsupported locale",
+        "role": "cell"
+      },
+      "e242": {
+        "name": "실패: unsupported locale",
+        "role": "cell"
+      },
+      "e243": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e244": {
+        "name": "Engine",
+        "role": "columnheader"
+      },
+      "e245": {
+        "name": "Locale",
+        "role": "columnheader"
+      },
+      "e246": {
+        "name": "N success/attempt",
+        "role": "columnheader"
+      },
+      "e247": {
+        "name": "Load ms",
+        "role": "columnheader"
+      },
+      "e248": {
+        "name": "RTF median / p90",
+        "role": "columnheader"
+      },
+      "e249": {
+        "name": "TTFA median ms (mode)",
+        "role": "columnheader"
+      },
+      "e25": {
+        "name": "3/3 (100.0%) → 2/3 (66.7%)",
+        "role": "cell"
+      },
+      "e250": {
+        "name": "Peak GB",
+        "role": "columnheader"
+      },
+      "e251": {
+        "name": "Whisper WER/CER raw → full",
+        "role": "columnheader"
+      },
+      "e252": {
+        "name": "ja kana CER raw → full",
+        "role": "columnheader"
+      },
+      "e253": {
+        "name": "Name hits raw → full",
+        "role": "columnheader"
+      },
+      "e254": {
+        "name": "Failure rate",
+        "role": "columnheader"
+      },
+      "e255": {
+        "name": "Qwen3-ASR",
+        "role": "columnheader"
+      },
+      "e26": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e27": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e28": {
+        "name": "voxcpm2",
+        "role": "cell"
+      },
+      "e29": {
+        "name": "zh-TW",
+        "role": "cell"
+      },
+      "e3": {
+        "name": "Run notes",
+        "role": "heading"
+      },
+      "e30": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e31": {
+        "name": "2720.7",
+        "role": "cell"
+      },
+      "e32": {
+        "name": "1.805 / 1.861",
+        "role": "cell"
+      },
+      "e33": {
+        "name": "11228.8 (whole sentence)",
+        "role": "cell"
+      },
+      "e34": {
+        "name": "8.953",
+        "role": "cell"
+      },
+      "e35": {
+        "name": "0.024 → 0.034",
+        "role": "cell"
+      },
+      "e36": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e37": {
+        "name": "6/7 (85.7%) → 6/7 (85.7%)",
+        "role": "cell"
+      },
+      "e38": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e39": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e4": {
+        "name": "voxcpm2",
+        "role": "cell"
+      },
+      "e40": {
+        "name": "voxcpm2",
+        "role": "cell"
+      },
+      "e41": {
+        "name": "ja",
+        "role": "cell"
+      },
+      "e42": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e43": {
+        "name": "2720.7",
+        "role": "cell"
+      },
+      "e44": {
+        "name": "1.799 / 1.852",
+        "role": "cell"
+      },
+      "e45": {
+        "name": "11023.5 (whole sentence)",
+        "role": "cell"
+      },
+      "e46": {
+        "name": "9.023",
+        "role": "cell"
+      },
+      "e47": {
+        "name": "0.044 → 0.073",
+        "role": "cell"
+      },
+      "e48": {
+        "name": "0.063 → 0.088",
+        "role": "cell"
+      },
+      "e49": {
+        "name": "5/6 (83.3%) → 2/6 (33.3%)",
+        "role": "cell"
+      },
+      "e5": {
+        "name": "en",
+        "role": "cell"
+      },
+      "e50": {
+        "name": "0/24 (0.0%)",
+        "role": "cell"
+      },
+      "e51": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e52": {
+        "name": "voxcpm2",
+        "role": "cell"
+      },
+      "e53": {
+        "name": "yue",
+        "role": "cell"
+      },
+      "e54": {
+        "name": "9/9",
+        "role": "cell"
+      },
+      "e55": {
+        "name": "2720.7",
+        "role": "cell"
+      },
+      "e56": {
+        "name": "1.800 / 1.827",
+        "role": "cell"
+      },
+      "e57": {
+        "name": "9240.1 (whole sentence)",
+        "role": "cell"
+      },
+      "e58": {
+        "name": "9.023",
+        "role": "cell"
+      },
+      "e59": {
+        "name": "0.256 → 0.244",
+        "role": "cell"
+      },
+      "e6": {
+        "name": "24/24",
+        "role": "cell"
+      },
+      "e60": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e61": {
+        "name": "2/2 (100.0%) → 2/2 (100.0%)",
+        "role": "cell"
+      },
+      "e62": {
+        "name": "0/9 (0.0%)",
+        "role": "cell"
+      },
+      "e63": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e64": {
+        "name": "cosyvoice3",
+        "role": "cell"
+      },
+      "e65": {
+        "name": "en",
+        "role": "cell"
+      },
+      "e66": {
+        "name": "8/8",
+        "role": "cell"
+      },
+      "e67": {
+        "name": "10263.9",
+        "role": "cell"
+      },
+      "e68": {
+        "name": "2.634 / 축소 측정(표본 1): 반복 p90 미산출",
+        "role": "cell"
+      },
+      "e69": {
+        "name": "4309.4 (stream)",
+        "role": "cell"
+      },
+      "e7": {
+        "name": "2720.7",
+        "role": "cell"
+      },
+      "e70": {
+        "name": "9.920",
+        "role": "cell"
+      },
+      "e71": {
+        "name": "축소 측정(표본 1), full 0.095; raw 비교 제외",
+        "role": "cell"
+      },
+      "e72": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e73": {
+        "name": "full 7/9 (77.8%); raw 비교 제외",
+        "role": "cell"
+      },
+      "e74": {
+        "name": "0/8 (0.0%)",
+        "role": "cell"
+      },
+      "e75": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e76": {
+        "name": "cosyvoice3",
+        "role": "cell"
+      },
+      "e77": {
+        "name": "zh-CN",
+        "role": "cell"
+      },
+      "e78": {
+        "name": "8/8",
+        "role": "cell"
+      },
+      "e79": {
+        "name": "10263.9",
+        "role": "cell"
+      },
+      "e8": {
+        "name": "1.794 / 1.849",
+        "role": "cell"
+      },
+      "e80": {
+        "name": "2.300 / 축소 측정(표본 1): 반복 p90 미산출",
+        "role": "cell"
+      },
+      "e81": {
+        "name": "3752.2 (stream)",
+        "role": "cell"
+      },
+      "e82": {
+        "name": "12.798",
+        "role": "cell"
+      },
+      "e83": {
+        "name": "축소 측정(표본 1), full 0.024; raw 비교 제외",
+        "role": "cell"
+      },
+      "e84": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e85": {
+        "name": "full 3/3 (100.0%); raw 비교 제외",
+        "role": "cell"
+      },
+      "e86": {
+        "name": "0/8 (0.0%)",
+        "role": "cell"
+      },
+      "e87": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      },
+      "e88": {
+        "name": "cosyvoice3",
+        "role": "cell"
+      },
+      "e89": {
+        "name": "zh-TW",
+        "role": "cell"
+      },
+      "e9": {
+        "name": "10212.1 (whole sentence)",
+        "role": "cell"
+      },
+      "e90": {
+        "name": "8/8",
+        "role": "cell"
+      },
+      "e91": {
+        "name": "10263.9",
+        "role": "cell"
+      },
+      "e92": {
+        "name": "2.213 / 축소 측정(표본 1): 반복 p90 미산출",
+        "role": "cell"
+      },
+      "e93": {
+        "name": "3811.6 (stream)",
+        "role": "cell"
+      },
+      "e94": {
+        "name": "13.887",
+        "role": "cell"
+      },
+      "e95": {
+        "name": "축소 측정(표본 1), full 0.034; raw 비교 제외",
+        "role": "cell"
+      },
+      "e96": {
+        "name": "해당 없음",
+        "role": "cell"
+      },
+      "e97": {
+        "name": "full 6/7 (85.7%); raw 비교 제외",
+        "role": "cell"
+      },
+      "e98": {
+        "name": "0/8 (0.0%)",
+        "role": "cell"
+      },
+      "e99": {
+        "name": "실패: optional model not installed",
+        "role": "cell"
+      }
+    },
+    "snapshot": "- main\n  - heading \"TTS benchmark\" [level=1, ref=e1]\n  - paragraph\n    - StaticText \"Created: 2026-10-30T11:12:28.574939\"\n  - paragraph\n    - StaticText \"RTF = synthesis time / generated audio duration. One warmup; three repeats per sentence/normalization unless stated.\"\n  - paragraph\n    - StaticText \"Streaming TTFA is first PCM; nonstreaming TTFA waits for the complete sentence. Values below use full normalization; raw/full pronunciation is shown separately.\"\n  - paragraph\n    - StaticText \"Peak memory is max(RSS, backend allocation), not their sum. It excludes the HTTP supervisor and may not equal total unified memory.\"\n  - table\n    - rowgroup\n      - row\n        - columnheader \"Engine\" [ref=e244]\n        - columnheader \"Locale\" [ref=e245]\n        - columnheader \"N success/attempt\" [ref=e246]\n        - columnheader \"Load ms\" [ref=e247]\n        - columnheader \"RTF median / p90\" [ref=e248]\n        - columnheader \"TTFA median ms (mode)\" [ref=e249]\n        - columnheader \"Peak GB\" [ref=e250]\n        - columnheader \"Whisper WER/CER raw → full\" [ref=e251]\n        - columnheader \"ja kana CER raw → full\" [ref=e252]\n        - columnheader \"Name hits raw → full\" [ref=e253]\n        - columnheader \"Failure rate\" [ref=e254]\n        - columnheader \"Qwen3-ASR\" [ref=e255]\n    - row\n      - cell \"voxcpm2\" [ref=e4]\n      - cell \"en\" [ref=e5]\n      - cell \"24/24\" [ref=e6]\n      - cell \"2720.7\" [ref=e7]\n      - cell \"1.794 / 1.849\" [ref=e8]\n      - cell \"10212.1 (whole sentence)\" [ref=e9]\n      - cell \"8.413\" [ref=e10]\n      - cell \"0.092 → 0.079\" [ref=e11]\n      - cell \"해당 없음\" [ref=e12]\n      - cell \"6/9 (66.7%) → 9/9 (100.0%)\" [ref=e13]\n      - cell \"0/24 (0.0%)\" [ref=e14]\n      - cell \"실패: optional model not installed\" [ref=e15]\n    - row\n      - cell \"voxcpm2\" [ref=e16]\n      - cell \"zh-CN\" [ref=e17]\n      - cell \"24/24\" [ref=e18]\n      - cell \"2720.7\" [ref=e19]\n      - cell \"1.753 / 1.768\" [ref=e20]\n      - cell \"9726.0 (whole sentence)\" [ref=e21]\n      - cell \"8.953\" [ref=e22]\n      - cell \"0.006 → 0.012\" [ref=e23]\n      - cell \"해당 없음\" [ref=e24]\n      - cell \"3/3 (100.0%) → 2/3 (66.7%)\" [ref=e25]\n      - cell \"0/24 (0.0%)\" [ref=e26]\n      - cell \"실패: optional model not installed\" [ref=e27]\n    - row\n      - cell \"voxcpm2\" [ref=e28]\n      - cell \"zh-TW\" [ref=e29]\n      - cell \"24/24\" [ref=e30]\n      - cell \"2720.7\" [ref=e31]\n      - cell \"1.805 / 1.861\" [ref=e32]\n      - cell \"11228.8 (whole sentence)\" [ref=e33]\n      - cell \"8.953\" [ref=e34]\n      - cell \"0.024 → 0.034\" [ref=e35]\n      - cell \"해당 없음\" [ref=e36]\n      - cell \"6/7 (85.7%) → 6/7 (85.7%)\" [ref=e37]\n      - cell \"0/24 (0.0%)\" [ref=e38]\n      - cell \"실패: optional model not installed\" [ref=e39]\n    - row\n      - cell \"voxcpm2\" [ref=e40]\n      - cell \"ja\" [ref=e41]\n      - cell \"24/24\" [ref=e42]\n      - cell \"2720.7\" [ref=e43]\n      - cell \"1.799 / 1.852\" [ref=e44]\n      - cell \"11023.5 (whole sentence)\" [ref=e45]\n      - cell \"9.023\" [ref=e46]\n      - cell \"0.044 → 0.073\" [ref=e47]\n      - cell \"0.063 → 0.088\" [ref=e48]\n      - cell \"5/6 (83.3%) → 2/6 (33.3%)\" [ref=e49]\n      - cell \"0/24 (0.0%)\" [ref=e50]\n      - cell \"실패: optional model not installed\" [ref=e51]\n    - row\n      - cell \"voxcpm2\" [ref=e52]\n      - cell \"yue\" [ref=e53]\n      - cell \"9/9\" [ref=e54]\n      - cell \"2720.7\" [ref=e55]\n      - cell \"1.800 / 1.827\" [ref=e56]\n      - cell \"9240.1 (whole sentence)\" [ref=e57]\n      - cell \"9.023\" [ref=e58]\n      - cell \"0.256 → 0.244\" [ref=e59]\n      - cell \"해당 없음\" [ref=e60]\n      - cell \"2/2 (100.0%) → 2/2 (100.0%)\" [ref=e61]\n      - cell \"0/9 (0.0%)\" [ref=e62]\n      - cell \"실패: optional model not installed\" [ref=e63]\n    - row\n      - cell \"cosyvoice3\" [ref=e64]\n      - cell \"en\" [ref=e65]\n      - cell \"8/8\" [ref=e66]\n      - cell \"10263.9\" [ref=e67]\n      - cell \"2.634 / 축소 측정(표본 1): 반복 p90 미산출\" [ref=e68]\n      - cell \"4309.4 (stream)\" [ref=e69]\n      - cell \"9.920\" [ref=e70]\n      - cell \"축소 측정(표본 1), full 0.095; raw 비교 제외\" [ref=e71]\n      - cell \"해당 없음\" [ref=e72]\n      - cell \"full 7/9 (77.8%); raw 비교 제외\" [ref=e73]\n      - cell \"0/8 (0.0%)\" [ref=e74]\n      - cell \"실패: optional model not installed\" [ref=e75]\n    - row\n      - cell \"cosyvoice3\" [ref=e76]\n      - cell \"zh-CN\" [ref=e77]\n      - cell \"8/8\" [ref=e78]\n      - cell \"10263.9\" [ref=e79]\n      - cell \"2.300 / 축소 측정(표본 1): 반복 p90 미산출\" [ref=e80]\n      - cell \"3752.2 (stream)\" [ref=e81]\n      - cell \"12.798\" [ref=e82]\n      - cell \"축소 측정(표본 1), full 0.024; raw 비교 제외\" [ref=e83]\n      - cell \"해당 없음\" [ref=e84]\n      - cell \"full 3/3 (100.0%); raw 비교 제외\" [ref=e85]\n      - cell \"0/8 (0.0%)\" [ref=e86]\n      - cell \"실패: optional model not installed\" [ref=e87]\n    - row\n      - cell \"cosyvoice3\" [ref=e88]\n      - cell \"zh-TW\" [ref=e89]\n      - cell \"8/8\" [ref=e90]\n      - cell \"10263.9\" [ref=e91]\n      - cell \"2.213 / 축소 측정(표본 1): 반복 p90 미산출\" [ref=e92]\n      - cell \"3811.6 (stream)\" [ref=e93]\n      - cell \"13.887\" [ref=e94]\n      - cell \"축소 측정(표본 1), full 0.034; raw 비교 제외\" [ref=e95]\n      - cell \"해당 없음\" [ref=e96]\n      - cell \"full 6/7 (85.7%); raw 비교 제외\" [ref=e97]\n      - cell \"0/8 (0.0%)\" [ref=e98]\n      - cell \"실패: optional model not installed\" [ref=e99]\n    - row\n      - cell \"cosyvoice3\" [ref=e100]\n      - cell \"ja\" [ref=e101]\n      - cell \"8/8\" [ref=e102]\n      - cell \"10263.9\" [ref=e103]\n      - cell \"2.534 / 축소 측정(표본 1): 반복 p90 미산출\" [ref=e104]\n      - cell \"4188.2 (stream)\" [ref=e105]\n      - cell \"10.932\" [ref=e106]\n      - cell \"축소 측정(표본 1), full 0.449; raw 비교 제외\" [ref=e107]\n      - cell \"full 0.431; raw 비교 제외\" [ref=e108]\n      - cell \"full 2/6 (33.3%); raw 비교 제외\" [ref=e109]\n      - cell \"0/8 (0.0%)\" [ref=e110]\n      - cell \"실패: optional model not installed\" [ref=e111]\n    - row\n      - cell \"cosyvoice3\" [ref=e112]\n      - cell \"yue\" [ref=e113]\n      - cell \"3/3\" [ref=e114]\n      - cell \"10263.9\" [ref=e115]\n      - cell \"2.829 / 축소 측정(표본 1): 반복 p90 미산출\" [ref=e116]\n      - cell \"4553.9 (stream)\" [ref=e117]\n      - cell \"11.844\" [ref=e118]\n      - cell \"축소 측정(표본 1), full 0.373; raw 비교 제외\" [ref=e119]\n      - cell \"해당 없음\" [ref=e120]\n      - cell \"full 1/2 (50.0%); raw 비교 제외\" [ref=e121]\n      - cell \"0/3 (0.0%)\" [ref=e122]\n      - cell \"실패: optional model not installed\" [ref=e123]\n    - row\n      - cell \"qwen3tts\" [ref=e124]\n      - cell \"en\" [ref=e125]\n      - cell \"24/24\" [ref=e126]\n      - cell \"4082.9\" [ref=e127]\n      - cell \"0.580 / 0.608\" [ref=e128]\n      - cell \"340.9 (stream)\" [ref=e129]\n      - cell \"8.964\" [ref=e130]\n      - cell \"0.059 → 0.087\" [ref=e131]\n      - cell \"해당 없음\" [ref=e132]\n      - cell \"8/9 (88.9%) → 9/9 (100.0%)\" [ref=e133]\n      - cell \"0/24 (0.0%)\" [ref=e134]\n      - cell \"실패: optional model not installed\" [ref=e135]\n    - row\n      - cell \"qwen3tts\" [ref=e136]\n      - cell \"zh-CN\" [ref=e137]\n      - cell \"24/24\" [ref=e138]\n      - cell \"4082.9\" [ref=e139]\n      - cell \"0.569 / 0.577\" [ref=e140]\n      - cell \"298.5 (stream)\" [ref=e141]\n      - cell \"8.964\" [ref=e142]\n      - cell \"0.031 → 0.021\" [ref=e143]\n      - cell \"해당 없음\" [ref=e144]\n      - cell \"3/3 (100.0%) → 3/3 (100.0%)\" [ref=e145]\n      - cell \"0/24 (0.0%)\" [ref=e146]\n      - cell \"실패: optional model not installed\" [ref=e147]\n    - row\n      - cell \"qwen3tts\" [ref=e148]\n      - cell \"zh-TW\" [ref=e149]\n      - cell \"24/24\" [ref=e150]\n      - cell \"4082.9\" [ref=e151]\n      - cell \"0.569 / 0.577\" [ref=e152]\n      - cell \"299.3 (stream)\" [ref=e153]\n      - cell \"8.964\" [ref=e154]\n      - cell \"0.088 → 0.072\" [ref=e155]\n      - cell \"해당 없음\" [ref=e156]\n      - cell \"6/7 (85.7%) → 6/7 (85.7%)\" [ref=e157]\n      - cell \"0/24 (0.0%)\" [ref=e158]\n      - cell \"실패: optional model not installed\" [ref=e159]\n    - row\n      - cell \"qwen3tts\" [ref=e160]\n      - cell \"ja\" [ref=e161]\n      - cell \"24/24\" [ref=e162]\n      - cell \"4082.9\" [ref=e163]\n      - cell \"0.584 / 0.596\" [ref=e164]\n      - cell \"340.4 (stream)\" [ref=e165]\n      - cell \"8.964\" [ref=e166]\n      - cell \"0.046 → 0.070\" [ref=e167]\n      - cell \"0.090 → 0.092\" [ref=e168]\n      - cell \"3/6 (50.0%) → 3/6 (50.0%)\" [ref=e169]\n      - cell \"0/24 (0.0%)\" [ref=e170]\n      - cell \"실패: optional model not installed\" [ref=e171]\n    - row\n      - cell \"qwen3tts\" [ref=e172]\n      - cell \"yue\" [ref=e173]\n      - cell \"0/0\" [ref=e174]\n      - cell \"4082.9\" [ref=e175]\n      - cell \"실패: unsupported locale / 실패: unsupported locale\" [ref=e176]\n      - cell \"실패: unsupported locale (stream)\" [ref=e177]\n      - cell \"실패: unsupported locale\" [ref=e178]\n      - cell \"실패: unsupported locale\" [ref=e179]\n      - cell \"해당 없음\" [ref=e180]\n      - cell \"실패: unsupported locale\" [ref=e181]\n      - cell \"실패: unsupported locale\" [ref=e182]\n      - cell \"실패: optional model not installed\" [ref=e183]\n    - row\n      - cell \"kokoro\" [ref=e184]\n      - cell \"en\" [ref=e185]\n      - cell \"24/24\" [ref=e186]\n      - cell \"1194.3\" [ref=e187]\n      - cell \"0.045 / 0.048\" [ref=e188]\n      - cell \"301.8 (whole sentence)\" [ref=e189]\n      - cell \"2.605\" [ref=e190]\n      - cell \"0.048 → 0.062\" [ref=e191]\n      - cell \"해당 없음\" [ref=e192]\n      - cell \"9/9 (100.0%) → 9/9 (100.0%)\" [ref=e193]\n      - cell \"0/24 (0.0%)\" [ref=e194]\n      - cell \"실패: optional model not installed\" [ref=e195]\n    - row\n      - cell \"kokoro\" [ref=e196]\n      - cell \"zh-CN\" [ref=e197]\n      - cell \"24/24\" [ref=e198]\n      - cell \"1194.3\" [ref=e199]\n      - cell \"0.044 / 0.046\" [ref=e200]\n      - cell \"293.7 (whole sentence)\" [ref=e201]\n      - cell \"2.605\" [ref=e202]\n      - cell \"0.070 → 0.047\" [ref=e203]\n      - cell \"해당 없음\" [ref=e204]\n      - cell \"3/3 (100.0%) → 3/3 (100.0%)\" [ref=e205]\n      - cell \"0/24 (0.0%)\" [ref=e206]\n      - cell \"실패: optional model not installed\" [ref=e207]\n    - row\n      - cell \"kokoro\" [ref=e208]\n      - cell \"zh-TW\" [ref=e209]\n      - cell \"24/24\" [ref=e210]\n      - cell \"1194.3\" [ref=e211]\n      - cell \"0.044 / 0.045\" [ref=e212]\n      - cell \"323.8 (whole sentence)\" [ref=e213]\n      - cell \"2.605\" [ref=e214]\n      - cell \"0.066 → 0.057\" [ref=e215]\n      - cell \"해당 없음\" [ref=e216]\n      - cell \"6/7 (85.7%) → 6/7 (85.7%)\" [ref=e217]\n      - cell \"0/24 (0.0%)\" [ref=e218]\n      - cell \"실패: optional model not installed\" [ref=e219]\n    - row\n      - cell \"kokoro\" [ref=e220]\n      - cell \"ja\" [ref=e221]\n      - cell \"24/24\" [ref=e222]\n      - cell \"1194.3\" [ref=e223]\n      - cell \"0.043 / 0.044\" [ref=e224]\n      - cell \"268.3 (whole sentence)\" [ref=e225]\n      - cell \"2.647\" [ref=e226]\n      - cell \"0.036 → 0.100\" [ref=e227]\n      - cell \"0.060 → 0.127\" [ref=e228]\n      - cell \"6/6 (100.0%) → 2/6 (33.3%)\" [ref=e229]\n      - cell \"0/24 (0.0%)\" [ref=e230]\n      - cell \"실패: optional model not installed\" [ref=e231]\n    - row\n      - cell \"kokoro\" [ref=e232]\n      - cell \"yue\" [ref=e233]\n      - cell \"0/0\" [ref=e234]\n      - cell \"1194.3\" [ref=e235]\n      - cell \"실패: unsupported locale / 실패: unsupported locale\" [ref=e236]\n      - cell \"실패: unsupported locale (whole sentence)\" [ref=e237]\n      - cell \"실패: unsupported locale\" [ref=e238]\n      - cell \"실패: unsupported locale\" [ref=e239]\n      - cell \"해당 없음\" [ref=e240]\n      - cell \"실패: unsupported locale\" [ref=e241]\n      - cell \"실패: unsupported locale\" [ref=e242]\n      - cell \"실패: optional model not installed\" [ref=e243]\n  - heading \"Interpretation and limits\" [level=2, ref=e2]\n  - paragraph\n    - StaticText \"- raw/full denote text normalization. Whisper scores the original engine WAV; blind audio receives separate common loudness/silence processing.\"\n  - paragraph\n    - StaticText \"- Whisper is a proxy, not human pronunciation truth. Dictionary prompts bias recognition; speaker identity and naturalness require human listening.\"\n  - paragraph\n    - StaticText \"- Numeric inverse normalization is deterministic but incomplete for alternate readings; canonical reference/hypothesis and raw transcripts remain in JSON for audit.\"\n  - paragraph\n    - StaticText \"- Silence: RMS <= 1e-5 or peak <= 1e-4. Length heuristics: >3× or <0.25× estimated duration (English 2.5 words/s, other locales 5 characters/s); truncation is a heuristic, not a semantic guarantee.\"\n  - paragraph\n    - StaticText \"- 대만 억양 참조 없음. All cloning models share the Mandarin reference for zh-TW; Kokoro uses a different preset speaker and simplified Chinese G2P.\"\n  - paragraph\n    - StaticText \"- Qwen3-ASR is optional and not installed. Japanese kana scoring uses pyopenjtalk when available.\"\n  - paragraph\n    - StaticText \"- pyopenjtalk may itself misread Korean place-name kanji in the display reference; Japanese kana CER must be interpreted alongside lexicon hits and native listening.\"\n  - paragraph\n    - StaticText \"- For engines marked as reduced, full repeat=0 supplies primary statistics; retained repeat>0/raw rows are excluded from that primary comparison. Reused rows retain their original cumulative memory high-watermarks.\"\n  - paragraph\n    - StaticText \"- Load time is the engine-reported import/model initialization time; HTTP supervisor startup is excluded by the existing engine contract.\"\n  - paragraph\n    - StaticText \"- STT scores use first-repeat WAVs; latency/RTF statistics use all repeats. Scores are sentence-macro averages, proper-name hits are sentence/lexicon-target micro totals.\"\n  - heading \"Run notes\" [level=2, ref=e3]\n  - paragraph\n    - StaticText \"- One warmup per engine; locales may include first-use G2P cost.\"\n  - paragraph\n    - StaticText \"- RTF = synthesis seconds / audio seconds; stream wall clock includes local transport.\"\n  - paragraph\n    - StaticText \"- Peak memory = engine max(RSS, allocator); overlapping counters are not summed.\"\n  - paragraph\n    - StaticText \"- Qwen3-ASR optional: not installed; no automatic download.\"\n  - paragraph\n    - StaticText \"- Taiwan accent reference unavailable; zh-TW shares mainland reference.\"\n  - paragraph\n    - StaticText \"- Initial Qwen batch interrupted by another worker loading Ollama; discarded from final comparison and archived in bench-interrupted-20261030.json. Kokoro completed before interruption and is retained.\"\n  - paragraph\n    - StaticText \"- 사용자 결정(msg_6198f30429ba): CosyVoice3 RTF 약 2.6으로 벤치를 full, 문장당 1회로 축소. 기존 행은 보존하되 full repeat=0만 주분석에 사용하고 raw/full 비교 및 3회 반복 p90은 제외한다.\"\n  - paragraph\n    - StaticText \"Normalization source SHA256: `6f4127ebcc06a0c11822700a9882d34b9b998bc7168ee41e8fde6dc457c129a0`\"",
+    "browserPageId": "24f479f5-d9fc-4c44-a67d-fc4d96eba0a7"
+  },
+  "_meta": {
+    "runtimeId": "b270a9cc-4ce7-41e1-8bbb-7f96f6f681de"
+  }
+}

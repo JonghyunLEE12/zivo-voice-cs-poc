@@ -1,0 +1,8 @@
+Resolved 130 packages in 222ms
+Downloading scipy (29.9MiB)
+ Downloaded scipy
+Prepared 1 package in 2.76s
+Uninstalled 1 package in 100ms
+Installed 1 package in 17ms
+ - scipy==1.15.3
+ + scipy==1.12.0

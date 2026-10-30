@@ -1,0 +1,156 @@
+INFO:     Started server process [88459]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8104 (Press CTRL+C to quit)
+/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Building prefix dict from the default dictionary ...
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+Loading model from cache /Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/.cache/tmp/jieba.cache
+DEBUG:jieba:Loading model from cache /Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/.cache/tmp/jieba.cache
+Loading model cost 0.291 seconds.
+DEBUG:jieba:Loading model cost 0.291 seconds.
+Prefix dict has been built successfully.
+DEBUG:jieba:Prefix dict has been built successfully.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 153, in app
+    await response(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/responses.py", line 278, in __call__
+    async with create_collapsing_task_group() as task_group:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/.cache/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/contextlib.py", line 217, in __aexit__
+    await anext(self.gen)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/_utils.py", line 112, in create_collapsing_task_group
+    raise exc from exc.__cause__ or context
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/anyio/_core/_tasks.py", line 327, in _run_coro
+    retval = await self._coro
+             ^^^^^^^^^^^^^^^^
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/responses.py", line 281, in wrap
+    await func()
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/responses.py", line 255, in stream_response
+    async for chunk in self.body_iterator:
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/serve.py", line 342, in stream
+    async for chunk in chunks:
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/serve.py", line 264, in chunks
+    kind, payload = await self.receive(request)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/serve.py", line 204, in receive
+    raise HTTPException(499, "Client disconnected")
+fastapi.exceptions.HTTPException: 499: Client disconnected
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/applications.py", line 1194, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 2811, in app
+    await route.handle(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 1330, in handle
+    await super().handle(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 56, in wrapped_app
+    raise RuntimeError("Caught handled exception, but response already started.") from exc
+RuntimeError: Caught handled exception, but response already started.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 153, in app
+    await response(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/responses.py", line 278, in __call__
+    async with create_collapsing_task_group() as task_group:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/.cache/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/contextlib.py", line 217, in __aexit__
+    await anext(self.gen)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/_utils.py", line 112, in create_collapsing_task_group
+    raise exc from exc.__cause__ or context
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/anyio/_core/_tasks.py", line 327, in _run_coro
+    retval = await self._coro
+             ^^^^^^^^^^^^^^^^
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/responses.py", line 281, in wrap
+    await func()
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/responses.py", line 255, in stream_response
+    async for chunk in self.body_iterator:
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/serve.py", line 342, in stream
+    async for chunk in chunks:
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/serve.py", line 264, in chunks
+    kind, payload = await self.receive(request)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/serve.py", line 204, in receive
+    raise HTTPException(499, "Client disconnected")
+fastapi.exceptions.HTTPException: 499: Client disconnected
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/applications.py", line 1194, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 2811, in app
+    await route.handle(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 1330, in handle
+    await super().handle(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/fastapi/routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/jongram/Desktop/global_alpha/test/zivo-voice-cs-poc/engines/mlx_engines/.venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 56, in wrapped_app
+    raise RuntimeError("Caught handled exception, but response already started.") from exc
+RuntimeError: Caught handled exception, but response already started.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [88459]

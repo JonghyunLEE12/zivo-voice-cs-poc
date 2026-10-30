@@ -1,0 +1,70 @@
+[
+  {
+    "name": "python",
+    "ok": true,
+    "detail": "3.12.13"
+  },
+  {
+    "name": "apple_silicon",
+    "ok": true,
+    "detail": "macOS-27.0.1-arm64-arm-64bit"
+  },
+  {
+    "name": "ffmpeg",
+    "ok": true,
+    "detail": "/opt/homebrew/bin/ffmpeg"
+  },
+  {
+    "name": "ollama",
+    "ok": true,
+    "detail": "/opt/homebrew/bin/ollama"
+  },
+  {
+    "name": "uv",
+    "ok": true,
+    "detail": "/Users/jongram/.local/bin/uv"
+  },
+  {
+    "name": "pnpm",
+    "ok": true,
+    "detail": "/opt/homebrew/bin/pnpm"
+  },
+  {
+    "name": "ollama_model",
+    "ok": true,
+    "detail": {
+      "name": "qwen3.5:35b-a3b",
+      "model": "qwen3.5:35b-a3b",
+      "modified_at": "2026-09-02T13:37:01.932427037+09:00",
+      "size": 23869191742,
+      "digest": "3460ffeede5453ead027dbd2f821b12ad0aa3de54630971993babdb2165221f7",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35moe",
+        "families": [
+          "qwen35moe"
+        ],
+        "parameter_size": "36.0B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 2048
+      },
+      "capabilities": [
+        "vision",
+        "completion",
+        "tools",
+        "thinking"
+      ]
+    }
+  },
+  {
+    "name": "disk_free",
+    "ok": true,
+    "detail": {
+      "bytes": 11512590336,
+      "GB": 11.513,
+      "note": "fetch_models checks remaining download + 2 GB reserve"
+    }
+  }
+]

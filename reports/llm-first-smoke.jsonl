@@ -1,0 +1,15 @@
+{"type": "llm.delta", "text": "I"}
+{"type": "llm.delta", "text": " will"}
+{"type": "llm.delta", "text": " look"}
+{"type": "llm.delta", "text": " up"}
+{"type": "llm.delta", "text": " your"}
+{"type": "llm.delta", "text": " reservation"}
+{"type": "llm.delta", "text": " now"}
+{"type": "llm.delta", "text": "."}
+{"type": "llm.delta", "text": " Please"}
+{"type": "llm.delta", "text": " hold"}
+{"type": "llm.delta", "text": " for"}
+{"type": "llm.delta", "text": " a"}
+{"type": "llm.delta", "text": " moment"}
+{"type": "llm.delta", "text": "."}
+{"type": "llm.done", "session_id": "a10522cb-8c98-4f5e-b2bd-559cfda7489b", "turn_num": 1, "locale": "en", "model": "qwen3.5:35b-a3b", "think": false, "raw_text": "I will look up your reservation now. Please hold for a moment.", "text": "I will look up your reservation now. Please hold for a moment.", "tools": [], "metrics": {"units": 12, "unit_limit": 35, "length_violation": false, "sentence_count": 2, "sentence_violation": false, "script_changed_chars": 0, "first_token_ms": 20952.339625015156, "elapsed_ms": 21280.100416013738, "stream_chunks": 15, "thinking_chars": 0}, "transferred": false}
